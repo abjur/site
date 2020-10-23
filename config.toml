@@ -1,0 +1,25 @@
+# Site settings
+baseurl = "https://r.abj.org.br/"
+languageCode = "en-us"
+title = "ABJ"
+disqusShortname = "abjur"
+googleAnalytics = "UA-115746799-1"
+contentdir = "content"
+layoutdir = "layouts"
+publishdir = "public"
+
+[params]
+    # Meta
+    title = "ABJ"
+    subtitle = "Associação Brasileira de Jurimetria"
+    github = "https://github.com/abjur"
+    facebook = "https://www.facebook.com/abjurimetria"
+    twitter = "https://twitter.com/abjurimetria"
+    logo = "assets/abj.png"
+
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+
+[taxonomies]
+  category = "categories"
+  tag = "tags"
+  author = "author"

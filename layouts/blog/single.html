@@ -1,0 +1,68 @@
+<!doctype html5>
+<html>
+<head>
+  <meta name="description" content="{{ .Summary | plainify }}">
+  <meta property="og:title" content="{{.Title}}">
+  <meta property="og:description" content="{{.Summary | plainify}}">
+  <meta property="og:image" content="{{ .Site.BaseURL }}{{.Params.banner}}">
+  <meta property="og:url" content="{{.Permalink}}">
+  {{ partial "head.html" . }}
+</head>
+  <body data-spy="scroll" data-target="#toc">
+    {{ partial "header.html" . }}
+
+    <div class="container" id="article-container">
+
+      <header class="section-header" id="header-title">
+        <h3 data-toc-skip>{{ .Title }}</h3>
+      </header>
+
+      <div class="tags">
+        {{ range .Params.categories }}
+          {{ if ne . "r" }}
+             <a href="/tags/{{.}}">
+             <button class="cta-submit" type="submit">{{ . | humanize}}</button>
+            </a>
+          {{ end }}
+        {{ end }}
+        {{ range .Params.tags }}
+        <a href="/tags/{{.}}">
+          <button class="cta-submit" type="submit">{{ . | humanize}}</button>
+        </a>
+        {{ end }}
+      </div>
+
+
+      <div class="row">
+        <div id="article">
+          <p class="text-right" id="author-date">
+            {{ if isset .Params "author" }}
+            Por {{ range $index, $author := .Params.author }}
+              {{ if gt $index 0 }},{{ end }}
+              <a href="/author/{{ . | urlize }}">{{ . }}</a>
+              {{ end }}
+              {{ end }}
+              em {{ dateFormat "02/01/2006" .Params.date }}
+          </p>
+          {{.Content}}
+          {{ if .Site.DisqusShortname }}
+            <div class="disqus-comments">
+              {{ template "_internal/disqus.html" . }}
+            </div>
+          {{ end }}
+        </div>
+
+      </div>
+
+    </div>
+
+    {{ partial "newsletter.html" . }}
+
+    {{ partial "footer.html" . }}
+
+  </body>
+
+  {{ partial "scripts.html" .}}
+  {{ partial "toc.html" . }}
+
+</html>

@@ -1,0 +1,73 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- =======================================================
+    Theme Name: BizPage
+    Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+
+  {{ partial "head.html" . }}
+
+</head>
+
+<body>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header>
+    {{ partial "header.html" . }}
+  </header><!-- #header -->
+
+  <!--==========================
+    Intro Section
+  ============================-->
+
+  <section id="intro">
+    <div class="intro-container">
+      <div id="introCarousel" class="carousel slide carousel-fade" data-ride="carousel">
+
+        <div class="carousel-inner" role="listbox">
+
+          <div class="carousel-item active col-md-12">
+
+            <div class="carousel-background">
+
+              <img src="/assets/banner.png">
+
+            </div>
+
+            <div class="carousel-container">
+              <div class="container carousel-content">
+                <img src="/assets/logo-home.png">
+              </div>
+            </div>
+          </div>
+
+        </div>
+
+      </div>
+    </div>
+  </section><!-- #intro -->
+
+  <main id="main">
+
+    {{partial "eventos.html" . }}
+
+    {{partial "produtos.html" . }}
+
+    {{partial "newsletter.html" . }}
+
+  </main>
+
+  {{partial "footer.html" . }}
+
+  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+
+  {{ partial "scripts.html" .}}
+
+</body>
+</html>
