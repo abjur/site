@@ -1,3 +1,0 @@
-blogdown::html_page:
-  toc: false
-  toc_depth: 1

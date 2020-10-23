@@ -1,6 +1,6 @@
 ---
 title: "Estudo jurimétrico sobre execução de contratos"
-img: "img/produtos/doingbusiness.png"
+img: "img/cases/doingbusiness.png"
 desc: "O estudo partiu da metodologia do Doing Business para mensurar a qualidade do país no tema Execução de Contratos."
 ordem: "101"
 tipo: "Estudo"

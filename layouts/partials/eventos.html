@@ -10,13 +10,13 @@
     </div>
 
 
-{{ range $i, $member := first 3 (sort (where $.Site.RegularPages "Section" "blog") "Params.ordem") }}
+{{ range $i, $member := first 3 (sort (where $.Site.RegularPages "Section" "eventos") "Params.ordem") }}
 
   {{ if modBool $i 3 }}
     <div class="row about-cols">
   {{ end }}
 
-  {{ partial "blog-item.html" .}}
+  {{ partial "evento-item.html" .}}
 
   {{ if (modBool (add $i 1) 3) }}
   </div>

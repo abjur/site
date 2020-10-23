@@ -10,7 +10,7 @@
     </div>
 
 
-{{ range $i, $member := sort (where $.Site.RegularPages "Section" "produtos") "Params.ordem" }}
+{{ range $i, $member := sort (where $.Site.RegularPages "Section" "cases") "Params.ordem" }}
 
   {{ if modBool $i 3 }}
     <div class="row about-cols">
