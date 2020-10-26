@@ -74,14 +74,6 @@ h1, h2, h3, h4, h5, h6 {
   background: #fff;
 }
 
-ul.ml-auto li {
-  display: inline;
-}
-
-button.navbar-toggler {
-  color: #333;
-}
-
 /*--------------------------------------------------------------
 # Intro Section
 --------------------------------------------------------------*/
@@ -143,6 +135,11 @@ button.navbar-toggler {
   #intro h2 {
     font-size: 28px;
   }
+
+  .carousel-content img {
+    max-width: 50%;
+  }
+
 }
 
 #intro p {
