@@ -15,6 +15,8 @@ publishdir = "public"
     github = "https://github.com/abjur"
     facebook = "https://www.facebook.com/abjurimetria"
     twitter = "https://twitter.com/abjurimetria"
+    instagram = "https://instagram.com/jurimetria"
+    linkedin = "https://www.linkedin.com/company/jurimetria"
     logo = "assets/abj.png"
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
