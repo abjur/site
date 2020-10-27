@@ -3,7 +3,7 @@ title: "Justiça Criminal, Impunidade e Prescrição"
 img: "img/cases/nupps.png"
 desc: "Este estudo busca construir um panorama geral sobre a persecução penal à corrupção no Brasil, desenhando e medindo seus fluxos e colhendo as percepções dos atores."
 ordem: "109"
-tipo: Pacote
+tipo: Estudo
 corlabel: "#41448755"
 link: "https://abj.org.br/wp-content/uploads/2019/06/ABJ_NUPPS_CNJ_justica-criminal_impunidade-e-prescricao.pdf"
 ---

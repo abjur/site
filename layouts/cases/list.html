@@ -26,7 +26,18 @@
   <!--==========================
       Nossos Cases
     ============================-->
+
+
     <section id="cursos">
+
+<div class="categories text-center">
+          {{ range $key, $value := .Site.Taxonomies.categories }}
+          <a href="/categories/{{ $key | urlize  }}">
+            <button class="cta-submit" type="submit">{{ $key | humanize}} ({{ len $value }})</button>
+          </a>
+          {{ end }}
+        </div>
+
       <div class="container" style="background: none;">
 
         {{partial "cases-full.html" .}}

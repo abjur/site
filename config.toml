@@ -23,5 +23,3 @@ ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
 
 [taxonomies]
   category = "categories"
-  tag = "tags"
-  author = "author"
