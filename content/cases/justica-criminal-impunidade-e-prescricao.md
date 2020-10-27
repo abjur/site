@@ -5,6 +5,7 @@ desc: "Este estudo busca construir um panorama geral sobre a persecução penal 
 ordem: "109"
 tipo: Estudo
 corlabel: "#41448755"
+categories: ["Estudo"]
 link: "https://abj.org.br/wp-content/uploads/2019/06/ABJ_NUPPS_CNJ_justica-criminal_impunidade-e-prescricao.pdf"
 ---
 

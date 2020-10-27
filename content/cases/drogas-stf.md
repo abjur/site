@@ -5,6 +5,6 @@ desc: "Este estudo busca investigar a necessidade da implementação de critéri
 ordem: "1"
 tipo: "Estudo"
 corlabel: "#41448755"
-categories: ["estudo"]
+categories: ["Estudo"]
 link: "https://abj.org.br/wp-content/uploads/2018/12/20190402_abj_criterios_objetivos.pdf"
 ---

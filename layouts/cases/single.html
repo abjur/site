@@ -1,88 +1,59 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html5>
+<html>
+
 <head>
-  <meta charset="utf-8">
-
-  <!-- =======================================================
-    Theme Name: BizPage
-    Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
-
+  <meta name="description" content="{{ .Summary | plainify }}">
+  <meta property="og:title" content="{{.Title}}">
+  <meta property="og:description" content="{{.Summary | plainify}}">
+  <meta property="og:image" content="{{ .Site.BaseURL }}{{.Params.banner}}">
+  <meta property="og:url" content="{{.Permalink}}">
   {{ partial "head.html" . }}
-  <script src="https://assets.pagar.me/checkout/1.1.0/checkout.js"></script>
-  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
 </head>
 
-<body>
-
-  <!--==========================
-    Header
-  ============================-->
-  <header style="z-index: 91921921;">
+  <body data-spy="scroll" data-target="#toc">
     {{ partial "header.html" . }}
-  </header><!-- #header -->
 
-  <!--==========================
-    Intro Section
-  ============================-->
-  <section id="intro">
+    <div class="container" id="article-container">
 
-    <div class="intro-header" style="background-image: url({{.Site.BaseURL}}{{ .Params.banner }});">
-      <div class="container intro-content">
-        <p id="titulo-curso">{{.Title}}</p>
-        <div id="infos-praticas">
-          <p class="mutavel"><i class="fa fa-calendar" aria-hidden="true"></i>  {{.Params.data}}</p>
-          <p><i class="fa fa-clock" aria-hidden="true"></i>  {{.Params.hora}}</p>
-          <p><i class="fa fa-map" aria-hidden="true"></i>  {{.Params.local}}</p>
-          <p id="valor">
-            <i class="fa fa-money" aria-hidden="true"></i>
-            <span>{{.Params.preco}}</span>
-            <span></span>
-          </p>
+      <header class="section-header" id="header-title">
+        <h3 data-toc-skip>{{ .Title }}</h3>
+      </header>
 
-          {{ if isset .Params "obs"}}
-            <p><i class="fa fa-info-circle" aria-hidden="true"></i>  {{.Params.obs}}</p>
-          {{end}}
+      <div class="row">
 
+        <div class="col-md-3">
+        </div>
 
+        <div class="col-md-6">
+        <div id="article">
+
+          {{.Content}}
 
         </div>
-      </div>
-    </div>
-  </section><!-- #intro -->
+        </div>
 
-  <main id="main">
+        <div class="col-md-3">
+          <h4> Informações úteis </h4>
 
-    <!--==========================
-      Nossos Cursos
-    ============================-->
-    <div id="container-crusos-single">
-      <section id="cursos-single">
-        <div class="container">
-
-            {{.Content}}
+          <strong>Finalização do projeto</strong>: {{.Params.finalizacao}}<hr>
+          <strong>Base de dados</strong>: {{.Params.base}}<hr>
+          <strong>Coordenador(es)</strong>: {{.Params.equipe}}<hr>
+          <strong>Relatório</strong>: <a href="{{.Params.link}}" target="_blank"><button class="cta-submit">Download</button></a><hr>
+          <strong>Página do projeto</strong>: <a href="{{.Params.link}}" target="_blank"><button class="cta-submit">Acessar</button></a><hr>
 
         </div>
-      </section><!-- #about -->
-    </div>
-
-    <section id="call-to-action" class="wow fadeIn">
-      <div class="container text-center">
-
 
       </div>
 
+    </div>
 
-    </section><!-- #call-to-action -->
+    {{ partial "contato-projetos.html" . }}
 
+    {{ partial "footer.html" . }}
 
-    {{partial "footer.html" . }}
-
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+  </body>
 
   {{ partial "scripts.html" .}}
+  {{ partial "toc.html" . }}
 
-</body>
 </html>

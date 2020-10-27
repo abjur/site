@@ -1,45 +1,42 @@
-<!DOCTYPE html>
-<html lang="en">
+<!doctype html5>
+<html>
+
 <head>
-  <meta charset="utf-8">
-
-  <!-- =======================================================
-    Theme Name: BizPage
-    Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
-    Author: BootstrapMade.com
-    License: https://bootstrapmade.com/license/
-  ======================================================= -->
-
+  <meta name="description" content="{{ .Summary | plainify }}">
+  <meta property="og:title" content="{{.Title}}">
+  <meta property="og:description" content="{{.Summary | plainify}}">
+  <meta property="og:image" content="{{ .Site.BaseURL }}{{.Params.banner}}">
+  <meta property="og:url" content="{{.Permalink}}">
   {{ partial "head.html" . }}
-
 </head>
 
-<body>
-
-  <!--==========================
-    Header
-  ============================-->
-  <header style="z-index: 91921921;">
+  <body data-spy="scroll" data-target="#toc">
     {{ partial "header.html" . }}
-  </header><!-- #header -->
 
-  <!--==========================
-    Intro Section
-  ============================-->
-  <section id="intro">
+    <div class="container" id="article-container">
 
-    {{.Content}}
+      <header class="section-header" id="header-title">
+        <h3 data-toc-skip>{{ .Title }}</h3>
+      </header>
 
-  </section><!-- #intro -->
+      <div class="row">
+        <div id="article">
 
-  <main id="main">
+          {{.Content}}
 
+        </div>
 
-    {{partial "footer.html" . }}
+      </div>
 
-  <a href="#" class="back-to-top"><i class="fa fa-chevron-up"></i></a>
+    </div>
+
+    {{ partial "newsletter.html" . }}
+
+    {{ partial "footer.html" . }}
+
+  </body>
 
   {{ partial "scripts.html" .}}
+  {{ partial "toc.html" . }}
 
-</body>
 </html>

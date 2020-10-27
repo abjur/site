@@ -626,22 +626,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   z-index: 10;
 }
 
-#about .about-col {
+.about-col {
   background: #fff;
   border-radius: 0 0 4px 4px;
   box-shadow: 0px 2px 12px rgba(0, 0, 0, 0.08);
   margin-bottom: 20px;
 }
 
-#about .about-col .img {
+.about-col .img {
   position: relative;
 }
 
-#about .about-col .img img {
+.about-col .img img {
   border-radius: 4px 4px 0 0;
 }
 
-#about .about-col .icon {
+.about-col .icon {
   width: 64px;
   height: 64px;
   padding-top: 8px;
@@ -656,22 +656,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   transition: 0.3s;
 }
 
-#about .about-col i {
+.about-col i {
   font-size: 36px;
   line-height: 1;
   color: #fff;
   transition: 0.3s;
 }
 
-#about .about-col:hover .icon {
+.about-col:hover .icon {
   background-color: #fff;
 }
 
-#about .about-col:hover i {
+.about-col:hover i {
   color: #7AD151;
 }
 
-#about .about-col h2 {
+.about-col h2 {
   color: #000;
   text-align: center;
   font-weight: 700;
@@ -680,15 +680,15 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 40px 0 12px 0;
 }
 
-#about .about-col h2 a {
+.about-col h2 a {
   color: #000;
 }
 
-#about .about-col h2 a:hover {
+.about-col h2 a:hover {
   color: #7AD151;
 }
 
-#about .about-col p {
+.about-col p {
   font-size: 14px;
   line-height: 24px;
   color: #333;
@@ -1144,7 +1144,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: #333;
 }
 
-#call-to-action .cta-submit {
+.cta-submit {
   font-family: "Montserrat", sans-serif;
   font-weight: 500;
   font-size: 16px;
@@ -1186,14 +1186,13 @@ body.mobile-nav-active #mobile-nav-toggle {
   border-radius: 25px;
   transition: 0.5s;
   margin-top: 5px;
-  border: 2px solid #fff;
-  color: #fff;
+  border: 2px solid #333;
+  color: #333;
   cursor: pointer;
-  background: #fff;
 }
 
 .categories div {
-  padding-bottom: 50px;
+  padding-bottom: 30px;
 }
 
 .tags .cta-submit {

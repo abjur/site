@@ -15,19 +15,22 @@
     <div class="row about-cols">
   {{ end }}
 
-  <a href="{{$member.Params.link}}" target="_blank">
+  <a href="{{.Permalink}}">
   <div class="col-md-4 wow fadeInUp">
     <div class="about-col">
       <div class="img">
-        <img src="{{ .Site.BaseURL }}{{$member.Params.img}}" alt="" class="img-fluid" width="70%" style="margin-left: auto;margin-right: auto;display: block;">
+        <img src="{{ .Site.BaseURL }}{{.Params.img}}" alt="" class="img-fluid">
       </div>
-      <h2 class="title"><a href="{{$member.Params.link}}" target="_blank">{{.Title}}</a></h2>
+      <h2 class="title"><a href="{{.Permalink}}">{{.Title}}</a></h2>
       <p>
-        {{.Params.desc}}
+        {{ if isset .Params "summary" }}{{ .Params.summary }}{{ else }}{{ .Summary }}{{ end }}
       </p>
     </div>
   </div>
-  </a>
+</a>
+
+
+
 
   {{ if (modBool (add $i 1) 3) }}
   </div>
