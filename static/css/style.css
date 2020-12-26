@@ -30,7 +30,7 @@ p {
 }
 
 h1, h2, h3, h4, h5, h6 {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: bold;
   margin: 0px 0 20px 0;
   padding: 0;
@@ -41,7 +41,7 @@ h1, h2, h3, h4, h5, h6 {
   position: fixed;
   display: none;
   background: #414487;
-  color: #fff;
+  color: #7AD151;
   display: inline-block;
   width: 44px;
   height: 44px;
@@ -57,7 +57,7 @@ h1, h2, h3, h4, h5, h6 {
 
 .back-to-top i {
   padding-top: 12px;
-  color: #fff;
+  color: #7AD151;
 }
 
 @media (max-width: 768px) {
@@ -189,7 +189,7 @@ h1, h2, h3, h4, h5, h6 {
 }
 
 #intro .btn-get-started {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -289,7 +289,7 @@ h1, h2, h3, h4, h5, h6 {
   text-decoration: none;
   display: inline-block;
   color: #fff;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 700;
   font-size: 15px;
   outline: none;
@@ -392,7 +392,7 @@ h1, h2, h3, h4, h5, h6 {
   display: block;
   outline: none;
   font-weight: 700;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Arial", sans-serif;
 }
 
 #mobile-nav ul li a:hover {
@@ -1130,7 +1130,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Call To Action Section
 --------------------------------*/
 #call-to-action {
-  background: #f5f5f5;
+  background: #f5f5f5dd;
   padding: 60px 0;
 }
 
@@ -1145,7 +1145,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .cta-submit {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1161,7 +1161,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #form-curso .cta-submit {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1177,7 +1177,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .categories .cta-submit {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 500;
   font-size: 10px;
   letter-spacing: 1px;
@@ -1196,7 +1196,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 .tags .cta-submit {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 600;
   font-size: 10px;
   letter-spacing: 1px;
@@ -1236,7 +1236,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-email {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1253,7 +1253,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #form-curso .cta-email {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1275,7 +1275,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #call-to-action .cta-btn {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1290,7 +1290,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #intro .cta-btn {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 500;
   font-size: 16px;
   letter-spacing: 1px;
@@ -1367,7 +1367,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 #facts .counters span {
-  font-family: "Montserrat", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: bold;
   font-size: 48px;
   display: block;
@@ -1377,7 +1377,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 #facts .counters p {
   padding: 0;
   margin: 0 0 20px 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Arial", sans-serif;
   font-size: 14px;
   color: #111;
 }
@@ -1647,7 +1647,7 @@ body.mobile-nav-active #mobile-nav-toggle {
 /* Team Section
 --------------------------------*/
 #team {
-  background: #fff;
+  background: #ffffffaa;
   padding: 60px 0;
 }
 
@@ -1833,17 +1833,46 @@ body.mobile-nav-active #mobile-nav-toggle {
 }
 
 /*--------------------------------------------------------------
+# Associe-se
+--------------------------------------------------------------*/
+
+.associe-se > div {
+  font-size: 48px;
+  display: inline-block;
+  color: white;
+  border-style: solid;
+  border-width: thin;
+  border-color: white;
+  text-align: center;
+  background-color: #414487DD;
+}
+
+.associe-se h4 {
+  color: white !important;
+  margin-top: 0 !important;
+}
+
+.associe-se a {
+  color: white;
+}
+
+.associe-se i.fas {
+  color: #7AD151;
+}
+
+
+/*--------------------------------------------------------------
 # Footer
 --------------------------------------------------------------*/
 #footer {
-  background: #ddd;
+  background: #ddddddaa;
   padding: 0 0 30px 0;
   color: #333;
   font-size: 14px;
 }
 
 #footer .footer-top {
-  background: #fff;
+  background: #ffffffdd;
   color: #333;
   padding: 60px 0 30px 0;
 }
@@ -1858,7 +1887,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   margin: 0 0 20px 0;
   padding: 2px 0 2px 10px;
   line-height: 1;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Arial", sans-serif;
   font-weight: 700;
   letter-spacing: 3px;
   border-left: 4px solid #7AD151;
@@ -1869,14 +1898,14 @@ body.mobile-nav-active #mobile-nav-toggle {
   font-size: 14px;
   line-height: 24px;
   margin-bottom: 0;
-  font-family: "Montserrat", sans-serif;
+  font-family: "Arial", sans-serif;
   color: #333;
 }
 
 #footer .footer-top .social-links a {
   font-size: 18px;
   display: inline-block;
-  background: #fff;
+  background: #eee;
   color: #333;
   line-height: 1;
   padding: 8px 0;

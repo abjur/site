@@ -146,13 +146,13 @@ blockquote {
 
 #material-container h3 {
   font-size: 20px;
-  color: #111c !important;
+  color: #111c;
   margin-top: 40px;
 }
 
 #material-container h4 {
   font-size: 17px;
-  color: #111c !important;
+  color: #111c;
   margin-top: 40px;
 }
 
@@ -200,7 +200,7 @@ blockquote {
   background-color: white;
   padding-top: 15px;
   font-family: "Source Sans Pro";
-  width: 650px;
+  width: 100%;
   margin: auto;
  }
 }

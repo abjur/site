@@ -1,6 +1,6 @@
 ---
 title: "O que é jurimetria?"
-img: "img/cases/obsfase2.jpg"
+img: "img/cases/obsfase2.png"
 summary: "Entenda o conceito de jurimetria."
 ordem: "104"
 corlabel: "#7AD15155"

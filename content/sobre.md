@@ -16,6 +16,8 @@ Os recursos da ABJ advém de doações e parcerias, sendo voltados para a divulg
 
 Em resumo, a Associação Brasileira de Jurimetria busca incentivar, desenvolver e viabilizar como ciência a área do Direito que estuda os fenômenos jurídicos usando métodos estatísticos. Nossos estudos e pesquisas visam a difusão e o desenvolvimento do campo no Brasil, agregando pesquisadores e fornecendo as ferramenteas necessárias para isso, bem como auxiliar a formulação de boas políticas públicas e colaborar diretamente com a melhoria do judiciário nacional.
 
+O Estatuto Social da ABJ pode ser encontrado [aqui](https://abjur.github.io/estatutoABJ/).
+
 # Propósito e valores
 
 A Associação Brasileria de Jurimetria (ABJ) busca contribuir para o aperfeiçoamento da sociedade brasileira através do levantamento de subsídios empíricos e quantitativos para elaboração de políticas públicas, sempre tendo em vista três missões principais:
@@ -25,26 +27,41 @@ A Associação Brasileria de Jurimetria (ABJ) busca contribuir para o aperfeiço
 - Colaborar com entidades públicas e privadas no esforço estratégico de aperfeiçoar os mecanismos de prestação jurisdicional através da elaboração de leis e da administração dos tribunais.
 
 
+# Código de Conduta
+
+Na busca por incentivar, desenvolver e viabilizar a área do Direito que estuda os fenômenos jurídicos usando métodos estatísticos, nossos estudos e pesquisas visam a difusão e o desenvolvimento do campo no Brasil, agregando pesquisadores e fornecendo as ferramentas necessárias para isso, bem como auxiliando na formulação de boas políticas públicas.
+Assim, a associação fomenta, produz e lidera pesquisas empíricas, além de promover eventos, cursos e treinamentos. Com matriz em São Paulo, sua atuação em pesquisas pelo Laboratório de Jurimetria estende-se a nível nacional.
+
+A ABJ presa pela atitude íntegra e ética, assumindo como compromisso o rigor e a independência metodológica, o respeito às pessoas, à privacidade, às regulações, às leis e ao acesso à informação. Conforme previsto em seu Estatuto Social, o Código de Conduta abrange um conjunto de recomendações gerais voltadas para a orientação ética, científica e de compliance para associados, pesquisadores, fornecedores, administradores e parceiros da ABJ, de maneira a alinhar suas condutas com as diretrizes organizacionais da associação.
+
+Através deste Código de Conduta, organizado em tópicos, buscamos reunir os princípios científicos, éticos e morais que consideramos fundamentais para o bom convívio e perpetuação da boa conduta entre as atividades em que a ABJ estiver inserida.
+
+Para acessar o documento completo, [clique aqui](/pdf/codigo_de_conduta_abj_2020.pdf).
+
 # Governança
 
-A ABJ é dirigida por três órgãos sociais: assembleia geral, conselho científico e diretoria. A assembleia geral é o órgão máximo da ABJ, em que os associados se reúnem para deliberar todas as matérias de seu interesse. O conselho científico é um órgão paritário, composto por nove conselheiros de renomado saber e reputação ilibada, dos quais se dividem entre matemáticos e operadores do direito. A função do conselho é definir as linhas gerais de atuação da ABJ, aconselhar a diretoria em matérias estratégicas e opinar a respeito de convênios e parcerias. A diretoria é composta de quatro membros e cabe à diretoria a administração dos interesses e a representação da ABJ. 
+A ABJ é dirigida por três órgãos: assembleia geral, conselho científico e diretoria. A assembleia geral é o órgão máximo da ABJ, em que os associados se reúnem para deliberar todas as matérias de seu interesse. O conselho científico é um órgão paritário, composto por nove conselheiros de renomado saber e reputação ilibada, dos quais se dividem entre matemáticos e operadores do direito. A função do conselho é definir as linhas gerais de atuação da ABJ, aconselhar a diretoria em matérias estratégicas e opinar a respeito de convênios e parcerias. A diretoria é composta de quatro membros e cabe à diretoria a administração dos interesses e a representação da ABJ. 
 
 **Conselho Científico**
 
-- Fábio Ulhoa Coelho
-- Adilson Simonis
-- Carlos Alberto de Bragança Pereira
-- Carlos Ari Sundfeld
-- Celso Fernandes Campilongo
-- Julio Michael Stern
-- Rafael Bassi Stern
-- Sérgio Oliva
-- Tércio Sampaio Ferraz Júnior
- Diretoria
+- Presidente: [Fábio Ulhoa Coelho](https://www.ulhoacoelho.com.br/site/en/home/)
+- [Adilson Simonis](https://www.ime.usp.br/~asimonis/)
+- [Carlos Alberto de Bragança Pereira](https://bv.fapesp.br/en/pesquisador/89572/carlos-alberto-de-braganca-pereira/)
+- [Carlos Ari Sundfeld](https://direitosp.fgv.br/professor/carlos-ari-sundfeld)
+- [Celso Fernandes Campilongo](http://www.direito.usp.br/docentes/filosofia/dfd_docentes_campilongo_01.php)
+- [Julio Michael Stern](https://ime.usp.br/~jmstern)
+- [Rafael Bassi Stern](https://www.rafaelstern.science)
+- [Sérgio Oliva](https://www.ime.usp.br/~smo/index.html)
+- [Tércio Sampaio Ferraz Júnior](http://sampaioferraz.com.br/staff/tercio-sampaio-ferraz-junior/)
 
-**Presidente**: Marcelo Guedes Nunes
+**Diretoria**
 
-**Secretário Geral**: Julio Trecenti
+- Presidente: [Marcelo Guedes Nunes](https://www.linkedin.com/in/marcelo-guedes-nunes-849a4536/)
+- Secretário Geral: [Julio Trecenti](https://www.linkedin.com/in/jtrecenti/)
+- Diretor Financeiro: [Igor Pretel](https://www.linkedin.com/in/pretel/)
 
-**Diretor Financeiro**: Igor Pretel
+**Coordenadores de comitê**
 
+- Comitê de insolvência: [Marcelo Barbosa Sacramone](sacramone.com.br/)
+- Comitê societário: [Marcelo Guedes Nunes](https://www.linkedin.com/in/marcelo-guedes-nunes-849a4536/)
+- Comitê de projetos de pesquisa: [André Assumpção](https://aassumpcao.github.io)

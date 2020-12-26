@@ -3042,8 +3042,8 @@ input[type="button"].btn-block {
   display: none;
 }
 
-.collapse.show {
-  display: block;
+.collapse .show {
+  display: none;
 }
 
 tr.collapse.show {

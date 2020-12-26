@@ -40,13 +40,13 @@
 
     <div class="section-header wow fadeInUp">
       <h3>Pesquisas</h3>
-      <p>Nossas pesquisas são utilizadas para políticas públicas.</p>
+      <p>Lista de pesquisas publicadas pela ABJ até o momento</p>
     </div>
 
 <div class="categories text-center">
           {{ range $key, $value := .Site.Taxonomies.categories }}
           <a href="/categories/{{ $key | urlize  }}">
-            <button class="cta-submit" type="submit">{{ $key | humanize}} ({{ len $value }})</button>
+            <button class="cta-submit" type="submit">{{ $key | upper}} ({{ len $value }})</button>
           </a>
           {{ end }}
         </div>

@@ -1,29 +1,29 @@
 ---
 title: "Observatório da insolvência: 2ª fase"
-img: "img/cases/obsfase2.jpg"
-desc: "Na 2ª fase do Observatório da Insolvência, estudamos empiricamente o comportamento das recuperações judiciais no estado de São Paulo."
-ordem: "104"
-categories: ["Observatorio"]
+img: "img/cases/obsfase2.png"
+desc: "Estudo sobre as recuperações judiciais do estado de São Paulo."
+ordem: "202"
+categories: ["Observatório"]
 link: "https://abj.org.br/wp-content/uploads/2019/04/Recuperacao_Judicial_no_Estado_de_Sao_Pa.pdf"
 finalizacao: "Dezembro/2018"
-base: "906 processos de recuperações judiciais distribuídas nas Comarcas do Estado de São Paulo entre janeiro de 2010 e julho de 2017"
-equipe: "Marcelo Guedes Nunes (ABJ), Ivo Waisberg (PUC-SP), Marcelo Sacramone (PUC-SP) e Fernando Corrêa (ABJ)"
+base: "Processos de recuperação judicial distribuídos nas Comarcas do Estado de São Paulo entre janeiro de 2010 e julho de 2017"
+equipe: "Marcelo Guedes Nunes (ABJ), Ivo Waisberg (PUC-SP), Marcelo Sacramone (PUC-SP) e Fernando Corrêa (ABJ), Julio Trecenti (ABJ)"
 isbn: "978-65-80612-02-4"
 projeto: https://abjur.github.com/obsFase2
 ---
 
-![](/img/cases/obsfase2.jpg)
+![](/img/cases/obsfase2.png)
 
-## Objetivos do estudo
+## Objetivos
 
-- Compreender empiricamente o processo da insolvência
-- Auxiliar na formulação de políticas públicas
+- Compreender empiricamente o processo da insolvência.
+- Auxiliar na formulação de políticas públicas, como a elaboração da nova lei de falências e recuperações.
 
-## Sobre o estudo
+## Metodologia
 
 Na 2ª fase do Observatório da Insolvência, estudamos empiricamente o comportamento das recuperações judiciais no estado de São Paulo.
 
-Analisamos 138 variáveis referentes a 906 processos de recuperação, distribuídas entre janeiro de 2010 e julho de 2017. As informações foram coletadas através do preenchimento de questionários por pesquisadores em um período de 4 meses, compreendido entre fevereiro e junho de 2018.
+Analisamos informações referentes a 1194 processos de recuperação, distribuídas entre janeiro de 2010 e julho de 2017. As informações foram coletadas através do preenchimento de questionários por pesquisadores.
 
 Algumas perguntas que nos nortearam na execução deste projeto, foram:
 
@@ -34,7 +34,7 @@ Algumas perguntas que nos nortearam na execução deste projeto, foram:
 
 ## Resultados
 
-O estudo nos permitiu chegar à diversas conclusões. No entanto, evidenciamos:
+O estudo nos permitiu chegar à diversas conclusões, como:
 
 - Empresas com maior número de pedidos de recuperação judicial tem capital de 10 a 50 milhões.
 - Insignificância na diferença entre o processamento em varas especializadas e varas comuns (diferença de apenas 0,3%).

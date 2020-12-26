@@ -19,7 +19,7 @@ publishdir = "public"
     linkedin = "https://www.linkedin.com/company/jurimetria"
     logo = "assets/abj.png"
 
-ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_files$", "_cache$"]
+ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 
 [taxonomies]
   category = "categories"

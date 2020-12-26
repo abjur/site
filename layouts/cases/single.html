@@ -38,6 +38,9 @@
           <strong>Finalização do projeto</strong>: {{.Params.finalizacao}}<hr>
           <strong>Base de dados</strong>: {{.Params.base}}<hr>
           <strong>Coordenador(es)</strong>: {{.Params.equipe}}<hr>
+          {{if .Params.isbn}}
+          <strong>ISBN</strong>: {{.Params.isbn}}<hr>
+          {{end}}
           <strong>Relatório</strong>: <a href="{{.Params.link}}" target="_blank"><button class="cta-submit">Download</button></a><hr>
           <strong>Página do projeto</strong>: <a href="{{.Params.link}}" target="_blank"><button class="cta-submit">Acessar</button></a><hr>
 
