@@ -150,7 +150,7 @@ Abaixo, listamos os principais benefícios para associados. Todos os benefícios
   <div class="col-md-6">
     <a href="" target="_blank"><div>
       <i class="fas fa-home"></i>
-      <h4>Legal tech</h4>
+      <h4>LT</h4>
       <h4>R$ 2.994 / ano</h4>
       <p>Destinado a startups que desejam empreender no ramo da jurimetria</p>
     </div></a>
