@@ -2,12 +2,12 @@
 <html>
 
 <head>
+  {{ partial "head.html" . }}
   <meta name="description" content="{{ .Params.summary | plainify }}">
   <meta property="og:title" content="{{.Title}}">
   <meta property="og:description" content="{{.Params.summary | plainify}}">
   <meta property="og:image" content="{{ .Site.BaseURL }}{{.Params.img}}">
   <meta property="og:url" content="{{.Permalink}}">
-  {{ partial "head.html" . }}
 </head>
 
   <body data-spy="scroll" data-target="#toc">
