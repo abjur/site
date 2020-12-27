@@ -2,10 +2,10 @@
 <html>
 
 <head>
-  <meta name="description" content="{{ .Summary | plainify }}">
+  <meta name="description" content="{{ .Params.desc | plainify }}">
   <meta property="og:title" content="{{.Title}}">
-  <meta property="og:description" content="{{.Summary | plainify}}">
-  <meta property="og:image" content="{{ .Site.BaseURL }}{{.Params.banner}}">
+  <meta property="og:description" content="{{.Params.desc | plainify}}">
+  <meta property="og:image" content="{{ .Site.BaseURL }}{{.Params.img}}">
   <meta property="og:url" content="{{.Permalink}}">
   {{ partial "head.html" . }}
 </head>

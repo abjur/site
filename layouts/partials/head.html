@@ -1,27 +1,40 @@
 <!-- Global site tag (gtag.js) - Google Analytics -->
-<script async src="https://www.googletagmanager.com/gtag/js?id=UA-87272102-2"></script>
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ .Params.googleAnalytics }}"></script>
 <script>
   window.dataLayer = window.dataLayer || [];
   function gtag(){dataLayer.push(arguments);}
   gtag('js', new Date());
 
-  gtag('config', 'UA-87272102-2');
+  gtag('config', '{{ .Params.googleAnalytics }}');
 </script>
-
-
 
 <!-- Required meta tags -->
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
 
-<!-- Other Meta tags -->
-<meta property="og:title" content="ABJ">
-<meta property="og:name" content="Associação Brasileira de Jurimetria">
-<meta property="og:url" content="https://abj.org.br">
+
+
+<!-- Primary Meta Tags -->
+<meta name="title" content="ABJ | Associação Brasileira de Jurimetria">
+<meta name="description" content="Incentivando a abertura dos dados judiciários e boas políticas públicas através da Jurimetria, a estatística aplicada ao direito.">
+<meta content="jurimetria,dados,direito,estatística,lawtech" name="keywords">
 <meta content="width=device-width, initial-scale=1.0" name="viewport">
-<meta content="programação,r,cursos" name="keywords">
-<meta content="Dados abertos e políticas públicas com Jurimetria." name="description">
+
+<!-- Open Graph / Facebook -->
+<meta property="og:type" content="website">
+<meta property="og:url" content="https://abj.org.br">
+<meta property="og:title" content="ABJ | Associação Brasileira de Jurimetria">
+<meta property="og:name" content="Associação Brasileira de Jurimetria">
+<meta property="og:description" content="Incentivando a abertura dos dados judiciários e boas políticas públicas através da Jurimetria, a estatística aplicada ao direito.">
 <meta property="og:image" content="{{ .Site.BaseURL }}/assets/abj.png">
+
+<!-- Twitter -->
+<meta property="twitter:card" content="summary_large_image">
+<meta property="twitter:url" content="https://r.abj.org.br/">
+<meta property="twitter:title" content="ABJ | Associação Brasileira de Jurimetria">
+<meta property="twitter:description" content="Incentivando a abertura dos dados judiciários e boas políticas públicas através da Jurimetria, a estatística aplicada ao direito.">
+<meta property="twitter:image" content="https://r.abj.org.br//assets/abj.png">
+
 
 <!-- other metatags -->
 <meta name="og:email" content="contato@abj.org.br"/>

@@ -1,7 +1,7 @@
 # Site settings
 baseurl = "https://r.abj.org.br/"
 languageCode = "en-us"
-title = "ABJ"
+title = "Associação Brasileira de Jurimetria"
 disqusShortname = "abjur"
 googleAnalytics = "UA-115746799-1"
 contentdir = "content"
