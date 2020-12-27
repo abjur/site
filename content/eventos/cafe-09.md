@@ -1,6 +1,7 @@
 ---
 title: "Café Jurimétrico #9"
 date: "2021-01-31"
+publishdate: "2020-12-25"
 tipoevento: ["Futuro"]
 banner: "img/eventos/cafe-09.png"
 author: ["Bárbara"]
