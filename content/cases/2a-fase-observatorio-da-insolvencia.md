@@ -1,5 +1,5 @@
 ---
-title: "Observatório da insolvência: 2ª fase"
+title: "Observatório da insolvência: Segunda fase"
 img: "img/cases/obsfase2.png"
 desc: "Estudo sobre as recuperações judiciais do estado de São Paulo."
 ordem: "202"

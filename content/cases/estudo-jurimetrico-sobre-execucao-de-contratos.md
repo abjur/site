@@ -1,7 +1,7 @@
 ---
 title: "Estudo jurimétrico sobre execução de contratos"
 img: "/img/cases/doingbusiness.png"
-desc: "O estudo partiu da metodologia do Doing Business para mensurar a qualidade do país no tema 'execução de contratos'"
+desc: "Mensura a posição do país no tema 'execução de contratos' do Doing Business."
 ordem: "201"
 categories: ["estudo"]
 link: "https://abj.org.br/wp-content/uploads/2020/08/estudo_jurimetrico_sobre_execu%C3%A7ao_de_contratos_abj_pnud_db.pdf"

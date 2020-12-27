@@ -1,5 +1,5 @@
 ---
-title: "Observatório da insolvência: 1ª fase"
+title: "Observatório da insolvência: Primeira fase"
 img: "/img/cases/insolvencia.png"
 desc: "Análise de processos de recuperação judicial da Comarca de São Paulo."
 ordem: "204"

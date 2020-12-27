@@ -13,7 +13,7 @@
 
         <header class="section-header">
           <h3>Eventos</h3>
-          <p>Aqui você encontra novidades sobre as pesquisas da ABJ</p>
+          <p>Aqui você encontra novidades sobre a atuação da ABJ</p>
         </header>
 
         <!--
@@ -56,14 +56,8 @@
       </div>
       <h2 class="title"><a href="{{.Permalink}}">{{.Title}}</a></h2>
       <p class="author">
-            {{ if isset .Params "author" }}
-            Por {{ range $index, $author := .Params.author }}
-              {{ if gt $index 0 }},{{ end }}
-              <a href="/author/{{ . | urlize }}">{{ . }}</a>
-              {{ end }}
-              {{ end }}
-              em {{ dateFormat "02/01/2006" .Params.date }}
-          </p>
+      Data: {{ dateFormat "02/01/2006" .Params.date }}
+      </p>
       <p>
         {{ if isset .Params "summary" }}{{ .Params.summary }}{{ else }}{{ .Summary }}{{ end }}
       </p>
@@ -82,7 +76,7 @@
 
       <div class="container" id="paginator" style="justify-content: center;">
           <div style="text-align: center;">
-            <span style="display: inline-block;">{{ if $pag.HasPrev }} <a href="{{$pag.Prev.Permalink}}">← Página anterior</a>{{ end }} {{ $pag := $.Paginator }} {{ if gt $pag.TotalPages 1 }}
+            <span style="display: inline-block;">{{ if $pag.HasPrev }} <a href="{{$pag.Prev.URL}}">← Página anterior</a>{{ end }} {{ $pag := $.Paginator }} {{ if gt $pag.TotalPages 1 }}
               <span>  |  </span> {{ if $pag.HasNext }} <a href="{{$pag.Next.URL}}">Próxima página →</a>{{ end }}
 {{ end }}
 </span>
