@@ -115,24 +115,29 @@ Abaixo, listamos os principais benefícios para associados. Todos os benefícios
   <h1>Associe-se!</h1>
 </header>
 
+Estamos atualizando nosso site e nossa plataforma de associação. Em breve abriremos os links para registro. Se precisar, <a href="/contato">entre em contato</a> com nossa equipe.
+
 <div class="row associe-se">
 
   <div class="col-md-6">
 
-  <a href="https://app.glueup.com/membership/4925/apply/" target="_blank"><div>
+  <a href="" target="_blank"><div>
     <i class="fas fa-user-tie"></i>
     <h4>Pessoa física</h4>
     <h4>R$ 889 / ano</h4>
     <p>Destinado a profissionais interessados na jurimetria</p>
+    <h4>Em breve</h4>
   </div></a>
+  
 
   </div>
   <div class="col-md-6">
-    <a href="https://app.glueup.com/membership/4927/apply/" target="_blank"><div>
+    <a href="" target="_blank"><div>
       <i class="fas fa-graduation-cap"></i>
       <h4>Estudantes</h3>
       <h4>R$ 444 / ano</h3>
       <p>Destinado a estudantes e professores</p>
+      <h4>Em breve</h4>
     </div></a>
   </div>
 </div>
@@ -145,6 +150,7 @@ Abaixo, listamos os principais benefícios para associados. Todos os benefícios
       <h4>Empresa</h4>
       <h4>R$ 5.988 / ano</h4>
       <p>Destinado a empresas públicas ou privadas e escritórios de advocacia interessados em apoiar a ABJ</p>
+      <h4>Em breve</h4>
     </div></a>
   </div>
   <div class="col-md-6">
@@ -153,6 +159,7 @@ Abaixo, listamos os principais benefícios para associados. Todos os benefícios
       <h4>LT</h4>
       <h4>R$ 2.994 / ano</h4>
       <p>Destinado a startups que desejam empreender no ramo da jurimetria</p>
+      <h4>Em breve</h4>
     </div></a>
   </div>
 </div>
