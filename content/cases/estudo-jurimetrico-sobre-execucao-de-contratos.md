@@ -4,7 +4,7 @@ img: "/img/cases/doingbusiness.png"
 desc: "Mensura a posição do país no tema 'execução de contratos' do Doing Business."
 ordem: "201"
 categories: ["estudo"]
-link: "https://abj.org.br/wp-content/uploads/2020/08/estudo_jurimetrico_sobre_execu%C3%A7ao_de_contratos_abj_pnud_db.pdf"
+link: "/pdf/abj_pnud_db.pdf"
 finalizacao: "Junho/2020"
 base: "629 processos judiciais distribuídos no Foro Central Cível entre 2013 e 2019, contendo características similares ao case do Relatório Doing Business sobre execução de contratos."
 equipe: "Marcelo Guedes Nunes (ABJ)"
