@@ -17,7 +17,7 @@ link: https://www.youtube.com/channel/UCMJk85oU4NSvPufXtQnMCKQ
 
 <hr>
 
-Repensamos o formato do nosso tradicional Café Jurimétrico e, dessa vez, realizamos um evento online.
+Repensamos o formato do nosso tradicional Café Jurimétrico e, mais uma vez, realizaremos este evento online.
 
 Nesse café, vamos apresentar nossa agenda para 2021, além das novidades no nosso site, fluxo de associação e dados.
 
