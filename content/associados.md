@@ -115,29 +115,29 @@ Abaixo, listamos os principais benefícios para associados. Todos os benefícios
   <h1>Associe-se!</h1>
 </header>
 
+
 Estamos atualizando nosso site e nossa plataforma de associação. Em breve abriremos os links para registro. Se precisar, <a href="/contato">entre em contato</a> com nossa equipe.
 
 <div class="row associe-se">
 
   <div class="col-md-6">
-
-  <a href="" target="_blank"><div>
+  <a href="https://app.glueup.com/membership/5705/apply/" target="_blank"><div>
     <i class="fas fa-user-tie"></i>
     <h4>Pessoa física</h4>
-    <h4>R$ 889 / ano</h4>
+    <h4>Plano anual: R$ 889 / ano</h4>
     <p>Destinado a profissionais interessados na jurimetria</p>
-    <h4>Em breve</h4>
+    <p style="font-size:14px;"><a href="https://app.glueup.com/membership/5641/apply/" target="_blank">Plano mensal</a></p>
   </div></a>
   
 
   </div>
   <div class="col-md-6">
-    <a href="" target="_blank"><div>
+    <a href="https://app.glueup.com/membership/5706/apply/" target="_blank"><div>
       <i class="fas fa-graduation-cap"></i>
       <h4>Estudantes</h3>
-      <h4>R$ 444 / ano</h3>
+      <h4>Plano anual: R$ 444 / ano</h3>
       <p>Destinado a estudantes e professores</p>
-      <h4>Em breve</h4>
+      <p style="font-size:14px;"><a href="https://app.glueup.com/membership/5704/apply/" target="_blank">Plano mensal</a></p>
     </div></a>
   </div>
 </div>
@@ -145,21 +145,21 @@ Estamos atualizando nosso site e nossa plataforma de associação. Em breve abri
 <div class="row associe-se">
 
   <div class="col-md-6">
-    <a href="" target="_blank"><div>
+    <a href="https://app.glueup.com/membership/5708/apply/" target="_blank"><div>
       <i class="fas fa-building"></i>
       <h4>Empresa</h4>
-      <h4>R$ 5.988 / ano</h4>
+      <h4>Plano anual: R$ 5.988 / ano</h4>
       <p>Destinado a empresas públicas ou privadas e escritórios de advocacia interessados em apoiar a ABJ</p>
-      <h4>Em breve</h4>
+      <p style="font-size:14px;"><a href="https://app.glueup.com/membership/5707/apply/" target="_blank">Plano mensal</a></p>
     </div></a>
   </div>
   <div class="col-md-6">
-    <a href="" target="_blank"><div>
+    <a href="https://app.glueup.com/membership/5878/apply/" target="_blank"><div>
       <i class="fas fa-home"></i>
       <h4>LT</h4>
-      <h4>R$ 2.994 / ano</h4>
+      <h4>Plano anual: R$ 2.994 / ano</h4>
       <p>Destinado a startups que desejam empreender no ramo da jurimetria</p>
-      <h4>Em breve</h4>
+      <p style="font-size:14px;"><a href="https://app.glueup.com/membership/5877/apply/" target="_blank">Plano mensal</a></p>
     </div></a>
   </div>
 </div>
