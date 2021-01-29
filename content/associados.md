@@ -156,7 +156,7 @@ Estamos atualizando nosso site e nossa plataforma de associação. Em breve abri
   <div class="col-md-6">
     <a href="https://app.glueup.com/membership/5878/apply/" target="_blank"><div>
       <i class="fas fa-home"></i>
-      <h4>LT</h4>
+      <h4>Legaltech / Lawtech</h4>
       <h4>Plano anual: R$ 2.994 / ano</h4>
       <p>Destinado a startups que desejam empreender no ramo da jurimetria</p>
       <p style="font-size:14px;"><a href="https://app.glueup.com/membership/5877/apply/" target="_blank">Plano mensal</a></p>
