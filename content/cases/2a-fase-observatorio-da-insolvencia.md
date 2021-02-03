@@ -4,7 +4,7 @@ img: "img/cases/obsfase2.png"
 desc: "Estudo sobre as recuperações judiciais do estado de São Paulo."
 ordem: "202"
 categories: ["Observatório"]
-link: "https://abj.org.br/wp-content/uploads/2019/04/Recuperacao_Judicial_no_Estado_de_Sao_Pa.pdf"
+link: "https://abjur.github.io/obsFase2/relatorio/obs_recuperacoes_abj.pdf"
 finalizacao: "Dezembro/2018"
 base: "Processos de recuperação judicial distribuídos nas Comarcas do Estado de São Paulo entre janeiro de 2010 e julho de 2017"
 equipe: "Marcelo Guedes Nunes (ABJ), Ivo Waisberg (PUC-SP), Marcelo Sacramone (PUC-SP) e Fernando Corrêa (ABJ), Julio Trecenti (ABJ)"
