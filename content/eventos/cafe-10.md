@@ -1,5 +1,5 @@
 ---
-title: "Café Jurimétrico 10"
+title: "Café Jurimétrico #10"
 date: "2021-02-26"
 publishdate: "2021-02-08"
 tipoevento: [""]
@@ -10,7 +10,7 @@ draft: false
 publico: "Exclusivo para associados e convidados"
 horario: "11h às 12h"
 formato: "Online"
-link: (https://app.glueup.com/event/caf%c3%a9-jurim%c3%a9trico-10-32486/)
+link: "https://app.glueup.com/event/caf%c3%a9-jurim%c3%a9trico-10-32486/"
 ---
 
 <img src="/img/eventos/cafe-10.png" width="80%">
