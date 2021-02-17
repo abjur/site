@@ -16,7 +16,7 @@ publishdir = "public"
     instagram = "https://instagram.com/jurimetria"
     linkedin = "https://www.linkedin.com/company/jurimetria"
     logo = "assets/abj.png"
-    googleAnalytics = "UA-115746799-1"
+    googleAnalytics = "UA-182605574-2"
 
 ignoreFiles = ["\\.Rmd$", "\\.Rmarkdown$", "_cache$", "\\.knit\\.md$", "\\.utf8\\.md$"]
 
