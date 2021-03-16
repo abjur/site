@@ -163,3 +163,15 @@ Estamos atualizando nosso site e nossa plataforma de associação. Em breve abri
     </div></a>
   </div>
 </div>
+
+<!-- FAQ -->
+
+<header class="section-header">
+  <h1 id="faq">Dúvidas Frequentes</h1>
+</header>
+
+Abaixo você encontra as respostas para dúvidas frequentes que recebemos aqui na ABJ. Caso tenha alguma dúvida que não esteja por aqui, [entre em contato](/contato) com nossa equipe.
+
+<button class="accordion">A ABJ presta consultorias?</button><div class="panel"><p>A ABJ, por ser uma entidade sem fins lucrativos, não presta consultorias individuais ou para empresas. Se tiver interesse em conhecer empresas que prestam serviços de jurimetria, recomendamos acessar a lista da [AB2L](https://ab2l.org.br/radar-dinamico-lawtechs-e-legaltechs/).</p>
+</div>
+
