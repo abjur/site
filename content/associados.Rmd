@@ -192,7 +192,7 @@ montar_div <- function(dados) {
       shiny::span(style = "vertical-align:middle;display:inline-block;height:100%;"),
       shiny::a(
         href = dados$site, target="_blank", 
-        shiny::img(src = dados$logo, style = st)
+        shiny::img(src = dados$logo, style = st, alt = dados$empresa)
       ),
       style = "padding-bottom:0px;background-color:#41448710;margin:10px 0px 0px 0px;min-height:200px;"
     )
