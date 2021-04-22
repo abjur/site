@@ -165,6 +165,51 @@ Estamos atualizando nosso site e nossa plataforma de associação. Em breve abri
 </div>
 </div>
 
+<header class="section-header">
+<h1 id="faq">Empresas associadas</h1>
+</header>
+
+Abaixo você pode conferir as empresas, escritórios e lawtechs que são associadas da ABJ ou apoiam nossos [Observatórios](https://obs.abj.org.br).
+
+<div class="row" style="align:center;">
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, results="html"}
+library(magrittr)
+obsutils::autenticar_gsheets()
+id_pj <- googledrive::as_id("1QpgnN1QaJlZH6zgqviLb0zNCdedW7lBS57EZS11uspg")
+da_pj <- googlesheets4::read_sheet(id_pj)
+
+montar_div <- function(dados) {
+  if (dados$inverter == "s") {
+    st <- "-webkit-filter:invert(1);filter:invert(1);max-width: 80%;display:inline-block;"
+  } else {
+    st <- "max-width:80%;display:inline-block;"
+  }
+  shiny::a(
+    href = dados$site, target="_blank",
+    shiny::div(
+      class = "col-md-4",
+      shiny::span(style = "vertical-align:middle;display:inline-block;height:100%;"),
+      shiny::a(
+        href = dados$site, target="_blank", 
+        shiny::img(src = dados$logo, style = st)
+      ),
+      style = "padding-bottom:0px;background-color:#41448710;margin:10px 0px 0px 0px;min-height:200px;"
+    )
+  )
+}
+
+da_pj %>% 
+  dplyr::select(-modalidade) %>% 
+  dplyr::group_split(empresa) %>% 
+  purrr::map(montar_div) %>% 
+  shiny::tagList()
+
+```
+
+
+</div>
+
 <!-- FAQ -->
 
 <header class="section-header">
@@ -175,7 +220,6 @@ Abaixo você encontra as respostas para dúvidas frequentes que recebemos aqui n
 
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE}
-obsutils::autenticar_gsheets()
 id <- googledrive::as_id("1K9i4R2jZoYu03BMcrsGx0tHPBmVQbF4Lj9YwgIs1bh8")
 da <- googlesheets4::read_sheet(id)
 
