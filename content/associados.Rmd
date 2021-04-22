@@ -175,15 +175,24 @@ Abaixo você pode conferir as empresas, escritórios e lawtechs que são associa
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, results="html"}
 library(magrittr)
+
 obsutils::autenticar_gsheets()
 id_pj <- googledrive::as_id("1QpgnN1QaJlZH6zgqviLb0zNCdedW7lBS57EZS11uspg")
 da_pj <- googlesheets4::read_sheet(id_pj)
 
 montar_div <- function(dados) {
   if (dados$inverter == "s") {
-    st <- "-webkit-filter:invert(1);filter:invert(1);max-width: 80%;display:inline-block;"
+    if (dados$grayscale == "s") {
+      st <- "-webkit-filter:grayscale(1) invert(1);filter:grayscale(1) invert(1);max-width: 80%;display:inline-block;"
+    } else {
+      st <- "-webkit-filter:invert(1);filter:invert(1);max-width: 80%;display:inline-block;"
+    }
   } else {
-    st <- "max-width:80%;display:inline-block;"
+    if (dados$grayscale == "s") {
+      st <- "max-width:80%;display:inline-block;-webkit-filter:grayscale(.5);filter:grayscale(.5);"
+    } else {
+      st <- "max-width:80%;display:inline-block;"
+    }
   }
   shiny::a(
     href = dados$site, target="_blank",
