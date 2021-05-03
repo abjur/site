@@ -1,22 +1,22 @@
 ---
-title: "Observatório da Comissão de Valores Mobiliários"
+title: "Observatório do Mercado de Capitais"
 img: "/img/cases/cvm.png"
-desc: "Analisa os Processos Administrativos Sancionadores e Termos de Compromisso da CVM."
+desc: "Analisa processos relativos à atividade disciplinar da CVM."
 ordem: "200"
 categories: ["Observatório"]
-link: "https://abjur.github.io/obsCVM/relatorio/obs_cvm_abj.pdf"
+link: "https://abjur.github.io/obsMC/relatorio/obs_mc_abj.pdf"
 finalizacao: "Junho/2020"
-base: "Mais de 1200 Processos Administrativos Sancionadores (PAS) que tramitaram na Comissão de Valores Mobiliários."
-equipe: "Marcelo Guedes Nunes (ABJ)"
+base: "Mais de 1200 Processos Administrativos Sancionadores (PAS) e termos de compromisso que tramitaram na Comissão de Valores Mobiliários."
+equipe: "Marcelo Guedes Nunes (ABJ), Renato Berger"
 isbn: 
-projeto: 
+projeto: https://abjur.github.io/obsMC
 ---
 
 ![](/img/cases/cvm.png)
 
 ## Objetivos
 
-A 1ª Fase do Observatório CVM é dedicada à análise dos Processos Administrativos Sancionadores (PAS) e Termos de Compromisso (TC) da CVM, endereçando os pontos principais abaixo.
+A 1ª Fase do Observatório do Mercado de Capitais é dedicada à análise dos Processos Administrativos Sancionadores (PAS) e Termos de Compromisso (TC) da CVM, endereçando os pontos principais abaixo.
 
 - Temas dos processos sancionadores.
 - Características das partes envolvidas.
