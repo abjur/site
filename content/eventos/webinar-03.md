@@ -4,7 +4,7 @@ date: "2021-05-11"
 tipoevento: ["Passado"]
 banner: "img/eventos/webinar-03.png"
 author: ["Bárbara"]
-summary: "Webinar sobre a divulgaçãdo do Observatório do Mercado de Capitais."
+summary: "Webinar sobre a divulgaçãdo do Observatório do Mercado de Capitais: atividade disciplinar da CVM."
 draft: false
 publico: "Aberto"
 horario: "9h"
