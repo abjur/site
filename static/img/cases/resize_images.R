@@ -6,7 +6,7 @@ library(magrittr)
 
 x <- "static/img/cases/carf.png"
 
-resize_image("static/img/cases/obsfase2.png")
+resize_image("static/img/cases/obsrjrj.png")
 resize_image <- function(x) {
   bkp <- paste0(
     fs::path_ext_remove(x),
