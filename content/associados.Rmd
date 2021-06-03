@@ -91,7 +91,7 @@ Abaixo, listamos os principais benefícios para associados. Todos os benefícios
 
 <div class="col-md-4">
 <div>
-<i class="fas fa-chart-area"></i>
+<i class="fas fa-chart-area"></i>   
 <h3>Dashboard</h3>
 <p>Acesso ao dashboard interativo da ABJ, baseado nos dados da consulta de Jurisprudência do TJSP.</p>
 </div>
@@ -100,7 +100,7 @@ Abaixo, listamos os principais benefícios para associados. Todos os benefícios
 <a href="https://docs.google.com/forms/d/e/1FAIpQLSdymc2juV7SKG7_ZBKPGn7lmFDvno-Nd4dxb9NVpenP8Siovw/viewform"><div class="col-md-4" style="background: #f8f8ff" target="_blank">
 <div>
 <i class="fas fa-question"></i>
-<h3>Mais</h3>
+<h3>Sugestões?</h3>
 
 <p><a href="https://docs.google.com/forms/d/e/1FAIpQLSdymc2juV7SKG7_ZBKPGn7lmFDvno-Nd4dxb9NVpenP8Siovw/viewform" target="_blank"><strong>Preencha este formulário</strong></a> para nos ajudar a melhorar nossos benefícios!</p></a>
 
@@ -207,7 +207,7 @@ montar_div <- function(dados) {
         href = dados$site, target="_blank", 
         shiny::img(src = dados$logo, style = st, alt = dados$empresa)
       ),
-      style = "padding-bottom:0px;background-color:#41448710;margin:10px 0px 0px 0px;min-height:200px;"
+      style = "padding-bottom:0px;background-color:#f8f8ff;margin:10px 0px 0px 0px;min-height:200px;"
     )
   )
 }
@@ -217,7 +217,6 @@ da_pj %>%
   dplyr::group_split(empresa) %>% 
   purrr::map(montar_div) %>% 
   shiny::tagList()
-
 ```
 
 
