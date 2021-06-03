@@ -9,7 +9,7 @@ finalizacao: "Dezembro/2018"
 base: "Processos de recuperação judicial distribuídos nas Comarcas do Estado de São Paulo entre janeiro de 2010 e julho de 2017"
 equipe: "Marcelo Guedes Nunes (ABJ), Ivo Waisberg (PUC-SP), Marcelo Sacramone (PUC-SP) e Fernando Corrêa (ABJ), Julio Trecenti (ABJ)"
 isbn: "978-65-80612-02-4"
-projeto: https://abjur.github.com/obsFase2
+projeto: https://abjur.github.io/obsFase2
 ---
 
 ![](/img/cases/obsfase2.png)
