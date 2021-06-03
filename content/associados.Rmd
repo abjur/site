@@ -181,7 +181,8 @@ library(magrittr)
 
 obsutils::autenticar_gsheets()
 id_pj <- googledrive::as_id("1QpgnN1QaJlZH6zgqviLb0zNCdedW7lBS57EZS11uspg")
-da_pj <- googlesheets4::read_sheet(id_pj)
+da_pj <- googlesheets4::read_sheet(id_pj) %>%
+  dplyr::filter(publicar == "s")
 
 montar_div <- function(dados) {
   if (dados$inverter == "s") {
