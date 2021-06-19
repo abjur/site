@@ -13,7 +13,7 @@ formato: "Online"
 link: "https://app.glueup.com/event/café-jurimétrico-13-38981/"
 ---
 
-<img src="/img/eventos/cafe-12.png" width="80%">
+<img src="/img/eventos/cafe-13.png" width="80%">
 
 <hr>
 
