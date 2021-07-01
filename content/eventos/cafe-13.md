@@ -17,11 +17,16 @@ link: "https://app.glueup.com/event/café-jurimétrico-13-38981/"
 
 <hr>
 
-A 13ª edição do Café Jurimétrico terá como tema o Contencioso Administrativo Tributário. Em uma conversa guiada pelo processo seletivo do Banco Interamericano de Desenvolvimento (BID) vencido pela ABJ, o encontro debaterá os principais problemas e possíveis melhorias que a ABJ poderá diagnosticar sobre o tema.
+O 13º Café Jurimétrico teve como tema o Contencioso Administrativo Tributário. A edição contou com a participação de Maria de Fátima Cartaxo, Especialista Sênior em Gestão Fiscal e Municipal no Banco Interamericano de Desenvolvimento (BID) desde 2004. 
 
-Para divergir com relação ao assunto, o Café contará com a presença de Maria de Fátima Cartaxo, Especialista Sênior em Gestão Fiscal e Municipal no Banco Interamericano de Desenvolvimento (BID) desde 2004.
- 
-Ainda não é associado e gostaria de participar do café jurimétrico? Entre em contato conosco através do e-mail [relacionamento@abj.org.br](mailto:relacionamento@abj.org.br).
+Cartaxo possui um currículo invejável, tendo trabalhado mais de 20 anos na Receita Federal. Em seu pós-doutorado, feito em Lisboa, ela apresentará um trabalho de pesquisa justamente sobre a efetividade da Justiça Tributária Brasileira. 
+
+O bate-papo foi guiado pelo processo seletivo vencido pela ABJ para trabalhar com o BID, onde a associação vai analisar e diagnosticar melhorias no contencioso administrativo tributário. Para ela, não se pode admitir um contencioso com um valor que supera a metade do PIB nacional. 
+
+Cartaxo também acredita que existem dois eixos para uma redução do contencioso, onde seriam trabalhadas medidas para reduzir o contencioso fiscal existente, através do estoque de processos que tramitam nos órgãos; e também a prevenção de litígios, em que medidas voltadas a prevenir a formação de conflitos fiscais, melhoram as relações entre o fisco e os contribuintes, tornando-as mais colaborativas.
+
+O Café Jurimétrico é um evento criado e pensado para pessoas associadas à ABJ, e busca trazer assuntos de interesse dentro do universo da jurimetria. Para saber mais, acesse a aba [Associe-se](https://abj.org.br/associados/)
+
 
 <hr>
 
