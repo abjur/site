@@ -213,6 +213,7 @@ montar_div <- function(dados) {
   )
 }
 
+
 da_pj %>% 
   dplyr::select(-modalidade) %>% 
   dplyr::group_split(empresa) %>% 
