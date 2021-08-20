@@ -1,36 +1,29 @@
 ---
-title: "Café Jurimétrico #14"
-date: "2021-07-30"
-publishdate: "2021-07-16"
+title: "Café Jurimétrico #15"
+date: "2021-09-03"
+publishdate: "2021-08-20"
 tipoevento: [""]
-banner: "img/eventos/cafe-14.png"
+banner: "img/eventos/cafe-15.png"
 author: ["Bárbara"]
-summary: "A 14ª edição do evento tratou sobre regulação no mercado de capitais e contou com a participação do advogado, ex-diretor da CVM e professor do Insper, FGV e PUC-RJ Gustavo Machado Gonzalez." 
+summary: "Programação e Jurimetria, é o tema do 15º Café Jurimétrico da ABJ. Com participação especial de Julio Trecenti, traremos ao debate a importância e funcionalidade da programação dentro da Jurimetria. "
+
 draft: false
 publico: "Exclusivo para associados e convidados"
 horario: "10h às 12h"
 formato: "Online"
-link: "https://app.glueup.com/event/café-jurimétrico-14-40459/"
+link: "https://app.glueup.com/event/caf%c3%a9-jurim%c3%a9trico-15-42033/"
 ---
 
-<img src="/img/eventos/cafe-14.png" width="80%">
+<img src="/img/eventos/cafe-15.png" width="80%">
 
 <hr>
-A 14ª edição do tradicional Café Jurimétrico da ABJ recebeu o advogado e 
-ex-Diretor da CVM, Gustavo Machado Gonzalez. O bate-papo teve como tema a 
-regulação do mercado de capitais, em uma conversa sobre como a jurimetria pode 
-auxiliar na compreensão das decisões da CVM.
+Nesse encontro, nosso secretário geral, Julio Trecenti, falará um pouco mais sobre a utilização de programação dentro da Jurimetria.
 
-Gonzalez iniciou o evento falando sobre uma "evolução" do mercado de capitais. 
-Para ele, o sistema de distribuição hoje em dia é um sistema computacional de 
-_match_, armazenando oferta de compras e vendas. 
+A programação sustenta a execução de diversas etapas de um estudo jurimétrico e faz parte do dia a dia dos trabalhos desenvolvidos na ABJ. Pensando nisso, queremos trazer ao debate a importância e funcionalidade da programação apresentando facilidades possibilitadas pela prática, sua interseção com a Inteligência Artificial e ainda ajudá-los a encontrar habilidades que auxiliarão qualquer profissional que deseje trabalhar com análise de dados no direito.
 
-Respondendo perguntas, falou também sobre intervenções que existem quando o 
-valor do capital desvaloriza, e explicou que há controles para que o mercado 
-seja o melhor julgador de preços, como os circuit breakers na crise de 2008 e 
-no ano passado, durante a pandemia. O ex-diretor da CVM ainda afirmou não 
-existir sucumbência na autarquia e atribuiu o alto número de processos à 
-gratuidade da litigação. 
+
+Para conhecer um pouco mais sobre o que é e como utilizar programação dentro da Jurimetria, inscreva-se e participe conosco deste evento!
+
 
 O Café Jurimétrico é um evento criado e pensado para pessoas associadas à ABJ, e
 busca trazer assuntos de interesse dentro do universo da jurimetria. Para saber 
