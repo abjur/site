@@ -8,7 +8,7 @@ link: "https://www.cnj.jus.br/wp-content/uploads/2018/01/6ab66f9a7c1f5c99878f04a
 finalizacao: "Janeiro/2019"
 base: "Mais de 4000 processos analisados em primeiro e segundo grau, nos estados de: São Paulo (JFSP 291, TJSP 1625 e em segundo grau 1.001 processos), Rio de Janeiro (JFRJ 189, TJRJ 1.010 e em segundo grau 1.325 processos), Distrito Federal (JFDF 678, TJDF 31 e em segundo grau 80 processos) e Alagoas (JFAL 37, TJAL 190 e em segundo grau 8 processos)."
 equipe: "José Álvaro Moisés (Nupps), José Verissimo (Nupps), Fernando Corrêa (ABJ), Julio Trecenti (ABJ), Guilherme Werner (Nupps), Emmanuel Nunes (Nupps), Marcelo Guedes Nunes (ABJ)"
-isbn: 
+isbn: "978-65-5972-026-2"
 projeto: https://github.com/abjur/abjEspUnif
 ---
 

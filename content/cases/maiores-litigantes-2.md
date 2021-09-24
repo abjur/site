@@ -8,7 +8,7 @@ link: "https://www.cnj.jus.br/wp-content/uploads/2011/02/28383cca082cb68ac79144e
 finalizacao: "Setembro/2017"
 base: "Dados de processos novos e pendentes não criminais de sete tribunais: TJAM, TJSP, TJBA, TJDFT, TJMT, TJRJ, TJRS."
 equipe: "Marcelo Guedes Nunes (ABJ), Julio Trecenti (ABJ), Fernando Corrêa (ABJ)"
-isbn: ""
+isbn: "978-65-5972-024-8"
 projeto: "https://github.com/abjur/cnjMLBook"
 ---
 
