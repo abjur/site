@@ -191,6 +191,7 @@ montar_div <- function(dados) {
   )
 }
 
+
 da_sobre %>% 
   dplyr::mutate(
     nome = ifelse(is.na(area), nome, stringr::str_c(nome, " (", area, ")")),
