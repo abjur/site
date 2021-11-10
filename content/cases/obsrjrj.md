@@ -8,6 +8,7 @@ link: "https://abjur.github.io/obsRJRJ/relatorio/obs_rjrj_abj.pdf"
 finalizacao: "Fevereiro/2021"
 base: "Processos de recuperação judicial distribuídos nas Comarcas do Estado de Rio de Janeiro entre setembro de 2006 e junho de 2019."
 equipe: "Marcelo Guedes Nunes (ABJ), Ivo Waisberg (PUC-SP), Marcelo Sacramone (PUC-SP), Juliana Bumachar, Julio Trecenti (ABJ)"
+isbn: "978-65-80612-04-8"
 projeto: https://abjur.github.io/obsRJRJ
 ---
 

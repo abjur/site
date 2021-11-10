@@ -8,7 +8,7 @@ link: "/pdf/cni_carf_book.pdf"
 finalizacao: "Setembro/2014"
 base: "Dados das decisões do CARF"
 equipe: "Marcelo Guedes Nunes (ABJ), Julio Trecenti (ABJ), Pablo Cesario (CNI), Pedro Roquim (ABJ)."
-isbn: ""
+isbn: "978-65-80612-05-5"
 projeto: ""
 ---
 

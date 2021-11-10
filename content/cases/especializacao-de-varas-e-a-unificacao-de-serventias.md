@@ -8,7 +8,7 @@ link: "https://www.cnj.jus.br/wp-content/uploads/2020/08/Justica-Pesquisa_Relato
 finalizacao: "Maio/2018"
 base: ""
 equipe: "Marcelo Guedes Nunes (ABJ), Julio Trecenti (ABJ), Fernando Corrêa (ABJ)"
-isbn: ""
+isbn: "978-65-5972-027-9"
 projeto: https://github.com/abjur/abjEspUnif 
 ---
 

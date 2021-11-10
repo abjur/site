@@ -8,7 +8,7 @@ link: "/pdf/ABJ_varas_empresariais_tjsp.pdf"
 finalizacao: "Dezembro/2016"
 base: "Processos distribuídos nas Varas Cíveis do Foro Central entre 2013 e 2015"
 equipe: "Marcelo Guedes Nunes"
-isbn: ""
+isbn: "978-65-80612-06-2"
 projeto: "https://github.com/abjur/tjspBook"
 ---
 

@@ -8,7 +8,7 @@ link: "https://abjur.github.io/obsMC/relatorio/obs_mc_abj.pdf"
 finalizacao: "Junho/2020"
 base: "Mais de 1200 Processos Administrativos Sancionadores (PAS) e termos de compromisso que tramitaram na Comissão de Valores Mobiliários."
 equipe: "Marcelo Guedes Nunes (ABJ), Renato Berger"
-isbn: 
+isbn: "978-65-80612-07-9"
 projeto: https://abjur.github.io/obsMC
 ---
 
