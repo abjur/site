@@ -113,6 +113,27 @@ administração dos interesses e a representação da ABJ.
 <h2 style="text-align: center; padding-bottom:15px">Conselho Científico</h2>
 </header>
 
+```{css, echo=FALSE}
+
+p.meucontainer a p {
+ display: none;
+ position: absolute;
+ left: -80px;
+ top: -22px;
+}
+
+p.meucontainer a {
+    display: inline-block;
+    position: relative;
+}
+
+p.meucontainer {
+    margin-left: 100px;
+}
+
+```
+
+
 <div class="row" style="align:center;">
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, results="html"}
@@ -128,7 +149,7 @@ style_foto <- stringr::str_c(
 )
 
 montar_div <- function(dados) {
-
+  
   if (!is.na(dados$linkedin)) {
     linkedin <- shiny::a(target = "_blank", href = dados$linkedin, shiny::icon("linkedin"))
   } else { linkedin <- "" }
@@ -142,24 +163,30 @@ montar_div <- function(dados) {
   shiny::div(
     style = "padding-bottom: 20px;",
     class = "col-md-4",
-    shiny::img(
-      src = dados$link_foto, alt = dados$nome,
-      style = style_foto
+    shiny::div(
+      class = "meucontainer",
+      shiny::a(
+        href = "#",
+        shiny::p(
+          dados$bio,
+          style = "display: none; font-size: 12px;"
+        ),
+        shiny::img(
+          src = dados$link_foto, 
+          alt = dados$nome,
+          style = style_foto
+        )
+      )
     ),
     shiny::div(
-      shiny::h3(dados$nome, style = "padding-bottom: 0px; text-align: center;"),
+      shiny::h3(dados$nome, style = "padding-bottom: 0px; text-align: center; height: 50px;"),
       shiny::p(
-        style = "text-align: center;",
+        style = "text-align: center",
         linkedin,
         lattes,
         site,
         shiny::a(target = "_blank", href = dados$email, shiny::icon("envelope"))
-      ),
-      shiny::p(dados$area)
-    ),
-    shiny::div(
-      style = "overflow-y: scroll; height: 350px",
-      shiny::p(dados$bio)
+      )
     )
   )
 }
@@ -178,7 +205,9 @@ da_sobre %>%
   shiny::tagList()
 ```
 
+
 </div>
+
 
 <header class="section-header">
 <h2 style="text-align: center; padding-bottom:15px">Diretoria</h2>
@@ -250,3 +279,17 @@ da_sobre %>%
 ```
 
 </div>
+
+<script>
+
+$(".meucontainer a").mouseover(function () {
+    $(".meucontainer a p").css("display", "none"); 
+    $(this).find("p").css("display", "inline-block");
+})
+
+$(".meucontainer a").mouseout(function () {
+    $(".meucontainer a p").css("display", "none");
+})
+
+</script>
+
