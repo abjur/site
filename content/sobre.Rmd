@@ -167,14 +167,14 @@ montar_div <- function(dados) {
       class = "meucontainer",
       shiny::a(
         href = "#",
-        shiny::p(
-          dados$bio,
-          style = "display: none; font-size: 12px;"
-        ),
         shiny::img(
           src = dados$link_foto, 
           alt = dados$nome,
           style = style_foto
+        ),
+        shiny::p(
+          dados$bio,
+          style = "display: none; font-size: 12px;"
         )
       )
     ),
