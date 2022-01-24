@@ -11,7 +11,7 @@ draft: false
 publico: "Aberto ao público"
 horario: "10h às 12h"
 formato: "Online"
-link: Inscreva-se mandando um e-mail para eventos@abj.org.br
+link: 
 ---
 
 <img src="/img/eventos/cafe-19.png" width="80%">
