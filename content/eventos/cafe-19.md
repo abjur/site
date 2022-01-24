@@ -18,12 +18,16 @@ link:
 
 <hr>
 
-A última edição de 2021 do Café Jurimétrico será apresentada por Marcelo Guedes Nunes e Julio Trecenti, fazendo uma retrospectiva dos levantamentos realizados neste ano e apresentando as expectativas para 2022.
- 
+Na última edição do Café Jurimétrico em 2021, recebemos o Presidente da ABJ, Marcelo Guedes Nunes, e o Secretário-Geral da ABJ, Julio Trecenti, falando sobre os resultados das pesquisas realizadas no ano e as projeções para 2022. Visando aproximar quem ainda não faz parte da ABJ, o 19º evento foi aberto ao público, em live gravada no YouTube. 
 
-Neste evento, que será totalmente aberto ao público, esperamos que conheçam mais sobre o trabalho da ABJ e embarquem para 2022 conosco.
+Trecenti iniciou a apresentação mencionando as parcerias que a associação firmou durante o ano, entre elas, tivemos: USP-EACH trabalhando em process mining, a Unichristus em projeto realizado em parceria com o TJCE, sobre a Judicialização da Saúde, e também o [DREI](https://www.gov.br/economia/pt-br/assuntos/drei) do Ministério da Economia, que busca desenvolver ferramentas e avanços científicos no mapa de empresas, mecanismo usado para acompanhar a evolução das empresas nacionais. 
 
-Confirme sua presença e receba o link de acesso enviando um e-mail para: eventos@abj.org.br. 
+Em seguida, Julio nos contou sobre o panorama dos projetos da ABJ, dando maior ênfase no estudo com o Banco Interamericano de Desenvolvimento, sobre Contencioso Administrativo Tributário. Também informou sobre o FaxinaJud, proposta que trabalha em conjunto com a base de dados DataJud do CNJ. Finalizando o tópico, explicou sobre a evolução dos trabalhos dos Observatórios de Falências, Mercado de Capitais, Societário e Recuperações Judiciais de São Paulo, Rio de Janeiro e Rio Grande do Sul. 
+
+Encerrando o evento, Trecenti e Guedes Nunes comentaram sobre os avanços na área de ensino e pesquisa com o novo curso de Jurimetria na PUC-SP, através do Núcleo de Desenvolvimento de Tecnologia e Jurimetria e responderam questões levantadas pelo público. 
+
+Você pode conferir essa edição do café [acessando aqui](https://www.youtube.com/watch?v=MH8hcbRuwPA). 
+
 
 
 <hr>
