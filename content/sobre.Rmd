@@ -117,7 +117,6 @@ p.meucontainer {
 
 ```
 
-
 <div class="row" style="align:center;">
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, results="html"}
