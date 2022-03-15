@@ -1,33 +1,24 @@
 ---
-title: "Café Jurimétrico #19"
-date: "2021-12-17"
-publishdate: "2021-12-02"
+title: "Café Jurimétrico #20"
+date: "2022-03-25"
+publishdate: "2022-03-15"
 tipoevento: [""]
-banner: "img/eventos/cafe-19.png"
+banner: "img/eventos/cafe-20.png"
 author: ["Bárbara"]
-summary: " O Presidente da ABJ, Marcelo Guedes Nunes, e o Secretário Geral, Julio Trecenti, estarão presente na última edição do café jurimétrico de 2021. O evento será totalmente aberto ao público. "
+summary: " Primeira edição do café jurimétrico em 2022, conta com a participação de Gilson Piqueras abordando o tema: Jurimetria aplicada aos Tribunais de Contas. "
 
 draft: false
-publico: "Aberto ao público"
-horario: "10h às 12h"
+publico: "Pessoas associadas"
+horario: "10h às 11h"
 formato: "Online"
 link: 
 ---
 
-<img src="/img/eventos/cafe-19.png" width="80%">
+<img src="/img/eventos/cafe-20.png" width="80%">
 
 <hr>
 
-Na última edição do Café Jurimétrico em 2021, recebemos o Presidente da ABJ, Marcelo Guedes Nunes, e o Secretário-Geral da ABJ, Julio Trecenti, falando sobre os resultados das pesquisas realizadas no ano e as projeções para 2022. Visando aproximar quem ainda não faz parte da ABJ, o 19º evento foi aberto ao público, em live gravada no YouTube. 
-
-Trecenti iniciou a apresentação mencionando as parcerias que a associação firmou durante o ano, entre elas, tivemos: USP-EACH trabalhando em process mining, a Unichristus em projeto realizado em parceria com o TJCE, sobre a Judicialização da Saúde, e também o [DREI](https://www.gov.br/economia/pt-br/assuntos/drei) do Ministério da Economia, que busca desenvolver ferramentas e avanços científicos no mapa de empresas, mecanismo usado para acompanhar a evolução das empresas nacionais. 
-
-Em seguida, Julio nos contou sobre o panorama dos projetos da ABJ, dando maior ênfase no estudo com o Banco Interamericano de Desenvolvimento, sobre Contencioso Administrativo Tributário. Também informou sobre o FaxinaJud, proposta que trabalha em conjunto com a base de dados DataJud do CNJ. Finalizando o tópico, explicou sobre a evolução dos trabalhos dos Observatórios de Falências, Mercado de Capitais, Societário e Recuperações Judiciais de São Paulo, Rio de Janeiro e Rio Grande do Sul. 
-
-Encerrando o evento, Trecenti e Guedes Nunes comentaram sobre os avanços na área de ensino e pesquisa com o novo curso de Jurimetria na PUC-SP, através do Núcleo de Desenvolvimento de Tecnologia e Jurimetria e responderam questões levantadas pelo público. 
-
-Você pode conferir essa edição do café [acessando aqui](https://www.youtube.com/watch?v=MH8hcbRuwPA). 
-
+Na primeira edição do ano, receberemos em nosso 20º Café Jurimétrico, o Diretor da Escola de Contas do TCMSP, Gilson Piqueras Garcia. O bate-papo com Gilson será sobre Jurimetria aplicada aos Tribunais de Contas, em uma apresentação que também abordará o lançamento de seu livro. 
 
 
 <hr>
