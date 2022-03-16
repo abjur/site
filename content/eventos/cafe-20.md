@@ -18,7 +18,7 @@ link:
 
 <hr>
 
-Na primeira edição do ano, receberemos em nosso 20º Café Jurimétrico, o Diretor da Escola de Contas do TCMSP, Gilson Piqueras Garcia. O bate-papo com Gilson será sobre Jurimetria aplicada aos Tribunais de Contas, em uma apresentação que também abordará o lançamento de seu livro. 
+Na primeira edição do ano, receberemos em nosso 20º Café Jurimétrico, o Diretor da Escola de Contas do TCMSP, Gilson Piqueras Garcia. O bate-papo com Gilson será sobre Jurimetria aplicada aos Tribunais de Contas, em uma apresentação que também abordará o lançamento de seu livro.
 
 
 <hr>
