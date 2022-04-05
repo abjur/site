@@ -5,7 +5,7 @@ desc: "Estudo sobre as falências do estado de São Paulo."
 ordem: "202"
 categories: ["Observatório"]
 link: "https://abjur.github.io/obsFase3/relatorio/obs_fase3_abj.pdf"
-finalizacao: "Dezembro/2021"
+finalizacao: "Março/2022"
 base: "Processos de falência distribuídos nas Comarcas do Estado de São Paulo entre janeiro de 2010 e dezembro de 2020."
 equipe: "Marcelo Guedes Nunes (ABJ), Ivo Waisberg (PUC-SP), Marcelo Sacramone (PUC-SP) e Julio Trecenti (ABJ)"
 isbn: " "
