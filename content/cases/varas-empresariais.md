@@ -28,6 +28,8 @@ Nas análises realizadas, encontramos evidências de que um processo empresarial
 
 ## Resultados
 
+O estudo nos permitiu chegar a diversas conclusões. Os principais pontos são:
+
 - 30% dos processos empresariais distribuídos entre 2013 e 2016 foram subnotificados devido ao mau uso das Tabelas Processuais Unificadas do CNJ.
 - Processos de direito empresarial tomam o dobro do tempo dos magistrados até serem concluídos.
 - Processos de recuperação judicial tomam o triplo do tempo dos magistrados até serem concluídos.

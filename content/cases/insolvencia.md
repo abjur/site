@@ -28,6 +28,8 @@ O trabalho foi pioneiro no que tange a análise exaustiva sobre processos de rec
 
 ## Resultados
 
+O estudo nos permitiu chegar à diversas conclusões. Os principais pontos são:
+
 - Perícias aumentam a taxa de deferimentos mais do que emendas de petição inicial.
 - Identificam-se aumentos no tempo, mas há muita variabilidade.
 - Tempo até a última Assembleia Geral de Credores (AGC): média 507 dias e mediana 386 dias.

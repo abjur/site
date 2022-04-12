@@ -31,7 +31,7 @@ O projeto passou por três etapas: listagem de processos, coleta de dados e aná
 
 ## Resultados
 
-Com base nos dados, foi possível identificar que:
+O estudo nos permitiu chegar a diversas conclusões. Os principais pontos são:
 
 - O tema mais associado com multas é a auditoria, enquanto o tema mais associado com absolvições é a oferta pública.
 - A Proibição está comparativamente associada a maiores prazos de pena.

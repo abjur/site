@@ -25,7 +25,7 @@ O estudo partiu da metodologia do Doing Business para mensurar a qualidade do pa
 
 ## Resultados
 
-O estudo nos permitiu chegar à diversas conclusões. No entanto, evidenciamos:
+O estudo nos permitiu chegar a diversas conclusões. Os principais pontos são:
 
 - Com relação aos tempos, foi identificado que o tempo de citação (45+ dias) é similar ao descrito no Doing Business, enquanto que o tempo entre citação e sentença (258 dias) é significativamente menor e o de execução (255+ dias) é maior.
 - Considerando todos os tempos de forma conjunta, concluímos que existem evidências para afirmar que o tempo total em processos similares ao case é menor que os 731 dias colocados no relatório. No entanto, não é possível verificar essa hipótese com significância estatística, por conta da qualidade da estimativa do tempo de execução.

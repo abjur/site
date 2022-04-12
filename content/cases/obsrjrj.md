@@ -34,7 +34,7 @@ Algumas perguntas que nos nortearam na execução deste projeto, foram:
 
 ## Resultados
 
-O estudo nos permitiu chegar à diversas conclusões, como:
+O estudo nos permitiu chegar a diversas conclusões. Os principais pontos são:
 
 - Apesar da diferença na quantidade de processos, os resultados são similares aos observados em São Paulo.
 - A proporção de Recuperações Judiciais envolvendo Empresas de Pequeno Porte e Microempresas é muito menor que a proporção de empresas com naturezas jurídicas no cadastro da Receita Federal do Brasil.

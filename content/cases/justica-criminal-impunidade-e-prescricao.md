@@ -27,6 +27,8 @@ Este estudo busca construir um panorama geral sobre a persecução penal à corr
 
 ## Resultados
 
+O estudo nos permitiu chegar a diversas conclusões. Os principais pontos são:
+
 - 95% dos inquéritos instaurados em todos os estados brasileiros são solucionados.
 - Persecução relativamente padronizada nas justiças estaduais estudadas: aproximadamente 20% são arquivados e menos de 10% prescritos. Revelando uma baixa presença de impunidade.
 - A alta duração dos processos de corrupção acontece, ao que parece, independentemente de fatores intrínsecos aos crimes ou aos atores.

@@ -25,6 +25,8 @@ Com essas e outras questões em mente, nesta pesquisa analisamos 157.379 acórd�
 
 ## Resultados
 
+O estudo nos permitiu chegar a diversas conclusões. Os principais pontos são:
+
 - Os resultados confirmaram a intuição de que aproximadamente metade dos recursos são providos, mas eles também revelaram uma grande insegurança jurídica. Há uma alta variabilidade nas taxas de recursos negados, que vai de 16% na 12ª Câmara Criminal até 81% na 4ª Câmara Criminal.
 - A discrepância pode ser explicada parcialmente pelos tipos de crime. Crimes mais graves apresentam taxas de improvimento maiores. O crime com maior taxa de recursos negados é o de homicídio qualificado, com 66,9%, e o de menor são os crimes de trânsito, com 36,4%.
 - A segunda instância paulista revê aproximadamente 54% das sentenças em primeira instância.

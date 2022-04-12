@@ -32,6 +32,8 @@ Para isso, foram analisados mais de 180 mil decisões do CARF, obtidas através 
 
 ## Resultados
 
+O estudo nos permitiu chegar a diversas conclusões. Os principais pontos são:
+
 - Discussão Fisco / Contribuinte continua longe de ser pacificada no país.
 - Necessidade da União Federal qualificar melhor o pessoal que trabalha nas Agências da Receita Federal (ARFs), por conta da desproporão na quantidade de recursos dos contribuintes providos quando o processo tem origem em ARFs.
 - As empresas do setor de comércio e prestação de serviços são as que possuem a maior quantidade de recursos com decisões desfavoráveis aos contribuintes.

@@ -24,7 +24,7 @@ Com o intuito de subsidiar empiricamente o processo decisório de aplicação da
 
 ## Resultados
 
-Dentre alguns dos resultados obtidos neste estudo, salientamos como respostas principais de nossas perguntas norteadoras, os seguintes aspectos:
+O estudo nos permitiu chegar a diversas conclusões. Os principais pontos são:
 
 - Critérios objetivos pra distinção poderiam ser uma forma de reduzir a discricionariedade e definir fronteiras claras para a descriminalização ou qualquer outra reformulação da atual política de drogas.
 - A utilização de critérios objetivos, por outro lado, pode gerar dois outros tipos de distorções: criminalizar usuários e ser leniente com traficantes;

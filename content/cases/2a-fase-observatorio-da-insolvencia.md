@@ -34,7 +34,7 @@ Algumas perguntas que nos nortearam na execução deste projeto, foram:
 
 ## Resultados
 
-O estudo nos permitiu chegar à diversas conclusões, como:
+O estudo nos permitiu chegar a diversas conclusões. Os principais pontos são:
 
 - Empresas com maior número de pedidos de recuperação judicial tem capital de 10 a 50 milhões.
 - Insignificância na diferença entre o processamento em varas especializadas e varas comuns (diferença de apenas 0,3%).
