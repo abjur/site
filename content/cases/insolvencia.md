@@ -2,7 +2,7 @@
 title: "Observatório da insolvência: Primeira fase"
 img: "/img/cases/insolvencia.png"
 desc: "Análise de processos de recuperação judicial da Comarca de São Paulo."
-ordem: "204"
+ordem: "209"
 categories: ["Observatório"]
 link: "/pdf/ABJ_resultados_observatorio_1a_fase.pdf"
 finalizacao: "Outubro/2016"

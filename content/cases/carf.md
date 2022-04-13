@@ -2,7 +2,7 @@
 title: "CARF: Uma análise do sistema tributário"
 img: "/img/cases/carf.png"
 desc: "Análise estatística do funcionamento e do posicionamento do Conselho Administrativo de Recursos Fiscais."
-ordem: "212"
+ordem: "211"
 categories: ["estudo"]
 link: "/pdf/cni_carf_book.pdf"
 finalizacao: "Setembro/2014"

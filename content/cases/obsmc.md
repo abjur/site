@@ -2,7 +2,7 @@
 title: "Observatório do Mercado de Capitais"
 img: "/img/cases/cvm.png"
 desc: "Analisa processos relativos à atividade disciplinar da CVM."
-ordem: "200"
+ordem: "201"
 categories: ["Observatório"]
 link: "https://abjur.github.io/obsMC/relatorio/obs_mc_abj.pdf"
 finalizacao: "Junho/2020"

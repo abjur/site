@@ -2,7 +2,7 @@
 title: "Tempo dos processos relacionados à adoção"
 img: "/img/cases/adocao.png"
 desc: "Análise do tempo dos processos relacionados à adoção no Brasil, especialmente de processos relativos a desconstituição do poder familiar."
-ordem: "211"
+ordem: "212"
 categories: ["estudo", "CNJ"]
 link: "https://www.cnj.jus.br/wp-content/uploads/2011/02/8aab4515becd037933960ba8e91e1efc.pdf"
 finalizacao: "Agosto/2014"

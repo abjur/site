@@ -2,7 +2,7 @@
 title: "Formas alternativas de gestão processual"
 img: "/img/cases/espunif.png"
 desc: "Estuda o impacto da especialização de varas e da unificação de serventias na celeridade do judiciário e qualidade das decisões."
-ordem: "206"
+ordem: "204"
 categories: ["CNJ", "estudo"]
 link: "https://www.cnj.jus.br/wp-content/uploads/2020/08/Justica-Pesquisa_Relatorio_ABJ_2020-08-21_1.pdf"
 finalizacao: "Maio/2018"

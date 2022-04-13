@@ -2,7 +2,7 @@
 title: "Estudo jurimétrico sobre execução de contratos"
 img: "/img/cases/doingbusiness.png"
 desc: "Mensura a posição do país no tema 'execução de contratos' do Doing Business."
-ordem: "201"
+ordem: "200"
 categories: ["estudo"]
 link: "/pdf/abj_pnud_db.pdf"
 finalizacao: "Junho/2020"

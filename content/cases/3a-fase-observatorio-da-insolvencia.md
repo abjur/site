@@ -2,7 +2,7 @@
 title: "Observatório da insolvência: terceira fase"
 img: "img/cases/obsfase3.png"
 desc: "Estudo sobre as falências do estado de São Paulo."
-ordem: "199"
+ordem: "198"
 categories: ["Observatório"]
 link: "https://abjur.github.io/obsFase3/relatorio/obs_fase3_abj.pdf"
 finalizacao: "Março/2022"

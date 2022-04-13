@@ -2,7 +2,7 @@
 title: "Maiores litigantes na justiça consumerista"
 img: "/img/cases/cnjml.png"
 desc: "Mapeia os maiores litigantes em ações consumeristas na Justiça Estadual, estudando as características dos litígios."
-ordem: "209"
+ordem: "206"
 categories: ["estudo", "CNJ"]
 link: "https://www.cnj.jus.br/wp-content/uploads/2011/02/28383cca082cb68ac79144e7b40f5568.pdf"
 finalizacao: "Setembro/2017"

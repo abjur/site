@@ -2,7 +2,7 @@
 title: "Critérios objetivos para porte e tráfico de drogas"
 img: "/img/cases/drogas.png"
 desc: "Subsidia empiricamente o processo decisório para aplicação da Nova Lei de Drogas e possibilita uma tomada de decisão consciente para novas políticas públicas."
-ordem: "203"
+ordem: "205"
 categories: ["estudo", "pró-bono"]
 link: "/pdf/20190402_abj_criterios_objetivos.pdf"
 finalizacao: "Março/2018"

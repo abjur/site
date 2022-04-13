@@ -2,7 +2,7 @@
 title: "Justiça criminal, impunidade e prescrição"
 img: "/img/cases/nupps.png"
 desc: "Panorama geral sobre a persecução penal à corrupção no Brasil, desenhando e medindo seus fluxos e colhendo as percepções dos atores."
-ordem: "205"
+ordem: "202"
 categories: ["CNJ", "estudo"]
 link: "https://www.cnj.jus.br/wp-content/uploads/2018/01/6ab66f9a7c1f5c99878f04a46f8279e4.pdf"
 finalizacao: "Janeiro/2019"
