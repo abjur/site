@@ -1,7 +1,7 @@
 ---
 title: "Café Jurimétrico #22"
 date: "2022-04-29"
-publishdate: "2022-03-15"
+publishdate: "2022-05-27"
 tipoevento: [""]
 banner: "img/eventos/cafe-22.png"
 author: ["Bárbara"]
