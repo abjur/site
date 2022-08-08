@@ -6,6 +6,7 @@ toc: true
 always_allow_html: true
 ---
 
+
 A Associação Brasileira de Jurimetria (ABJ) é uma instituição sem fins
 lucrativos, fundada em 2011, que tem como objetivo principal incentivar o uso da
 Jurimetria, estudo empírico do Direito, como ferramenta de tomada de decisão e
@@ -116,6 +117,7 @@ p.meucontainer {
 }
 
 ```
+
 
 <div class="row" style="align:center;">
 
@@ -293,3 +295,4 @@ inserida.
 
 Para acessar o documento completo,
 [clique aqui](/pdf/codigo_de_conduta_abj_2020.pdf).
+

@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- =======================================================
+    Theme Name: BizPage
+    Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+
+  {{ partial "head.html" . }}
+
+</head>
+
+<body data-spy="scroll" data-target="#toc">
+
+  <!--==========================
+    Header
+  ============================-->
+  <header>
+    {{ partial "header.html" . }}
+  </header><!-- #header -->
+
+  <!--==========================
+      Nossos Cursos
+    ============================-->
+
+    <section id="dados">
+
+      <div class="container" id="article-container">
+
+      <div class="row" >
+      <div class="col-md-3"></div>
+      <div class="col-md-5" id="material-container">
+
+        <header class="section-header">
+          <h1>Dados</h1>
+        </header>
+
+        {{.Content}}
+
+      </div>
+
+      <div class="col-md-1"></div>
+      <div class="col-md-3">
+          <br>
+          <div class="sticky-top">
+            <nav id="toc" data-toggle="toc"></nav>
+          </div>
+        </div>
+
+      </div>
+
+    </div>
+
+    </section><!-- #about -->
+
+    {{ partial "newsletter.html" . }}
+
+    {{partial "footer.html" .}}
+
+    {{partial "scripts.html" .}}
+
+</body>

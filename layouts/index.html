@@ -28,20 +28,68 @@
 
   <section id="intro">
     <div class="intro-container">
-      <div id="introCarousel" class="carousel slide carousel-fade" data-ride="carousel">
 
-        <div class="carousel-inner" role="listbox">
+      <div id="carouselExampleIndicators" class="carousel slide" data-ride="carousel">
 
-          <div class="carousel-item active col-md-12">
+        <ol class="carousel-indicators">
+          <li data-target="#carouselExampleIndicators" data-slide-to="0" class="active"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="1"></li>
+          <li data-target="#carouselExampleIndicators" data-slide-to="2"></li>
+        </ol>
 
-            <div class="carousel-container">
-              <div class="container carousel-content">
-                <img src="/assets/logo-home.png">
-              </div>
+        <div class="carousel-inner">
+
+          <div class="carousel-item active">
+            <img class="d-block w-100" src="assets/pesquisa-min.jpg" alt="Photo by Marvin Meyer on Unsplash">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Pesquisa</h1>
+              <div align='center'><p>A ABJ faz pequisas usando métodos quantitativos no direito</p></div>
+              <a href="/cases">
+                <button class="cta-submit2" >Pesquisas</button>
+              </a>
+              <a href="https://lab.abj.org.br" target="_blank">
+                <button class="cta-submit2" >Blog</button>
+              </a>
+              <p></p>
             </div>
           </div>
 
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/ensino-min.jpg" alt="Photo by Desola Lanre-Ologun on Unsplash">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Ensino</h1>
+              <div align='center'><p>Nossa missão disseminar o conhecimento sobre jurimetria</p></div>
+              <a href="/cursos">
+                <button class="cta-submit2" >Cursos</button>
+              </a>
+              <p></p>
+            </div>
+          </div>
+
+          <div class="carousel-item">
+            <img class="d-block w-100" src="assets/dados-min.jpg" alt="Photo by ThisisEngineering RAEng on Unsplash">
+            <div class="carousel-caption d-none d-md-block">
+              <h1>Dados</h1>
+              <div align='center'><p>Para atingir nossa missão, libertamos dados do judiciário</p></div>
+              <a href="/dados">
+                <button class="cta-submit2" >Dados</button>
+              </a>
+              <p></p>
+            </div>
+          </div>
         </div>
+
+        <a class="carousel-control-prev" href="#carouselExampleIndicators" role="button" data-slide="prev">
+          <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+          <span class="sr-only">Anterior</span>
+        </a>
+        <a class="carousel-control-next" href="#carouselExampleIndicators" role="button" data-slide="next">
+          <span class="carousel-control-next-icon" aria-hidden="true"></span>
+          <span class="sr-only">Próxima</span>
+        </a>
+
+      </div>
+
 
       </div>
     </div>
@@ -49,13 +97,7 @@
 
   <main id="main">
 
-    {{partial "conteudo.html" . }}
-
-    {{partial "cases.html" . }}
-
-    {{partial "eventos.html" . }}
-
-    {{partial "associe.html" . }}
+    {{partial "apoie.html" . }}
 
   </main>
 
