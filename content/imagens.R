@@ -40,3 +40,9 @@ magick::image_read("static/img/cursos/linkedin-sales-solutions-46bom4lObsA-unspl
   magick::image_resize("1024x") |>
   magick::image_modulate(brightness = 60) |>
   magick::image_write("static/img/cursos/curso-4.jpg")
+
+
+magick::image_read("/Users/julio/Downloads/sincerely-media-_-hjiem5TqI-unsplash.jpg") |>
+  magick::image_resize("1024x") |>
+  magick::image_modulate(brightness = 60) |>
+  magick::image_write("static/img/cursos/curso-5.jpg")
