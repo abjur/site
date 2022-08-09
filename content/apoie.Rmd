@@ -84,7 +84,7 @@ Veja abaixo opções de modalidades de apoio e inscreva-se. Se tiver dúvidas <a
 <a href="https://app.glueup.com/membership/5706/apply/" target="_blank"><div>
 <i class="fas fa-graduation-cap"></i>
 <h4>Estudante</h3>
-<h4>R$ 30 / mês no plano anual</h3>
+<h4>R$ 35 / mês no plano anual</h3>
 <p>Indicado para estudantes e professores</p>
 </div></a></div>
 
@@ -92,7 +92,7 @@ Veja abaixo opções de modalidades de apoio e inscreva-se. Se tiver dúvidas <a
 <a href="https://app.glueup.com/membership/5705/apply/" target="_blank"><div>
 <i class="fas fa-user-tie"></i>
 <h4>Profissional</h4>
-<h4>R$ 80 / mês ou mais no plano anual</h4>
+<h4>R$ 70 / mês ou mais no plano anual</h4>
 <p>Profissionais interessados na jurimetria</p>
 </div></a></div>
 
@@ -107,7 +107,7 @@ Veja abaixo opções de modalidades de apoio e inscreva-se. Se tiver dúvidas <a
 <a href="https://app.glueup.com/membership/5878/apply/" target="_blank"><div>
 <i class="fas fa-home"></i>
 <h4>Legaltech / Lawtech</h4>
-<h4>R$ 100 / mês ou mais no plano anual</h4>
+<h4>R$ 249 / mês ou mais no plano anual</h4>
 <p>Destinado a startups que desejam empreender no ramo da jurimetria</p>
 </div></a>
 </div>
@@ -115,7 +115,7 @@ Veja abaixo opções de modalidades de apoio e inscreva-se. Se tiver dúvidas <a
 <a href="https://app.glueup.com/membership/5708/apply/" target="_blank"><div>
 <i class="fas fa-building"></i>
 <h4>Empresa ou escritório</h4>
-<h4>R$ 300 / mês ou mais no plano anual</h4>
+<h4>R$ 499 / mês ou mais no plano anual</h4>
 <p>Destinado a empresas públicas ou privadas e escritórios de advocacia interessados em apoiar a ABJ</p>
 </div></a>
 </div>
