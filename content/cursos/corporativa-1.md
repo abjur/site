@@ -5,6 +5,7 @@ desc: "Curso voltado para profissionais da advocacia com interesse em aplicar an
 ordem: "3"
 data: "Em construção"
 equipe: "-"
+ativo: false
 material: "https://abj.org.br"
 ---
 

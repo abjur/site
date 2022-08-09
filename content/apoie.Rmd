@@ -130,7 +130,7 @@ Abaixo você pode conferir as empresas, escritórios e lawtechs que apoiam ABJ.
 
 <div class="row" style="align:center;">
 
-```{r, echo=FALSE, message=FALSE, warning=FALSE, results="html", eval=FALSE}
+```{r, echo=FALSE, message=FALSE, warning=FALSE, results="html", eval=TRUE}
 library(magrittr)
 
 obsutils::autenticar_gsheets()
@@ -176,42 +176,4 @@ da_pj %>%
 
 
 </div>
-
-<!-- FAQ -->
-
-<header class="section-header">
-<h1 id="faq">Dúvidas Frequentes</h1>
-</header>
-
-Abaixo você encontra as respostas para dúvidas frequentes que recebemos aqui na ABJ. Caso tenha alguma dúvida que não esteja por aqui, [entre em contato](/contato) com nossa equipe.
-
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE}
-id <- googledrive::as_id("1K9i4R2jZoYu03BMcrsGx0tHPBmVQbF4Lj9YwgIs1bh8")
-da <- googlesheets4::read_sheet(id)
-
-criar_tag <- function(.x, .y) {
-  shiny::tagList(
-    shiny::p(shiny::tags$button(class = "accordion", .x)),
-    shiny::div(
-      class = "panel", 
-      shiny::p(shiny::HTML(knitr::knit2html(text = .y, fragment.only = TRUE)))
-    )
-  )
-}
-a <- with(da, purrr::map2(pergunta, resposta, criar_tag))
-```
-
-<h2>Pessoas associadas</h2>
-
-
-```{r, results='html', echo=FALSE}
-shiny::tagList(a[which(da$tema == "Pessoas associadas")])
-```
-
-<h2>Pessoas não associadas</h2>
-
-```{r, results='html', echo=FALSE}
-shiny::tagList(a[which(da$tema == "Pessoas não associadas")])
-```
 

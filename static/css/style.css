@@ -2121,3 +2121,17 @@ body.mobile-nav-active #mobile-nav-toggle {
 #cursos-single .column-dir {
   flex: 20%;
 }
+
+.curso-centered {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  font-size: 3em;
+  color: white;
+}
+
+.carousel-item img {
+  min-height: 100%;
+  object-fit: cover;
+}

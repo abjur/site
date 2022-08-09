@@ -5,6 +5,7 @@ desc: "Curso introdutório para pessoas interessadas em desenvolver pesquisas ju
 ordem: "1"
 data: "Novembro/2022, x e y às zz"
 equipe: "Ricardo Feliz e Julio Trecenti"
+ativo: true
 material: "https://github.com/abjur/adocao"
 ---
 

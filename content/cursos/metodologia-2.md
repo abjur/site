@@ -5,6 +5,7 @@ desc: "Curso avançado para pessoas interessadas em desenvolver pesquisas jurim�
 ordem: "2"
 data: "Em construção"
 equipe: "-"
+ativo: false
 material: "https://abj.org.br"
 ---
 

@@ -49,19 +49,21 @@
     <div class="row about-cols">
   {{ end }}
 
-  <a href="{{.Permalink}}">
+  <a href='{{ if .Params.ativo }}{{ .Permalink }}{{ end }}'>
   <div class="col-md-6 wow fadeInUp">
     <div class="about-col">
       <div class="img">
         <img src="{{ .Site.BaseURL }}{{.Params.img}}" alt="" class="img-fluid">
+        <div class="curso-centered">{{ if .Params.ativo }}{{ "" }}{{ else }}{{ "(em breve)" }}{{ end }}</div>
       </div>
-      <h2 class="title"><a href="{{.Permalink}}">{{.Title}}</a></h2>
+      <h2 class="title"><a href='{{ if .Params.ativo }}{{ .Permalink }}{{ end }}'>{{.Title}}</a></h2>
       <p>
         {{ if isset .Params "desc" }}{{ .Params.desc }}{{ else }}{{ .Summary }}{{ end }}
       </p>
     </div>
   </div>
 </a>
+
 
   {{ if (modBool (add $i 1) 2) }}
   </div>

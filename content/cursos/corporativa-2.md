@@ -5,6 +5,7 @@ desc: "Curso voltado para gestores do direito com interesse em aplicar análise 
 ordem: "4"
 data: "Em construção"
 equipe: "-"
+ativo: false
 material: "https://abj.org.br"
 ---
 
