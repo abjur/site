@@ -22,9 +22,11 @@
     {{ partial "header.html" . }}
   </header><!-- #header -->
 
-    <div class='col-sm-8 offset-2 bg-grey'>
-    {{.Content}}
-    <div>
+    <div class="row">
+    <div class="col-lg-2 col-md-2"></div>
+    <div class='col-lg-8 col-md-8' align='center'>{{.Content}}</div>
+    <div class="col-lg-2 col-md-2"></div>
+    </div>
 
     {{partial "contato.html" .}}
 
