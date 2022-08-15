@@ -6,48 +6,20 @@ toc: true
 always_allow_html: true
 ---
 
-A Associação Brasileira de Jurimetria (ABJ) é uma instituição sem fins
-lucrativos, fundada em 2011, que tem como objetivo principal incentivar o uso da
-Jurimetria, estudo empírico do Direito, como ferramenta de tomada de decisão e
-melhora da prestação Jurisdicional Brasileira.
+A Associação Brasileira de Jurimetria (ABJ) é uma instituição sem fins lucrativos, fundada em 2011, que tem como objetivo principal incentivar o uso da Jurimetria, estudo empírico do Direito, como ferramenta de tomada de decisão e melhora da prestação Jurisdicional Brasileira.
 
-É formada por pesquisadores das áreas do direito, da estatística e atualmente é
-a única organização brasileira que tem como objetivo a realização de pesquisas
-empíricas voltadas para a compreensão e gestão estratégica dos institutos de
-direito, participando de ações voltadas para a administração de tribunais,
-elaboração de leis, análise de carteiras e populações de processos e pesquisas
-acadêmicas em geral.
+É formada por pesquisadores das áreas do direito, da estatística e atualmente é a única organização brasileira que tem como objetivo a realização de pesquisas empíricas voltadas para a compreensão e gestão estratégica dos institutos de direito, participando de ações voltadas para a administração de tribunais, elaboração de leis, análise de carteiras e populações de processos e pesquisas acadêmicas em geral.
 
-A ABJ tem sua origem em um grupo de pesquisadores do Instituto de Matemática e
-Estatística da Universidade de São Paulo (IME-USP) e da Pontifícia Universidade
-Católica de São Paulo (PUC-SP) que, no início de 2009, se uniram com o intuito
-de elaborar pesquisas empíricas a respeito de recursos julgados pelo Tribunal de
-Justiça de São Paulo.
+A ABJ tem sua origem em um grupo de pesquisadores do Instituto de Matemática e Estatística da Universidade de São Paulo (IME-USP) e da Pontifícia Universidade Católica de São Paulo (PUC-SP) que, no início de 2009, se uniram com o intuito de elaborar pesquisas empíricas a respeito de recursos julgados pelo Tribunal de Justiça de São Paulo.
 
 
-A associação fomenta, produz e lidera pesquisas empíricas, além de promover
-eventos, cursos, conferências e treinamentos. Com matriz em São Paulo, sua
-atuação em pesquisas pelo laboratório de jurimetria estende-se a nível nacional.
+A associação fomenta, produz e lidera pesquisas empíricas, além de promover eventos, cursos, conferências e treinamentos. Com matriz em São Paulo, sua atuação em pesquisas pelo laboratório de jurimetria estende-se a nível nacional.
 
-Os recursos da ABJ advém de doações e parcerias, sendo voltados para a
-divulgação da jurimetria e para a colaboração com entidades públicas e privadas,
-visando o desenvolvimento de ações estratégicas para o aperfeiçoamento da
-administração da justiça. Dessa forma, a ABJ já estabeleceu parcerias e apoios
-com diversas entidades governamentais e acadêmicas, como também junto ao Senado
-Federal, Ministério da Justiça e ao Congresso Nacional em importantes reformas
-legislativas em curso, como a dos anteprojetos de Código de Processo Civil e de
-Código Comercial.
+Os recursos da ABJ advém de doações e parcerias, sendo voltados para a divulgação da jurimetria e para a colaboração com entidades públicas e privadas, visando o desenvolvimento de ações estratégicas para o aperfeiçoamento da administração da justiça. Dessa forma, a ABJ já estabeleceu parcerias e apoios com diversas entidades governamentais e acadêmicas, como também junto ao Senado Federal, Ministério da Justiça e ao Congresso Nacional em importantes reformas legislativas em curso, como a dos anteprojetos de Código de Processo Civil e de Código Comercial.
 
-Em resumo, a Associação Brasileira de Jurimetria busca incentivar, desenvolver e
-viabilizar como ciência a área do Direito que estuda os fenômenos jurídicos
-usando métodos estatísticos. Nossos estudos e pesquisas visam a difusão e o
-desenvolvimento do campo no Brasil, agregando pesquisadores e fornecendo as
-ferramenteas necessárias para isso, bem como auxiliar a formulação de boas
-políticas públicas e colaborar diretamente com a melhoria do judiciário
-nacional.
+Em resumo, a Associação Brasileira de Jurimetria busca incentivar, desenvolver e viabilizar como ciência a área do Direito que estuda os fenômenos jurídicos usando métodos estatísticos. Nossos estudos e pesquisas visam a difusão e o desenvolvimento do campo no Brasil, agregando pesquisadores e fornecendo as ferramenteas necessárias para isso, bem como auxiliar a formulação de boas políticas públicas e colaborar diretamente com a melhoria do judiciário nacional.
 
-O Estatuto Social da ABJ pode ser encontrado
-[aqui](https://abjur.github.io/estatutoABJ/).
+O Estatuto Social da ABJ pode ser encontrado [aqui](https://abjur.github.io/estatutoABJ/).
 
 <header class="section-header">
 <h1>Propósito e valores</h1>

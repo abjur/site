@@ -31,7 +31,7 @@ O curso não tem como objetivo ensinar programação, estatística avançada nem
 
 ## Metodologia e formato
 
-O curso envolve 15 aulas teóricas e atividades práticas para fixar os conteúdos.
+O curso envolve 14 aulas (2 aulas por semana), divididas entre aulas teóricas e atividades práticas para fixar os conteúdos.
 
 As bases de dados utilizadas são todas públicas ou são amostras de bases de dados utilizadas em pesquisas da ABJ. O material inclui um repositório aberto com todas as bases de dados utilizadas para construção do livro e dos slides.
 
@@ -61,7 +61,12 @@ Aulas síncronas (em tempo real), com uma pessoa dando aulas e outra com monitor
     - Amostragem
     - Classificação manual
 
-## Resultados
+Acesse a ementa completa <a href="https://docs.google.com/document/d/1YAEeoh_5rSolRZoprSREztGMelsAsSnSlOp5erz_zG0/edit?usp=sharing" target="_blank">aqui -- em construção!</a>
+
+## O curso irá te capacitar para:
+
+- Aprender o que é e do que se trata a jurimetria
+- Aprender a desenhar um projeto de pesquisa jurimetrica
 
 Quem fizer o curso sairá com uma noção aprofundada do que é a Jurimetria e como planejar um projeto de pesquisa jurimétrica no mundo real. Os conceitos trabalhados, no entanto, não são suficientes para realizar as pesquisas completas, especialmente na parte de estruturação de dados e análise, sendo necessário trabalhar em equipe para obter os resultados finais.
 
