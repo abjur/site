@@ -3,16 +3,69 @@ title: "Introdução à pesquisa jurimétrica"
 img: "img/cursos/curso-1.jpg"
 desc: "Curso introdutório para pessoas interessadas em desenvolver pesquisas jurimétricas."
 ordem: "1"
-data: "Novembro/2022, x e y às zz"
-equipe: "Ricardo Feliz e Julio Trecenti"
 ativo: true
-material: "https://github.com/abjur/adocao"
+material: "https://github.com/abjur/curso_intro_jurimetria"
 ---
+
+## Feedbacks
+
+Nosso interesse é que nossos cursos de Jurimetria sejam utilizados não só pela própria ABJ, mas por todas as instituições de ensino e profissionais que fornecem cursos de Jurimetria. Somente com seu feedback conseguiremos garantir o sucesso do curso.
+
+Preencha esse formulário para nos ajudar a melhorar o curso!
+
+<div align="center">
+<h3><a href="https://forms.gle/n3rbmBDN6kq8k9XZ6" target="_blank">Lista de espera / Feedback</a></h3>
+</div>
+
 
 ## Objetivos
 
+O objetivo do curso de Introdução à pesquisa Jurimétrica é apresentar e discutir a aplicação de métodos quantitativos no Direito. A ideia do curso é tratar dos limites de aplicação e elementos básicos de pesquisa quantitativa, com aplicações em temas do Direito.
+
+O curso não tem como objetivo ensinar programação, estatística avançada nem inteligência artificial.
+
 ## Público alvo
 
-## Metodologia
+- Estudantes de graduação e pós graduação com interesse em fazer pesquisa quantitativa no direito.
+- Profissionais com interesse em fazer pesquisa, mas que não têm bagagem quantitativa na formação.
+
+## Metodologia e formato
+
+O curso envolve 15 aulas teóricas e atividades práticas para fixar os conteúdos.
+
+As bases de dados utilizadas são todas públicas ou são amostras de bases de dados utilizadas em pesquisas da ABJ. O material inclui um repositório aberto com todas as bases de dados utilizadas para construção do livro e dos slides.
+
+Os materiais utilizados durante o curso (livro, slides e dados) são todos abertos. A única parte do curso que não é aberta são os resultados dos exercícios e dinâmicas realizadas em aula.
+
+### Formato
+
+Aulas síncronas (em tempo real), com uma pessoa dando aulas e outra com monitoria. As aulas envolvem bastante leitura e trabalhos extra-aula. Uma parte das aulas será expositiva, mas teremos diversos laboratórios para discussão dos textos e resolução de exercícios.
+
+### Conteúdo
+
+- Introdução à jurimetria
+- Metodologia de pesquisa
+    - Definição de escopo
+    - Operacionalização de conceitos
+    - Tipos de perguntas
+    - Ciclo da ciência de dados
+    - Processo de geração de dados
+    - Viés de seleção
+    - Teorema de Priest & Klein
+- Análise de dados
+    - Tipos de variáveis
+    - Medidas de posição
+    - Medidas de variabilidade
+    - Visualizações
+- Coleta de dados
+    - Amostragem
+    - Classificação manual
 
 ## Resultados
+
+Quem fizer o curso sairá com uma noção aprofundada do que é a Jurimetria e como planejar um projeto de pesquisa jurimétrica no mundo real. Os conceitos trabalhados, no entanto, não são suficientes para realizar as pesquisas completas, especialmente na parte de estruturação de dados e análise, sendo necessário trabalhar em equipe para obter os resultados finais.
+
+## Pré-requisitos
+
+Este curso não possui pré-requisitos. O curso é um primeiro passo no universo quantitativo do Direito.
+
