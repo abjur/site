@@ -1,0 +1,117 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+
+  <!-- =======================================================
+    Theme Name: BizPage
+    Theme URL: https://bootstrapmade.com/bizpage-bootstrap-business-template/
+    Author: BootstrapMade.com
+    License: https://bootstrapmade.com/license/
+  ======================================================= -->
+
+  {{ partial "head.html" . }}
+
+</head>
+
+
+<body>
+
+  <!--==========================
+    Header
+  ============================-->
+  <header>
+    {{ partial "header.html" . }}
+  </header><!-- #header -->
+
+
+  <!--==========================
+      Nossos Cases
+    ============================-->
+
+    <section id="estudos">
+
+      <div class="container" style="background: none;">
+
+        <!--==========================
+  Team Section
+============================-->
+<section id="team2">
+  <div class="container">
+
+    <div class="section-header wow fadeInUp">
+      <h3>Cursos</h3>
+      <p>Cursos que estamos ministrando ou planejando na ABJ</p>
+    </div>
+
+
+  {{ range $i, $member := sort (where $.Site.RegularPages "Section" "cursos") "Params.ordem" }}
+
+  {{ if modBool $i 2 }}
+    <div class="row about-cols">
+  {{ end }}
+
+  <a href='{{ if .Params.ativo }}{{ .Permalink }}{{ else }}{{ "https://forms.gle/h1u3hrw1wguGU5JE6" }}{{ end }}' target='{{ if not .Params.ativo }}{{ "_blank" }}{{ end }}'>
+  <div class="col-md-6 wow fadeInUp">
+    <div class="about-col">
+      <div class="img">
+        <img src="{{ .Site.BaseURL }}{{.Params.img}}" alt="" class="img-fluid">
+        <div class="curso-centered">{{ if .Params.ativo }}{{ "" }}{{ else }}{{ "(em breve)" }}{{ end }}</div>
+      </div>
+      <h2 class="title"><a href='{{ if .Params.ativo }}{{ .Permalink }}{{ else }} {{ "https://forms.gle/h1u3hrw1wguGU5JE6" }} {{ end }}' target='{{ if not .Params.ativo }}{{ "_blank" }}{{ end }}'>{{.Title}}</a></h2>
+      <p>
+        {{ if isset .Params "desc" }}{{ .Params.desc }}{{ else }}{{ .Summary }}{{ end }}
+      </p>
+    </div>
+  </div>
+</a>
+
+
+  {{ if (modBool (add $i 1) 2) }}
+  </div>
+  {{ end }}
+
+{{ end }}
+
+  </div>
+</section><!-- #team -->
+
+<section id="team3">
+  <div class="container">
+
+    <div class="section-header wow fadeInUp">
+      <h3>Livros</h3>
+      <p>Livros sendo construídos pela ABJ</p>
+    </div>
+
+
+      <div class="row">
+      <div class="col-md-3 col-lg-3"></div>
+      <div class="col-md-6 col-lg-6 wow fadeInUp">
+        <a href="https://abjur.github.io/livro" target="_blank">
+        <div class="about-col">
+          <div class="img">
+            <img src="{{ .Site.BaseURL }}img/cursos/curso-5.jpg" alt="" class="img-fluid">
+          </div>
+          <h2 class="title"><a href="https://abjur.github.io/livro" target="_blank">Metodologia de pesquisa jurimétrica</a></h2>
+          <p>
+            Livro de metodologia jurimétrica (em construção)
+          </p>
+        </div>
+        </a>
+      </div>
+      <div class="col-md-3 col-lg-3"></div>
+      </div>
+
+
+
+</section><!-- #team -->
+
+
+      </div>
+    </section><!-- #about -->
+
+    {{ partial "footer.html" . }}
+
+    {{ partial "scripts.html" . }}
+
+</body>

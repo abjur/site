@@ -5,8 +5,7 @@
   <div class="container">
 
     <div class="section-header wow fadeInUp">
-      <h3>Bem-vindo!</h3>
-      <p>Aqui você encontra informações iniciais que você precisa saber para trabalhar com jurimetria.</p>
+      <h2>Libertando os dados do Judiciário</h2>
     </div>
 
 {{ range $i, $member := sort (where $.Site.RegularPages "Section" "conteudo") "Params.ordem" }}
@@ -22,9 +21,9 @@
         <img src="{{ .Site.BaseURL }}{{.Params.img}}" alt="" class="img-fluid">
       </div>
       <h2 class="title"><a href="{{.Permalink}}">{{.Title}}</a></h2>
-      <p>
+      <div align='center'><p>
         {{ if isset .Params "summary" }}{{ .Params.summary }}{{ else }}{{ .Summary }}{{ end }}
-      </p>
+      </p></div>
     </div>
   </div>
 </a>
