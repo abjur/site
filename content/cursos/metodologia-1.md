@@ -4,7 +4,7 @@ img: "img/cursos/curso-1.jpg"
 desc: "Curso introdutório para pessoas interessadas em desenvolver pesquisas jurimétricas."
 ordem: "1"
 ativo: true
-material: "https://github.com/abjur/curso_intro_jurimetria"
+material: "https://abjur.github.io/livro"
 ---
 
 ## Feedbacks
