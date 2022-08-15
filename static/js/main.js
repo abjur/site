@@ -3,9 +3,9 @@ jQuery(document).ready(function( $ ) {
   // Back to top button
   $(window).scroll(function() {
     if ($(this).scrollTop() > 100) {
-      $('.back-to-top').fadeIn('slow');
+      $('.back-to-top').fadeIn('fast');
     } else {
-      $('.back-to-top').fadeOut('slow');
+      $('.back-to-top').fadeOut('fast');
     }
   });
   $('.back-to-top').click(function(){
@@ -21,7 +21,7 @@ jQuery(document).ready(function( $ ) {
     animation: {
       opacity: 'show'
     },
-    speed: 400
+    speed: 800
   });
 
   // Mobile Navigation

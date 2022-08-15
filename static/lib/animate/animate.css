@@ -18,7 +18,7 @@
 }
 
 .animated.hinge {
-  animation-duration: 2s;
+  animation-duration: 0.3s;
 }
 
 .animated.flipOutX,

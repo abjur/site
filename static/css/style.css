@@ -163,7 +163,7 @@ h1, h2, h3, h4, h5, h6 {
 #intro .carousel-fade .carousel-inner .carousel-item-next.carousel-item-left,
 #intro .carousel-fade .carousel-inner .carousel-item-prev.carousel-item-right {
   opacity: 1;
-  transition: 0.5s;
+  transition: 0.2s;
 }
 
 #intro .carousel-fade .carousel-inner .carousel-item-next,
@@ -195,7 +195,7 @@ h1, h2, h3, h4, h5, h6 {
   display: inline-block;
   padding: 8px 30px;
   border-radius: 50px;
-  transition: 0.5s;
+  transition: 0.2s;
   color: #fff;
   background: #414487;
 }
@@ -1185,7 +1185,7 @@ body.mobile-nav-active #mobile-nav-toggle {
   display: inline-block;
   padding: 8px 28px;
   border-radius: 25px;
-  transition: 0.5s;
+  transition: 0.2s;
   margin-top: 10px;
   border: 2px solid #ddd;
   color: #ddd;
