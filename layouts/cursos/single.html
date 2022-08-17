@@ -38,6 +38,21 @@
           <strong>Descrição</strong>: {{.Params.desc}}<hr>
           <strong>Material</strong>: <a href="{{.Params.material}}" target="_blank"><button class="cta-submit">Acessar</button></a><hr>
 
+          {{ if isset .Params "espera"}}
+          <strong>Lista de espera</strong>: <a href="{{.Params.espera}}" target="_blank"><button class="cta-submit">Link</button></a><hr>
+          {{ end }}
+
+          <strong>Valores:</strong><br>
+          {{ if isset .Params "valor1"}}
+          <strong>Profissionais</strong>: {{.Params.valor1}}<br>
+          {{ end }}
+          {{ if isset .Params "valor2"}}
+          <strong>Estudantes</strong>: {{.Params.valor2}}<br>
+          {{ end }}
+          {{ if isset .Params "valor2"}}
+          <strong>Associados</strong>: {{.Params.valor3}}<hr>
+          {{ end }}
+
         </div>
 
       </div>

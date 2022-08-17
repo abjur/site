@@ -5,18 +5,26 @@ desc: "Curso introdutório para pessoas interessadas em desenvolver pesquisas ju
 ordem: "1"
 ativo: true
 material: "https://abjur.github.io/livro"
+espera: https://forms.gle/n3rbmBDN6kq8k9XZ6
+valor1: R$ 1.200,00
+valor2: R$ 900,00
+valor3: R$ 600,00
 ---
 
-## Feedbacks
+## Primeira turma: em breve!
+
+
+Estamos preparando tudo com muita dedicação para que sua experiência com o primeiro curso ministrado integralmente pela ABJ seja extremamente proveitosa!
+
+Caso tenha interesse em fazer parte da Primeira turma do Curso de Introdução à Pesquisa Jurimétrica, preencha o formulário e faça parte da lista de espera.
 
 Nosso interesse é que nossos cursos de Jurimetria sejam utilizados não só pela própria ABJ, mas por todas as instituições de ensino e profissionais que fornecem cursos de Jurimetria. Somente com seu feedback conseguiremos garantir o sucesso do curso.
 
-Preencha esse formulário para nos ajudar a melhorar o curso!
+Preencha esse formulário para nos ajudar!
 
 <div align="center">
 <h3><a href="https://forms.gle/n3rbmBDN6kq8k9XZ6" target="_blank">Lista de espera / Feedback</a></h3>
 </div>
-
 
 ## Objetivos
 
@@ -61,7 +69,7 @@ Aulas síncronas (em tempo real), com uma pessoa dando aulas e outra com monitor
     - Amostragem
     - Classificação manual
 
-Acesse a ementa completa <a href="https://docs.google.com/document/d/1YAEeoh_5rSolRZoprSREztGMelsAsSnSlOp5erz_zG0/edit?usp=sharing" target="_blank">aqui -- em construção!</a>
+Acesse a ementa completa <a href="https://docs.google.com/document/d/1pHF1qUjupkkPQYrHgySC1y3qyVKoERETdDbs1t_Aruc/edit?usp=sharing" target="_blank">aqui -- em construção!</a>
 
 ## O curso irá te capacitar para:
 
