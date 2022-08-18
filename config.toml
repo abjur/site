@@ -1,5 +1,5 @@
 # Site settings
-baseurl = "https://abj.org.br/"
+baseurl = "/"
 languageCode = "en-us"
 title = "Associação Brasileira de Jurimetria"
 contentdir = "content"
