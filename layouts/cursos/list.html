@@ -32,23 +32,21 @@
 
       <div class="container" style="background: none;">
 
-        <!--==========================
-  Team Section
-============================-->
-<section id="team2">
+<section id="team4">
   <div class="container">
 
     <div class="section-header wow fadeInUp">
-      <h3>Cursos</h3>
-      <p>Cursos que estamos ministrando ou planejando na ABJ</p>
+      <h3>Pacotes</h3>
+      <p>Adquira mais de um curso para obtenção de descontos</p>
     </div>
 
 
-  {{ range $i, $member := sort (where $.Site.RegularPages "Section" "cursos") "Params.ordem" }}
+  {{ range $i, $member := sort (where $.Site.RegularPages "Section" "trilhas") "Params.ordem" }}
 
-  {{ if modBool $i 2 }}
+{{ if .Params.trilha }}
+
     <div class="row about-cols">
-  {{ end }}
+
 
   <a href='{{ if .Params.ativo }}{{ .Permalink }}{{ else }}{{ "https://forms.gle/h1u3hrw1wguGU5JE6" }}{{ end }}' target='{{ if not .Params.ativo }}{{ "_blank" }}{{ end }}'>
   <div class="col-md-6 wow fadeInUp">
@@ -66,10 +64,59 @@
 </a>
 
 
+  </div>
+
+  {{ end }}
+
+{{ end }}
+
+  </div>
+</section><!-- #team -->
+
+
+        <!--==========================
+  Team Section
+============================-->
+<section id="team2">
+  <div class="container">
+
+    <div class="section-header wow fadeInUp">
+      <h3>Cursos</h3>
+      <p>Cursos que estamos ministrando ou planejando na ABJ</p>
+    </div>
+
+
+  {{ range $i, $member := sort (where $.Site.RegularPages "Section" "cursos") "Params.ordem" }}
+
+{{if .Params.trilha}}{{ else }}
+
+  {{ if modBool $i 2 }}
+    <div class="row about-cols">
+  {{ end }}
+
+
+  <a href='{{ if .Params.ativo }}{{ .Permalink }}{{ else }}{{ "https://forms.gle/h1u3hrw1wguGU5JE6" }}{{ end }}' target='{{ if not .Params.ativo }}{{ "_blank" }}{{ end }}'>
+  <div class="col-md-6 wow fadeInUp">
+    <div class="about-col">
+      <div class="img">
+        <img src="{{ .Site.BaseURL }}{{.Params.img}}" alt="" class="img-fluid">
+        <div class="curso-centered">{{ if .Params.ativo }}{{ "" }}{{ else }}{{ "(em breve)" }}{{ end }}</div>
+      </div>
+      <h2 class="title"><a href='{{ if .Params.ativo }}{{ .Permalink }}{{ else }} {{ "https://forms.gle/h1u3hrw1wguGU5JE6" }} {{ end }}' target='{{ if not .Params.ativo }}{{ "_blank" }}{{ end }}'>{{.Title}}</a></h2>
+      <p>
+        {{ if isset .Params "desc" }}{{ .Params.desc }}{{ else }}{{ .Summary }}{{ end }}
+      </p>
+    </div>
+  </div>
+</a>
+
+
+
   {{ if (modBool (add $i 1) 2) }}
   </div>
   {{ end }}
 
+{{ end }}
 {{ end }}
 
   </div>
@@ -90,7 +137,7 @@
         <a href="https://abjur.github.io/livro" target="_blank">
         <div class="about-col">
           <div class="img">
-            <img src="{{ .Site.BaseURL }}img/cursos/curso-5.jpg" alt="" class="img-fluid">
+            <img src="{{ .Site.BaseURL }}img/cursos/livro.jpg" alt="" class="img-fluid">
           </div>
           <h2 class="title"><a href="https://abjur.github.io/livro" target="_blank">Metodologia de pesquisa jurimétrica</a></h2>
           <p>
@@ -101,8 +148,6 @@
       </div>
       <div class="col-md-3 col-lg-3"></div>
       </div>
-
-
 
 </section><!-- #team -->
 
