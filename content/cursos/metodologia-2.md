@@ -1,18 +1,77 @@
 ---
-title: "Metodologia de pesquisa jurimétrica"
+title: "Introdução à pesquisa jurimétrica (parte 2)"
 img: "img/cursos/curso-2.jpg"
-desc: "Curso avançado para pessoas interessadas em desenvolver pesquisas jurimétricas."
-ordem: "2"
-data: "Em construção"
-equipe: "-"
-ativo: false
-material: "https://abj.org.br"
+desc: "Curso introdutório para pessoas interessadas em desenvolver pesquisas jurimétricas, parte 2."
+ordem: "1"
+ativo: true
+material: "https://abjur.github.io/livro"
+espera: https://forms.gle/n3rbmBDN6kq8k9XZ6
+valor1: R$ 1.200,00
+valor2: R$ 900,00
+valor3: R$ 600,00
 ---
+
+## Primeira turma: em breve!
+
+Estamos preparando tudo com muita dedicação para que sua experiência com o primeiro curso ministrado integralmente pela ABJ seja extremamente proveitosa!
+
+Caso tenha interesse em fazer parte da primeira turma do Curso de Introdução à Pesquisa Jurimétrica, preencha o formulário e faça parte da lista de espera.
+
+Nosso interesse é que nossos cursos de Jurimetria sejam utilizados não só pela própria ABJ, mas por todas as instituições de ensino e profissionais que fornecem cursos de Jurimetria. Somente com seu feedback conseguiremos garantir o sucesso do curso.
+
+Preencha esse formulário para nos ajudar!
+
+<div align="center">
+<h3><a href="https://forms.gle/n3rbmBDN6kq8k9XZ6" target="_blank">Lista de espera / Feedback</a></h3>
+</div>
 
 ## Objetivos
 
+O objetivo do curso de Introdução à pesquisa Jurimétrica é apresentar e discutir a aplicação de métodos quantitativos no Direito. A ideia do curso é tratar dos limites de aplicação e elementos básicos de pesquisa quantitativa, com aplicações em temas do Direito.
+
+O curso não tem como objetivo ensinar programação, estatística avançada nem inteligência artificial.
+
 ## Público alvo
 
-## Metodologia
+- Estudantes de graduação e pós graduação com interesse em fazer pesquisa quantitativa no direito.
+- Profissionais com interesse em fazer pesquisa, mas que não têm bagagem quantitativa na formação.
 
-## Resultados
+## Metodologia e formato
+
+O curso envolve aulas teóricas e práticas, divididas em
+
+- Vários vídeos gravados para acompnhar no seu tempo (total: 3h)
+- 3 aulas online e ao vivo (3h cada)
+
+As bases de dados utilizadas são todas públicas ou são amostras de bases de dados utilizadas em pesquisas da ABJ. O material inclui um repositório aberto com todas as bases de dados utilizadas para construção do livro e dos slides.
+
+Os materiais utilizados durante o curso (livro, slides e dados) são todos abertos. A única parte do curso que não é aberta são os resultados dos exercícios e dinâmicas realizadas em aula.
+
+### Formato
+
+Aulas síncronas (em tempo real), com uma pessoa dando aulas e outra com monitoria. As aulas envolvem bastante leitura e trabalhos extra-aula. Uma parte das aulas será expositiva, mas teremos diversos laboratórios para discussão dos textos e resolução de exercícios.
+
+### Conteúdo
+
+- Análise de dados
+    - Visualizações
+- Coleta de dados
+    - Amostragem
+    - Classificação manual
+- Metodologia de pesquisa
+    - Viés de seleção
+    - Teorema de Priest & Klein
+
+Acesse a ementa completa <a href="https://docs.google.com/document/d/1pHF1qUjupkkPQYrHgySC1y3qyVKoERETdDbs1t_Aruc/edit?usp=sharing" target="_blank">aqui -- em construção!</a>
+
+## O curso irá te capacitar para:
+
+- Aprender o que é e do que se trata a jurimetria
+- Aprender a desenhar um projeto de pesquisa jurimetrica
+
+Quem fizer o curso sairá com uma noção aprofundada do que é a Jurimetria e como planejar um projeto de pesquisa jurimétrica no mundo real. Os conceitos trabalhados, no entanto, não são suficientes para realizar as pesquisas completas, especialmente na parte de estruturação de dados e análise, sendo necessário trabalhar em equipe para obter os resultados finais.
+
+## Pré-requisitos
+
+Este curso não possui pré-requisitos. O curso é um primeiro passo no universo quantitativo do Direito.
+

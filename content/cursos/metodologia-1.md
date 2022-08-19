@@ -1,7 +1,7 @@
 ---
-title: "Introdução à pesquisa jurimétrica"
+title: "Introdução à pesquisa jurimétrica (parte 1)"
 img: "img/cursos/curso-1.jpg"
-desc: "Curso introdutório para pessoas interessadas em desenvolver pesquisas jurimétricas."
+desc: "Curso introdutório para pessoas interessadas em desenvolver pesquisas jurimétricas, parte 1."
 ordem: "1"
 ativo: true
 material: "https://abjur.github.io/livro"
@@ -13,10 +13,9 @@ valor3: R$ 600,00
 
 ## Primeira turma: em breve!
 
-
 Estamos preparando tudo com muita dedicação para que sua experiência com o primeiro curso ministrado integralmente pela ABJ seja extremamente proveitosa!
 
-Caso tenha interesse em fazer parte da Primeira turma do Curso de Introdução à Pesquisa Jurimétrica, preencha o formulário e faça parte da lista de espera.
+Caso tenha interesse em fazer parte da primeira turma do Curso de Introdução à Pesquisa Jurimétrica, preencha o formulário e faça parte da lista de espera.
 
 Nosso interesse é que nossos cursos de Jurimetria sejam utilizados não só pela própria ABJ, mas por todas as instituições de ensino e profissionais que fornecem cursos de Jurimetria. Somente com seu feedback conseguiremos garantir o sucesso do curso.
 
@@ -28,7 +27,7 @@ Preencha esse formulário para nos ajudar!
 
 ## Objetivos
 
-O objetivo do curso de Introdução à pesquisa Jurimétrica é apresentar e discutir a aplicação de métodos quantitativos no Direito. A ideia do curso é tratar dos limites de aplicação e elementos básicos de pesquisa quantitativa, com aplicações em temas do Direito.
+O objetivo da parte 1 do curso de Introdução à pesquisa Jurimétrica é apresentar e discutir a aplicação de métodos quantitativos no Direito. A ideia do curso é tratar dos limites de aplicação e elementos básicos de pesquisa quantitativa, com aplicações em temas do Direito.
 
 O curso não tem como objetivo ensinar programação, estatística avançada nem inteligência artificial.
 
@@ -39,7 +38,10 @@ O curso não tem como objetivo ensinar programação, estatística avançada nem
 
 ## Metodologia e formato
 
-O curso envolve 14 aulas (2 aulas por semana), divididas entre aulas teóricas e atividades práticas para fixar os conteúdos.
+O curso envolve aulas teóricas e práticas, divididas em
+
+- Vários vídeos gravados para acompnhar no seu tempo (total: 3h)
+- 3 aulas online e ao vivo (3h cada)
 
 As bases de dados utilizadas são todas públicas ou são amostras de bases de dados utilizadas em pesquisas da ABJ. O material inclui um repositório aberto com todas as bases de dados utilizadas para construção do livro e dos slides.
 
@@ -58,16 +60,10 @@ Aulas síncronas (em tempo real), com uma pessoa dando aulas e outra com monitor
     - Tipos de perguntas
     - Ciclo da ciência de dados
     - Processo de geração de dados
-    - Viés de seleção
-    - Teorema de Priest & Klein
 - Análise de dados
     - Tipos de variáveis
     - Medidas de posição
     - Medidas de variabilidade
-    - Visualizações
-- Coleta de dados
-    - Amostragem
-    - Classificação manual
 
 Acesse a ementa completa <a href="https://docs.google.com/document/d/1pHF1qUjupkkPQYrHgySC1y3qyVKoERETdDbs1t_Aruc/edit?usp=sharing" target="_blank">aqui -- em construção!</a>
 
