@@ -12,6 +12,13 @@ magick::image_read("static/assets/ensino.jpg") |>
   magick::image_modulate(brightness = 40) |>
   magick::image_write("static/assets/ensino-min.jpg")
 
+magick::image_read("static/assets/obsciee.png") |>
+  # magick::image_resize("1920x") |>
+  magick::image_crop("1920x768+0+200") |>
+  magick::image_colorize(10, "#000000") |>
+  magick::image_write("static/assets/obsciee.png")
+
+
 magick::image_read("static/assets/pesquisa.jpg") |>
   magick::image_resize("1920x") |>
   magick::image_crop("1920x768+0+200") |>
