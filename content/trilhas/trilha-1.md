@@ -1,7 +1,7 @@
 ---
 title: "Introdução à pesquisa jurimétrica"
 img: "img/cursos/curso-1.jpg"
-desc: "Curso introdutório para pessoas interessadas em desenvolver pesquisas jurimétricas"
+desc: "Curso completo de Introdução à pesquisa jurimétrica (módulos 1 e 2)"
 ordem: "1"
 ativo: true
 material: "https://abjur.github.io/livro"
@@ -17,6 +17,8 @@ trilha: sim
 Estamos preparando tudo com muita dedicação para que sua experiência com o primeiro curso ministrado integralmente pela ABJ seja extremamente proveitosa!
 
 Caso tenha interesse em fazer parte da primeira turma do Curso de Introdução à Pesquisa Jurimétrica, preencha o formulário e faça parte da lista de espera.
+
+Assim que houver as confirmações sobre período e data para as aulas ao vivo, enviaremos um comunicado para que todas pessoas inscritas na lista de espera possam realizar suas matrículas!
 
 Nosso interesse é que nossos cursos de Jurimetria sejam utilizados não só pela própria ABJ, mas por todas as instituições de ensino e profissionais que fornecem cursos de Jurimetria. Somente com seu feedback conseguiremos garantir o sucesso do curso.
 

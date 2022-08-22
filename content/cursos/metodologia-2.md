@@ -17,6 +17,8 @@ Estamos preparando tudo com muita dedicação para que sua experiência com o pr
 
 Caso tenha interesse em fazer parte da primeira turma do Curso de Introdução à Pesquisa Jurimétrica, preencha o formulário e faça parte da lista de espera.
 
+Assim que forem confirmadas as datas e o período das aulas ao vivo, enviaremos um comunicado para que todas as pessoas inscritas na lista de espera possam realizar suas matrículas.
+
 Nosso interesse é que nossos cursos de Jurimetria sejam utilizados não só pela própria ABJ, mas por todas as instituições de ensino e profissionais que fornecem cursos de Jurimetria. Somente com seu feedback conseguiremos garantir o sucesso do curso.
 
 Preencha esse formulário para nos ajudar!
@@ -27,20 +29,22 @@ Preencha esse formulário para nos ajudar!
 
 ## Objetivos
 
-O objetivo do curso de Introdução à pesquisa Jurimétrica é apresentar e discutir a aplicação de métodos quantitativos no Direito. A ideia do curso é tratar dos limites de aplicação e elementos básicos de pesquisa quantitativa, com aplicações em temas do Direito.
+O objetivo da parte 2 do curso de Introdução à pesquisa Jurimétrica é completar a discussão e apresentação das aplicações de métodos quantitativos no Direito. A ideia desta segunda parte é avançar nos conhecimentos sobre os limites de aplicação e elementos de pesquisa quantitativa, com aplicações em temas do Direito.
 
-O curso não tem como objetivo ensinar programação, estatística avançada nem inteligência artificial.
+**O curso não tem como objetivo ensinar programação, estatística avançada nem inteligência artificial.**
 
-## Público alvo
+## Público alvo e pré-requisitos
 
 - Estudantes de graduação e pós graduação com interesse em fazer pesquisa quantitativa no direito.
 - Profissionais com interesse em fazer pesquisa, mas que não têm bagagem quantitativa na formação.
+
+Este curso não possui pré-requisitos. O curso é um primeiro passo no universo quantitativo do Direito.
 
 ## Metodologia e formato
 
 O curso envolve aulas teóricas e práticas, divididas em
 
-- Vários vídeos gravados para acompnhar no seu tempo (total: 3h)
+- Vários vídeos gravados para acompanhar no seu tempo (total: 3h)
 - 3 aulas online e ao vivo (3h cada)
 
 As bases de dados utilizadas são todas públicas ou são amostras de bases de dados utilizadas em pesquisas da ABJ. O material inclui um repositório aberto com todas as bases de dados utilizadas para construção do livro e dos slides.
@@ -49,7 +53,9 @@ Os materiais utilizados durante o curso (livro, slides e dados) são todos abert
 
 ### Formato
 
-Aulas síncronas (em tempo real), com uma pessoa dando aulas e outra com monitoria. As aulas envolvem bastante leitura e trabalhos extra-aula. Uma parte das aulas será expositiva, mas teremos diversos laboratórios para discussão dos textos e resolução de exercícios.
+Ao longo das aulas ao vivo, em uma sala do Zoom, teremos uma pessoa dando aula e outra realizando monitoria. Dessa forma, conseguimos garantir um melhor aproveitamento para todos os alunos.
+
+As aulas além de envolverem bastante leitura e atividades extras, terão uma parte expositiva e outra com diversos espaços para discussão dos textos e resolução de exercícios.
 
 ### Conteúdo
 
@@ -62,7 +68,7 @@ Aulas síncronas (em tempo real), com uma pessoa dando aulas e outra com monitor
     - Viés de seleção
     - Teorema de Priest & Klein
 
-Acesse a ementa completa <a href="https://docs.google.com/document/d/1pHF1qUjupkkPQYrHgySC1y3qyVKoERETdDbs1t_Aruc/edit?usp=sharing" target="_blank">aqui -- em construção!</a>
+Acesse a ementa completa <a href="https://docs.google.com/document/d/1pHF1qUjupkkPQYrHgySC1y3qyVKoERETdDbs1t_Aruc/edit?usp=sharing" target="_blank">aqui </a>
 
 ## O curso irá te capacitar para:
 
@@ -71,7 +77,4 @@ Acesse a ementa completa <a href="https://docs.google.com/document/d/1pHF1qUjupk
 
 Quem fizer o curso sairá com uma noção aprofundada do que é a Jurimetria e como planejar um projeto de pesquisa jurimétrica no mundo real. Os conceitos trabalhados, no entanto, não são suficientes para realizar as pesquisas completas, especialmente na parte de estruturação de dados e análise, sendo necessário trabalhar em equipe para obter os resultados finais.
 
-## Pré-requisitos
-
-Este curso não possui pré-requisitos. O curso é um primeiro passo no universo quantitativo do Direito.
 
