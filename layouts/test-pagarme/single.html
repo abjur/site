@@ -1,0 +1,186 @@
+<!doctype html5>
+<html>
+
+<head>
+  <meta name="description" content="{{ .Params.desc | plainify }}">
+  <meta property="og:title" content="{{.Title}}">
+  <meta property="og:description" content="{{.Params.desc | plainify}}">
+  <meta property="og:image" content="{{ .Site.BaseURL }}{{.Params.img}}">
+  <meta property="og:url" content="{{.Permalink}}">
+  {{ partial "head.html" . }}
+  <script src="https://assets.pagar.me/checkout/1.1.0/checkout.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src ="https://assets.pagar.me/checkout/1.1.0//easyXDM.js"></script>
+</head>
+
+  <body data-spy="scroll" data-target="#toc">
+    {{ partial "header.html" . }}
+
+    <div class="container" id="article-container">
+
+      <header class="section-header" id="header-title">
+        <h3 data-toc-skip>{{ .Title }}</h3>
+      </header>
+
+      <div class="row">
+
+        <div class="col-md-3">
+        </div>
+
+        <div class="col-md-6">
+        <div id="article">
+
+          {{.Content}}
+
+        </div>
+
+        <div>
+
+
+
+        </div>
+          <button class="cta-submit" id="pagamento">Comprar</button><hr>
+          <form class="desc-info">
+          <input class="text-input" name="desconto" id="desconto" type="text" placeholder="cupom de desconto" maxlength="16"/>
+          <button  id = "enviar-cupom" class="text-input-btn" type="button">Aplicar</button>
+          </form>
+        </div>
+
+        <div class="col-md-3">
+          <h4> Informações úteis </h4>
+
+          <strong>Descrição</strong>: {{.Params.desc}}<hr>
+          <strong>Material</strong>: <a href="{{.Params.material}}" target="_blank"><button class="cta-submit">Acessar</button></a><hr>
+
+          {{ if isset .Params "espera"}}
+          <strong>Lista de espera</strong>: <a href="{{.Params.espera}}" target="_blank"><button class="cta-submit">Link</button></a><hr>
+          {{ end }}
+
+          <strong>Investimento:</strong><br>
+          {{ if isset .Params "valor1"}}
+          <strong>Profissionais</strong>: {{.Params.valor1}}<br>
+          {{ end }}
+          {{ if isset .Params "valor2"}}
+          <strong>Estudantes</strong>: {{.Params.valor2}}<br>
+          {{ end }}
+          {{ if isset .Params "valor3"}}
+          <strong>Pessoas associadas</strong>: {{.Params.valor3}}<hr>
+          {{ end }}
+          <strong>Dúvidas: </strong><a href="mailto:cursos@abj.org.br">cursos@abj.org.br</a>
+          <hr>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    <!--pagarme-->
+
+    <script>
+
+    var api_url = "https://pagarme-dr36r5u7sq-ue.a.run.app";
+
+    var dados = {
+      amount: {{ .Params.valor_pagarme }},
+      buttonText: 'Pagar',
+      buttonClass: 'btn-insc',
+      customerData: 'true',
+      createToken: 'true',
+      paymentMethods: 'credit_card, boleto, pix',
+      maxInstallments: 12,
+      interestRate: 0.70,
+      items: [
+        {
+          id: {{ .Params.id }},
+          title: {{ .Params.title }},
+          unit_price: {{ .Params.valor_pagarme }},
+          quantity: 1,
+          tangible: true
+        }
+      ],
+      postbackUrl: api_url + '/postback',
+      capture: 'true'
+    }
+
+    var button = document.querySelector('#pagamento');
+
+    // Abrir o modal ao clicar no botão
+    button.addEventListener('click', function() {
+
+      // inicia a instância do checkout
+      var checkout = new PagarMeCheckout.Checkout({
+        encryption_key: 'ek_live_4XNNqGOVvQiriePVlTFS1Ph1qUm4X3',
+        success: function(data) {
+          console.log(data);
+          axios.get(api_url + '/captura?token=' + data.token + '&cupom=' + document.querySelector('#desconto').value)
+            .then(function (response) {
+              // handle success
+              console.log(response);
+              if (response.data.payment_method == "boleto") {
+                url = response.data.boleto_url[0];
+                window.location.href = url;
+              };
+            })
+            .catch(function (error) {
+              // handle error
+              console.log(error);
+            })
+        },
+        error: function(err) {
+        	console.log(err);
+        },
+        close: function() {
+        	console.log('The modal has been closed.');
+        }
+      });
+
+      checkout.open(dados);
+
+    })
+
+    var desconto = document.querySelector('#enviar-cupom');
+
+    desconto.addEventListener('click', function() {
+      var cupom  = document.querySelector('#desconto').value
+      axios.get(api_url + '/cupom?id=' + dados.items[0].id + '&cupom=' + cupom).then(function (response) {
+
+        // manter essa linha p/ mudar o preço do pagarme
+        dados.amount = response.data.amount
+
+        $('#pagamento').text("Inscreva-se com desconto");
+        /* botao de enviar cupom */
+        let botaoEnviarCupom = $('#enviar-cupom');
+        botaoEnviarCupom.text("Aplicado!");
+        botaoEnviarCupom.addClass('cupom-success');
+        botaoEnviarCupom.removeClass('cupom-failure');
+
+        /* texto do preco */
+        let amount = (response.data.amount/100).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL', minimumFractionDigits: 0 });
+        $("#valor").text(amount);
+
+      }).catch(function (error) {
+
+        /* botao de enviar cupom */
+        let botaoEnviarCupom = $('#enviar-cupom');
+        botaoEnviarCupom.text("Inválido");
+        botaoEnviarCupom.removeClass('cupom-success');
+        botaoEnviarCupom.addClass('cupom-failure');
+
+        /* texto do preco */
+        $("#valor span:first").removeClass("preco-antigo");
+        $("#valor span:last").text("");
+      })
+
+    })
+    </script>
+
+
+    {{ partial "footer.html" . }}
+
+  </body>
+
+  {{ partial "scripts.html" .}}
+  {{ partial "toc.html" . }}
+
+</html>
