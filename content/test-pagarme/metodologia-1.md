@@ -6,10 +6,9 @@ ordem: "1"
 ativo: true
 material: "https://abjur.github.io/livro"
 espera: https://forms.gle/n3rbmBDN6kq8k9XZ6
-valor1: R$ 1.200,00
-valor2: R$ 900,00
-valor3: R$ 600,00
-valor_pagarme: 100
+valor1: 300
+valor2: 200
+valor3: 100
 id: 1
 ---
 

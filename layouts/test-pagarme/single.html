@@ -33,17 +33,6 @@
           {{.Content}}
 
         </div>
-
-        <div>
-
-
-
-        </div>
-          <button class="cta-submit" id="pagamento">Comprar</button><hr>
-          <form class="desc-info">
-          <input class="text-input" name="desconto" id="desconto" type="text" placeholder="cupom de desconto" maxlength="16"/>
-          <button  id = "enviar-cupom" class="text-input-btn" type="button">Aplicar</button>
-          </form>
         </div>
 
         <div class="col-md-3">
@@ -73,16 +62,67 @@
 
       </div>
 
+      <!-- vendas -->
+      <div class="container">
+        <form class="desc-info">
+          <div class="row">
+          <div class="col-md-3">
+          <input type="radio" id="radio-valor1" name="Tipo" value="{{.Params.valor1}}">
+          <label for="valor1">Profissional</label><br>
+          <input type="radio" id="radio-valor2" name="Tipo" value="{{.Params.valor2}}">
+          <label for="valor2">Estudante</label><br>
+          <input type="radio" id="radio-valor3" name="Tipo" value="{{.Params.valor3}}">
+          <label for="valor3">Pessoa associada</label>
+          </div>
+
+          <div class="col-md-3">
+            <div id='codigo-associado' class="desc">
+              <input class="text-input form-control" name="associado" id="associado" type="text" placeholder="código de associado" maxlength="16" style='margin-top:3px;' required/>
+            </div>
+
+          </div>
+
+
+            <div class="col-md-3">
+              <input class="text-input form-control" name="desconto" id="desconto" type="text" placeholder="cupom de desconto" maxlength="16" style='margin-top:3px;'/>
+            </div>
+            <div class="col-md-3">
+              <button  id="enviar-cupom" class="text-input-btn cta-submit" type="button" style='margin-top:0px;'>Aplicar</button>
+            </div>
+          </div>
+        </form>
+        <div class="row">
+          <label id='valor'></label>
+          <button class="cta-submit" id="pagamento">Inscreva-se</button>
+        </div>
+      </div>
+
+
     </div>
 
     <!--pagarme-->
 
     <script>
 
+
+    radio = document.querySelectorAll("input[name='Tipo']");
+    document.querySelector("#codigo-associado").style.visibility = 'hidden';
+    radio.forEach((elem) => {
+      elem.addEventListener('click', function() {
+        if (document.querySelector("#radio-valor3").checked) {
+          document.querySelector("#codigo-associado").style.visibility = 'visible';
+        } else {
+          document.querySelector("#codigo-associado").style.visibility = 'hidden';
+        }
+        dados.items[0].unit_price = document.querySelector('input[name=Tipo]:checked').value;
+        dados.amount = document.querySelector('input[name=Tipo]:checked').value;
+      });
+    })
+
     var api_url = "https://pagarme-dr36r5u7sq-ue.a.run.app";
 
     var dados = {
-      amount: {{ .Params.valor_pagarme }},
+      amount: {{.Params.valor1}},
       buttonText: 'Pagar',
       buttonClass: 'btn-insc',
       customerData: 'true',
@@ -90,17 +130,16 @@
       paymentMethods: 'credit_card, boleto, pix',
       maxInstallments: 12,
       interestRate: 0.70,
-      items: [
-        {
-          id: {{ .Params.id }},
-          title: {{ .Params.title }},
-          unit_price: {{ .Params.valor_pagarme }},
-          quantity: 1,
-          tangible: true
-        }
-      ],
-      postbackUrl: api_url + '/postback',
-      capture: 'true'
+      items: [{
+        id: {{ .Params.id }},
+        title: {{ .Params.title }},
+        unit_price: {{.Params.valor1}},
+        quantity: 1,
+        tangible: true
+      }],
+      postbackUrl: api_url + '/postback' + "?associado=" + document.querySelector('#associado').value + "&tipo=" + document.querySelector('input[name=Tipo]:checked').id,
+      capture: 'true',
+      pixExpirationDate: new Date(new Date().getTime() + 30*60000).toISOString()
     }
 
     var button = document.querySelector('#pagamento');
@@ -157,6 +196,7 @@
 
         /* texto do preco */
         let amount = (response.data.amount/100).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL', minimumFractionDigits: 0 });
+
         $("#valor").text(amount);
 
       }).catch(function (error) {
