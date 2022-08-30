@@ -1,0 +1,185 @@
+<!-- custos -->
+<div style="background: #f5f5f5;padding:10px;border-radius:20px;">
+  <h4> Inscreva-se </h4>
+
+  <strong>Escolha:</strong><br>
+  <input type="radio" id="radio-valor1" name="Tipo" value="{{.Params.valor1}}" checked="checked">
+  <label for="valor1" class="vloption">Profissional ({{ .Params.valor1}})</label><br>
+  <input type="radio" id="radio-valor2" name="Tipo" value="{{.Params.valor2}}">
+  <label for="valor2" class="vloption">Estudante ({{ .Params.valor2 }})</label><br>
+  <input type="radio" id="radio-valor3" name="Tipo" value="{{.Params.valor3}}">
+  <label for="valor3" class="vloption">Pessoa associada ({{ .Params.valor3 }})</label>
+  <form class="desc-info">
+    <div id='codigo-associado' class="desc">
+      <input class="text-input form-control" name="associado" id="associado" type="text" placeholder="Código de associado" maxlength="16" style='margin-top:3px;max-width:200px;' required/>
+    </div>
+  </form>
+  <hr>
+
+  <!-- cupom -->
+
+  <div class="row">
+    <div class="col-6">
+      <input class="text-input form-control" name="desconto" id="desconto" type="text" placeholder="Cupom de desconto" maxlength="16" style='margin-top:3px;'/>
+    </div>
+    <div class="col-6">
+      <button  id="enviar-cupom" class="text-input-btn cta-submit" type="button" style='margin-top:0px;'>Aplicar</button>
+    </div>
+  </div>
+  <hr>
+
+
+  <!-- inscricao -->
+
+  <div style="text-align: center;">
+    <strong>Valor final: </strong><label id='valor'></label><br>
+    <button class="cta-submit3" id="pagamento">Inscreva-se</button>
+  </div>
+
+</div>
+
+<script>
+
+  function fmt(x) {
+     return (x/100).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL', minimumFractionDigits: 0 });
+  }
+
+  // DADOS ------------------------------------
+  var api_url = "https://pagarme-dr36r5u7sq-ue.a.run.app";
+  var dados = {
+    amount: {{.Params.valor1}},
+    buttonText: 'Pagar',
+    buttonClass: 'btn-insc',
+    customerData: 'true',
+    createToken: 'true',
+    paymentMethods: 'credit_card, boleto, pix',
+    maxInstallments: 12,
+    interestRate: 0.70,
+    items: [{
+      id: {{ .Params.id }},
+      title: {{ .Params.title }},
+      unit_price: {{.Params.valor1}},
+      quantity: 1,
+      tangible: true
+    }],
+    postbackUrl: api_url + '/postback' + "?associado=" + document.querySelector('#associado').value + "&tipo=" + document.querySelector('input[name=Tipo]:checked').id,
+    capture: 'true',
+    pixExpirationDate: new Date(new Date().getTime() + 30*60000).toISOString()
+  }
+
+
+
+  // ASSOCIADO ------------------------------------
+  radio = document.querySelectorAll("input[name='Tipo']");
+  labels = document.querySelectorAll("label[class='vloption']");
+  document.querySelector("#codigo-associado").style.visibility = 'hidden';
+  document.querySelector("#valor").innerText = fmt(dados.amount);
+
+  // edita as labels dos elementos
+  labels.forEach((elem) => {
+    vl = fmt(document.querySelector("#radio-" + elem.htmlFor).value);
+    if (elem.htmlFor == "valor1") {
+      elem.innerText = "Profissional (" + vl + ")";
+    } else if (elem.htmlFor == "valor2") {
+      elem.innerText = "Estudante (" + vl + ")";
+    } else if (elem.htmlFor == "valor3") {
+      elem.innerText = "Pessoa associada (" + vl + ")";
+    }
+  })
+
+  // adiciona condicao para criar caixa no caso de associados
+  // tambem modifica o parametro de preco
+  radio.forEach((elem) => {
+
+    elem.addEventListener('click', function() {
+      if (document.querySelector("#radio-valor3").checked) {
+        document.querySelector("#codigo-associado").style.visibility = 'visible';
+      } else {
+        document.querySelector("#codigo-associado").style.visibility = 'hidden';
+      }
+      dados.items[0].unit_price = document.querySelector('input[name=Tipo]:checked').value;
+      dados.amount = document.querySelector('input[name=Tipo]:checked').value;
+
+      let label = (dados.amount/100).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL', minimumFractionDigits: 0 });
+      document.querySelector("#valor").innerText = label;
+    });
+  })
+
+
+  // DESCONTO
+  var desconto = document.querySelector('#enviar-cupom');
+
+  desconto.addEventListener('click', function() {
+    var cupom  = document.querySelector('#desconto').value
+    axios.get(api_url + '/cupom?id=' + dados.items[0].id + '&cupom=' + cupom).then(function (response) {
+
+      // manter essa linha p/ mudar o preço do pagarme
+      dados.amount = response.data.amount
+
+      $('#pagamento').text("Inscreva-se com desconto");
+      /* botao de enviar cupom */
+      let botaoEnviarCupom = $('#enviar-cupom');
+      botaoEnviarCupom.text("Aplicado!");
+      botaoEnviarCupom.addClass('cupom-success');
+      botaoEnviarCupom.removeClass('cupom-failure');
+
+      /* texto do preco */
+      let amount = (response.data.amount/100).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL', minimumFractionDigits: 0 });
+
+      $("#valor").text(amount);
+
+    }).catch(function (error) {
+
+      /* botao de enviar cupom */
+      let botaoEnviarCupom = $('#enviar-cupom');
+      botaoEnviarCupom.text("Inválido");
+      botaoEnviarCupom.removeClass('cupom-success');
+      botaoEnviarCupom.addClass('cupom-failure');
+
+      /* texto do preco */
+      $("#valor span:first").removeClass("preco-antigo");
+      $("#valor span:last").text("");
+    })
+  })
+
+
+
+  // SUBMISSAO ------------------------------------
+  // Abrir o modal ao clicar no botão
+  var button = document.querySelector('#pagamento');
+
+  button.addEventListener('click', function() {
+
+    // inicia a instância do checkout
+    var checkout = new PagarMeCheckout.Checkout({
+      encryption_key: 'ek_live_4XNNqGOVvQiriePVlTFS1Ph1qUm4X3',
+      success: function(data) {
+        console.log(data);
+        axios.get(api_url + '/captura?token=' + data.token + '&cupom=' + document.querySelector('#desconto').value)
+          .then(function (response) {
+            // handle success
+            console.log(response);
+            if (response.data.payment_method == "boleto") {
+              url = response.data.boleto_url[0];
+              window.location.href = url;
+            };
+          })
+          .catch(function (error) {
+            // handle error
+            console.log(error);
+          })
+      },
+      error: function(err) {
+      	console.log(err);
+      },
+      close: function() {
+      	console.log('The modal has been closed.');
+      }
+    });
+
+    checkout.open(dados);
+
+  })
+
+
+</script>
