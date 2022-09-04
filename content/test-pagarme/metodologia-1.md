@@ -6,10 +6,11 @@ ordem: "1"
 ativo: true
 material: "https://abjur.github.io/livro"
 espera: https://forms.gle/n3rbmBDN6kq8k9XZ6
-valor1: 300
-valor2: 200
-valor3: 100
-id: 1
+# parametros de automacao
+valor_profissional: 300
+valor_estudante: 200
+valor_assoc: 100
+nome: intro-jurimetria-1
 ---
 
 ## Primeira turma: em breve!

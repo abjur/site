@@ -3,12 +3,12 @@
   <h4> Inscreva-se </h4>
 
   <strong>Escolha:</strong><br>
-  <input type="radio" id="radio-valor1" name="Tipo" value="{{.Params.valor1}}" checked="checked">
-  <label for="valor1" class="vloption">Profissional ({{ .Params.valor1}})</label><br>
-  <input type="radio" id="radio-valor2" name="Tipo" value="{{.Params.valor2}}">
-  <label for="valor2" class="vloption">Estudante ({{ .Params.valor2 }})</label><br>
-  <input type="radio" id="radio-valor3" name="Tipo" value="{{.Params.valor3}}">
-  <label for="valor3" class="vloption">Pessoa associada ({{ .Params.valor3 }})</label>
+  <input type="radio" id="radio-profissional" name="Tipo" value="{{.Params.valor_profissional}}" checked="checked">
+  <label for="profissional" class="vloption">Profissional ({{ .Params.valor_profissional}})</label><br>
+  <input type="radio" id="radio-estudante" name="Tipo" value="{{.Params.valor_estudante}}">
+  <label for="estudante" class="vloption">Estudante ({{ .Params.valor_estudante }})</label><br>
+  <input type="radio" id="radio-assoc" name="Tipo" value="{{.Params.valor_assoc}}">
+  <label for="assoc" class="vloption">Pessoa associada ({{ .Params.valor_assoc }})</label>
   <form class="desc-info">
     <div id='codigo-associado' class="desc">
       <input class="text-input form-control" name="associado" id="associado" type="text" placeholder="Código de associado" maxlength="16" style='margin-top:3px;max-width:200px;' required/>
@@ -47,7 +47,7 @@
   // DADOS ------------------------------------
   var api_url = "https://pagarme-dr36r5u7sq-ue.a.run.app";
   var dados = {
-    amount: {{.Params.valor1}},
+    amount: {{.Params.valor_profissional}},
     buttonText: 'Pagar',
     buttonClass: 'btn-insc',
     customerData: 'true',
@@ -56,13 +56,13 @@
     maxInstallments: 12,
     interestRate: 0.70,
     items: [{
-      id: {{ .Params.id }},
+      id: '{{ .Params.nome }}',
       title: {{ .Params.title }},
-      unit_price: {{.Params.valor1}},
+      unit_price: {{.Params.valor_profissional}},
       quantity: 1,
       tangible: true
     }],
-    postbackUrl: api_url + '/postback' + "?associado=" + document.querySelector('#associado').value + "&tipo=" + document.querySelector('input[name=Tipo]:checked').id,
+    postbackUrl: api_url + '/postback' + "?associado=" + document.querySelector('#associado').value,
     capture: 'true',
     pixExpirationDate: new Date(new Date().getTime() + 30*60000).toISOString()
   }
@@ -78,11 +78,11 @@
   // edita as labels dos elementos
   labels.forEach((elem) => {
     vl = fmt(document.querySelector("#radio-" + elem.htmlFor).value);
-    if (elem.htmlFor == "valor1") {
+    if (elem.htmlFor == "profissional") {
       elem.innerText = "Profissional (" + vl + ")";
-    } else if (elem.htmlFor == "valor2") {
+    } else if (elem.htmlFor == "estudante") {
       elem.innerText = "Estudante (" + vl + ")";
-    } else if (elem.htmlFor == "valor3") {
+    } else if (elem.htmlFor == "assoc") {
       elem.innerText = "Pessoa associada (" + vl + ")";
     }
   })
@@ -90,19 +90,21 @@
   // adiciona condicao para criar caixa no caso de associados
   // tambem modifica o parametro de preco
   radio.forEach((elem) => {
-
     elem.addEventListener('click', function() {
-      if (document.querySelector("#radio-valor3").checked) {
+      if (document.querySelector("#radio-assoc").checked) {
         document.querySelector("#codigo-associado").style.visibility = 'visible';
       } else {
         document.querySelector("#codigo-associado").style.visibility = 'hidden';
       }
-      dados.items[0].unit_price = document.querySelector('input[name=Tipo]:checked').value;
-      dados.amount = document.querySelector('input[name=Tipo]:checked').value;
+      checked = document.querySelector('input[name=Tipo]:checked')
+      dados.items[0].unit_price = checked.value;
+      dados.amount = checked.value;
+      dados.items[0].id = "{{ .Params.nome }}" + "-" + checked.id.substr(6);
 
       let label = (dados.amount/100).toLocaleString('pt-BR', { style: 'currency', currency: 'BRL', minimumFractionDigits: 0 });
       document.querySelector("#valor").innerText = label;
     });
+    elem.checked = false;
   })
 
 
