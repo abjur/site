@@ -7,10 +7,15 @@
   <meta property="og:description" content="{{.Params.desc | plainify}}">
   <meta property="og:image" content="{{ .Site.BaseURL }}{{.Params.img}}">
   <meta property="og:url" content="{{.Permalink}}">
+
   {{ partial "head.html" . }}
+
   <script src="https://assets.pagar.me/checkout/1.1.0/checkout.js"></script>
   <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
   <script src ="https://assets.pagar.me/checkout/1.1.0//easyXDM.js"></script>
+
+  {{ partial "scripts.html" .}}
+
 </head>
 
   <body data-spy="scroll" data-target="#toc">
@@ -62,8 +67,6 @@
 
 
     </div>
-
-    {{ partial "scripts.html" .}}
 
     {{ partial "footer.html" . }}
 
