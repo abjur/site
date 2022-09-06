@@ -1,31 +1,40 @@
 <!-- custos -->
 <div style="background: #f5f5f5;padding:10px;border-radius:20px;">
-  <h2> Inscreva-se </h4>
+  <h2> Inscreva-se </h2>
 
+    <p>Selecione o tipo de inscrição abaixo. Caso fizer a inscrição como estudante, entraremos em contato por e-mail para obter um comprovante. Se você for uma pessoa associada, insira seu código de associação. Você pode encontrar seu código de associação fazendo login na plataforma <a href='https://app.glueup.com/account/login'>Glue Up</a>. Se tiver dúvidas ou dificuldades, <a href='http://localhost:4321/contato/'>entre em contato com a gente</a>. </p>
   <strong>Escolha:</strong><br>
-  <input type="radio" id="radio-profissional" name="Tipo" value="{{.Params.valor_profissional}}">
-  <label for="profissional" class="vloption">Profissional ({{ .Params.valor_profissional}})</label><br>
-  <input type="radio" id="radio-estudante" name="Tipo" value="{{.Params.valor_estudante}}">
-  <label for="estudante" class="vloption">Estudante ({{ .Params.valor_estudante }})</label><br>
-  <input type="radio" id="radio-assoc" name="Tipo" value="{{.Params.valor_assoc}}">
-  <label for="assoc" class="vloption">Pessoa associada ({{ .Params.valor_assoc }})</label>
-  <form class="desc-info">
-    <div id='codigo-associado' class="desc">
-      <input class="text-input form-control" name="associado" id="associado" type="text" placeholder="Código de associado" maxlength="16" style='margin-top:3px;max-width:200px;' required/>
-    </div>
-  </form>
-  <hr>
-
-  <!-- cupom -->
 
   <div class="row">
-    <div class="col-6">
-      <input class="text-input form-control" name="desconto" id="desconto" type="text" placeholder="Cupom de desconto" maxlength="16" style='margin-top:3px;'/>
+    <div class="col-lg-6">
+      <input type="radio" id="radio-profissional" name="Tipo" value="{{.Params.valor_profissional}}">
+      <label for="profissional" class="vloption">Profissional ({{ .Params.valor_profissional}})</label><br>
+      <input type="radio" id="radio-estudante" name="Tipo" value="{{.Params.valor_estudante}}">
+      <label for="estudante" class="vloption">Estudante ({{ .Params.valor_estudante }})</label><br>
+      <input type="radio" id="radio-assoc" name="Tipo" value="{{.Params.valor_assoc}}">
+      <label for="assoc" class="vloption">Pessoa associada ({{ .Params.valor_assoc }})</label>
+
+      <form class="desc-info">
+        <div id='codigo-associado' class="desc">
+          <input class="text-input form-control" name="associado" id="associado" type="text" placeholder="Código de associação" maxlength="16" style='margin-top:3px;max-width:200px;' required/>
+        </div>
+      </form>
+
     </div>
-    <div class="col-6">
-      <button  id="enviar-cupom" class="text-input-btn cta-submit" type="button" style='margin-top:0px;'>Aplicar</button>
+    <div class="col-lg-6">
+
+      <!-- cupom -->
+      <div class="row">
+        <div class="col-7">
+          <input class="text-input form-control" name="desconto" id="desconto" type="text" placeholder="Cupom de desconto" maxlength="16" style='margin-top:3px;'/>
+        </div>
+      <div class="col-5">
+        <button  id="enviar-cupom" class="text-input-btn cta-submit" type="button" style='margin-top:0px;max-width:100%;'>Aplicar</button>
+      </div>
+      </div>
     </div>
   </div>
+
   <hr>
 
 
@@ -163,9 +172,11 @@
           .then(function (response) {
             // handle success
             console.log(response);
-            if (response.data.payment_method == "boleto") {
-              url = response.data.boleto_url[0];
-              window.location.href = url;
+
+            if (response.data.payment_method == "credit_card") {
+              swal("Inscrição realizada!", "Em breve, você receberá um email confirmando sua inscrição.", "success");
+            } else {
+              swal("Inscrição realizada!", "Em breve, você receberá um e-mail com instruções de pagamento.", "success");
             };
           })
           .catch(function (error) {

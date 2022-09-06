@@ -2147,6 +2147,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   color: white;
 }
 
+.imagem-cinza {
+  opacity: 0.25;
+}
+
 .carousel-item img {
   min-height: 100%;
   object-fit: cover;
