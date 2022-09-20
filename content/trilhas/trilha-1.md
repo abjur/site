@@ -6,10 +6,12 @@ ordem: "1"
 ativo: true
 material: "https://abjur.github.io/livro"
 espera: https://forms.gle/n3rbmBDN6kq8k9XZ6
-valor1: R$ 1.680,00
-valor2: R$ 1.260,00
-valor3: R$ 840,00
-trilha: sim
+trilha: true
+# parametros de automacao
+valor_profissional: 168000
+valor_estudante: 126000
+valor_assoc: 84000
+nome: intro-jurimetria-pacote
 ---
 
 ## Primeira turma: em breve!

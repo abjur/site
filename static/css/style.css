@@ -1193,6 +1193,22 @@ body.mobile-nav-active #mobile-nav-toggle {
   background: none;
 }
 
+.cta-submit3 {
+  font-family: "Arial", sans-serif;
+  font-weight: 500;
+  font-size: 16px;
+  letter-spacing: 1px;
+  display: inline-block;
+  padding: 8px 28px;
+  border-radius: 25px;
+  transition: 0.2s;
+  margin-top: 10px;
+  border: 2px solid #222;
+  color: #111;
+  cursor: pointer;
+  background: #ddd;
+}
+
 
 .cta-submit {
   font-family: "Arial", sans-serif;
@@ -2129,6 +2145,10 @@ body.mobile-nav-active #mobile-nav-toggle {
   transform: translate(-50%, -50%);
   font-size: 3em;
   color: white;
+}
+
+.imagem-cinza {
+  opacity: 0.25;
 }
 
 .carousel-item img {
