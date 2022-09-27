@@ -1,6 +1,6 @@
 ---
 title: "Diagnóstico do Contencioso Tributário Administrativo"
-img: "img/cases/bid.png"
+img: "img/pesquisas/bid.png"
 desc: "Estudo sobre estrutura do contencioso, processos administrativos tributários e percepções dos agentes"
 ordem: "197"
 categories: ["Estudo"]
@@ -11,7 +11,7 @@ equipe: "Andre Assumpcao, Dayana Uhdre, Gisele Bossa, Julio Trecenti, Marcelo Gu
 projeto: https://abjur.shinyapps.io/bidTrib/
 ---
 
-![](/img/cases/bid.png)
+![](/img/pesquisas/bid.png)
 
 ## Objetivos
 

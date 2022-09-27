@@ -1,6 +1,6 @@
 ---
 title: "Observatório da insolvência: Primeira fase"
-img: "/img/cases/insolvencia.png"
+img: "/img/pesquisas/insolvencia.png"
 desc: "Análise de processos de recuperação judicial da Comarca de São Paulo."
 ordem: "209"
 categories: ["Observatório"]
@@ -12,7 +12,7 @@ isbn: "978-65-80612-01-7"
 projeto: ""
 ---
 
-![](/img/cases/insolvencia.png)
+![](/img/pesquisas/insolvencia.png)
 
 ## Objetivos
 

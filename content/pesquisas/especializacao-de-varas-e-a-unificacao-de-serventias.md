@@ -1,6 +1,6 @@
 ---
 title: "Formas alternativas de gestão processual"
-img: "/img/cases/espunif.png"
+img: "/img/pesquisas/espunif.png"
 desc: "Estuda o impacto da especialização de varas e da unificação de serventias na celeridade do judiciário e qualidade das decisões."
 ordem: "204"
 categories: ["CNJ", "estudo"]
@@ -9,10 +9,10 @@ finalizacao: "Maio/2018"
 base: ""
 equipe: "Marcelo Guedes Nunes (ABJ), Julio Trecenti (ABJ), Fernando Corrêa (ABJ)"
 isbn: "978-65-5972-027-9"
-projeto: https://github.com/abjur/abjEspUnif 
+projeto: https://github.com/abjur/abjEspUnif
 ---
 
-![](/img/cases/espunif.png)
+![](/img/pesquisas/espunif.png)
 
 ## Objetivos
 

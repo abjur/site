@@ -1,6 +1,6 @@
 ---
 title: "Critérios objetivos para porte e tráfico de drogas"
-img: "/img/cases/drogas.png"
+img: "/img/pesquisas/drogas.png"
 desc: "Subsidia empiricamente o processo decisório para aplicação da Nova Lei de Drogas e possibilita uma tomada de decisão consciente para novas políticas públicas."
 ordem: "205"
 categories: ["estudo", "pró-bono"]
@@ -9,10 +9,10 @@ finalizacao: "Março/2018"
 base: "Registro Digital de Ocorrências (RDO) da Secretaria de Segurança Pública do Estado de São Paulo (SSP-SP)."
 equipe: "Marcelo Guedes Nunes (ABJ), Fernando Corrêa (ABJ), Julio Trecenti (ABJ), José de Jesus Filho (Consudata)"
 isbn: "978-65-80612-00-0"
-projeto: 
+projeto:
 ---
 
-![](/img/cases/drogas.png)
+![](/img/pesquisas/drogas.png)
 
 ## Objetivos
 

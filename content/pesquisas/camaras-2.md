@@ -1,6 +1,6 @@
 ---
 title: "Reformas de decisão nas câmaras criminais"
-img: "/img/cases/camaras.png"
+img: "/img/pesquisas/camaras.png"
 desc: "Mede a variabilidade das decisões nas Câmaras de Direito Criminal do Tribunal de Justiça do Estado de São Paulo."
 ordem: "210"
 categories: ["estudo", "pró-bono"]
@@ -11,7 +11,7 @@ equipe: "Marcelo Guedes Nunes (ABJ), Julio Trecenti (ABJ)"
 projeto: "https://github.com/abjur/tjspCrim"
 ---
 
-![](/img/cases/camaras.png)
+![](/img/pesquisas/camaras.png)
 
 ## Objetivos
 

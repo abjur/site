@@ -24,7 +24,7 @@
 
 
   <!--==========================
-      Nossos Cases
+      Nossas Pesquisas
     ============================-->
 
 
@@ -52,7 +52,7 @@
         </div>
         <br>
 
-{{ range $i, $member := sort (where $.Site.RegularPages "Section" "cases") "Params.ordem" }}
+{{ range $i, $member := sort (where $.Site.RegularPages "Section" "pesquisas") "Params.ordem" }}
 
   {{ if modBool $i 3 }}
     <div class="row about-cols">

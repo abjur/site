@@ -1,6 +1,6 @@
 ---
 title: "Tempo dos processos relacionados à adoção"
-img: "/img/cases/adocao.png"
+img: "/img/pesquisas/adocao.png"
 desc: "Análise do tempo dos processos relacionados à adoção no Brasil, especialmente de processos relativos a desconstituição do poder familiar."
 ordem: "212"
 categories: ["estudo", "CNJ"]
@@ -12,7 +12,7 @@ isbn: "978-65-5972-025-5"
 projeto: "https://github.com/abjur/adocao"
 ---
 
-![](/img/cases/adocao.png)
+![](/img/pesquisas/adocao.png)
 
 ## Objetivos
 

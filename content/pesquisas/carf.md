@@ -1,6 +1,6 @@
 ---
 title: "CARF: Uma análise do sistema tributário"
-img: "/img/cases/carf.png"
+img: "/img/pesquisas/carf.png"
 desc: "Análise estatística do funcionamento e do posicionamento do Conselho Administrativo de Recursos Fiscais."
 ordem: "211"
 categories: ["estudo"]
@@ -12,7 +12,7 @@ isbn: "978-65-80612-05-5"
 projeto: ""
 ---
 
-![](/img/cases/carf.png)
+![](/img/pesquisas/carf.png)
 
 ## Objetivos
 

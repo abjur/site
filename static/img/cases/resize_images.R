@@ -1,12 +1,12 @@
 library(magrittr)
-"static/img/cases/camaras.png" %>%
+"static/img/pesquisas/camaras.png" %>%
   magick::image_read()
 
 
 
-x <- "static/img/cases/carf.png"
+x <- "static/img/pesquisas/carf.png"
 
-resize_image("static/img/cases/obsrjrj.png")
+resize_image("static/img/pesquisas/obsrjrj.png")
 resize_image <- function(x) {
   bkp <- paste0(
     fs::path_ext_remove(x),
@@ -26,11 +26,11 @@ resize_image <- function(x) {
     magick::image_write(x)
 }
 
-fs::dir_ls("static/img/cases", regexp = "jpg|png|svg") %>%
+fs::dir_ls("static/img/pesquisas", regexp = "jpg|png|svg") %>%
   purrr::walk(resize_image)
 
 
-images <- fs::dir_ls("static/img/cases", regexp = "jpg|png|svg") %>%
+images <- fs::dir_ls("static/img/pesquisas", regexp = "jpg|png|svg") %>%
   purrr::map(magick::image_read)
 
 images[[5]]

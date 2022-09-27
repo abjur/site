@@ -1,6 +1,6 @@
 	---
 title: "Maiores litigantes na justiça consumerista"
-img: "/img/cases/cnjml.png"
+img: "/img/pesquisas/cnjml.png"
 desc: "Mapeia os maiores litigantes em ações consumeristas na Justiça Estadual, estudando as características dos litígios."
 ordem: "206"
 categories: ["estudo", "CNJ"]
@@ -12,7 +12,7 @@ isbn: "978-65-5972-024-8"
 projeto: "https://github.com/abjur/cnjMLBook"
 ---
 
-![](/img/cases/cnjml.png)
+![](/img/pesquisas/cnjml.png)
 
 ## Objetivos
 

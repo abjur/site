@@ -1,6 +1,6 @@
 ---
 title: "Justiça criminal, impunidade e prescrição"
-img: "/img/cases/nupps.png"
+img: "/img/pesquisas/nupps.png"
 desc: "Panorama geral sobre a persecução penal à corrupção no Brasil, desenhando e medindo seus fluxos e colhendo as percepções dos atores."
 ordem: "202"
 categories: ["CNJ", "estudo"]
@@ -12,7 +12,7 @@ isbn: "978-65-5972-026-2"
 projeto: https://github.com/abjur/abjEspUnif
 ---
 
-![](/img/cases/nupps.png)
+![](/img/pesquisas/nupps.png)
 
 ## Objetivos
 

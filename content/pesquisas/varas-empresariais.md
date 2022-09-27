@@ -1,6 +1,6 @@
 ---
 title: "Varas empresariais na comarca de São Paulo"
-img: "/img/cases/varemp.png"
+img: "/img/pesquisas/varemp.png"
 desc: "Discute a necessidade e os potenciais impactos da criação de varas empresariais na comarca de São Paulo."
 ordem: "207"
 categories: ["estudo", "pró-bono"]
@@ -12,7 +12,7 @@ isbn: "978-65-80612-06-2"
 projeto: "https://github.com/abjur/tjspBook"
 ---
 
-![](/img/cases/varemp.png)
+![](/img/pesquisas/varemp.png)
 
 ## Objetivos
 
@@ -20,9 +20,9 @@ Estimar o volume de trabalho proporcionado pelos processos de matéria empresari
 
 ## Metodologia
 
-A especialização de varas é um tema de interesse na administração do judiciário. Atualmente, os poucos estudos disponíveis fazem muitas suposições para chegar às conclusões ou esbarram em dificuldades impostas pela documentação dos dados. 
+A especialização de varas é um tema de interesse na administração do judiciário. Atualmente, os poucos estudos disponíveis fazem muitas suposições para chegar às conclusões ou esbarram em dificuldades impostas pela documentação dos dados.
 
-Nesse estudo, discutimos a criação de varas empresariais na Comarca de São Paulo e desenvolvemos metodologias inovadoras para resolver três problemas. O primeiro é a vinculação de normas para determinação de competências com assuntos da Tabela Processual Unificada do CNJ (Res. 46). O segundo é o tratamento de falhas na classificação dos assuntos na base de dados analisada. O terceiro é criar uma métrica de mensuração e comparação dos esforços empreendidos por magistrados em processos comuns e empresariais. 
+Nesse estudo, discutimos a criação de varas empresariais na Comarca de São Paulo e desenvolvemos metodologias inovadoras para resolver três problemas. O primeiro é a vinculação de normas para determinação de competências com assuntos da Tabela Processual Unificada do CNJ (Res. 46). O segundo é o tratamento de falhas na classificação dos assuntos na base de dados analisada. O terceiro é criar uma métrica de mensuração e comparação dos esforços empreendidos por magistrados em processos comuns e empresariais.
 
 Nas análises realizadas, encontramos evidências de que um processo empresarial demanda aproximadamente o dobro de esforço do que um processo comum. Ao realizar correções no volume processual a partir de um modelo de tratamento dos assuntos, concluímos que duas varas empresariais atendem adequadamente a demanda existente nos termos da resolução Nº 02/2011 do TJSP.
 

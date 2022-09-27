@@ -1,6 +1,6 @@
 ---
 title: "Observatório da insolvência: Segunda fase"
-img: "img/cases/obsfase2.png"
+img: "img/pesquisas/obsfase2.png"
 desc: "Estudo sobre as recuperações judiciais do estado de São Paulo."
 ordem: "203"
 categories: ["Observatório"]
@@ -12,7 +12,7 @@ isbn: "978-65-80612-02-4"
 projeto: https://abjur.github.io/obsFase2
 ---
 
-![](/img/cases/obsfase2.png)
+![](/img/pesquisas/obsfase2.png)
 
 ## Objetivos
 

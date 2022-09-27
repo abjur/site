@@ -1,6 +1,6 @@
 ---
 title: "Observatório da insolvência: Rio de Janeiro"
-img: "img/cases/obsrjrj.png"
+img: "img/pesquisas/obsrjrj.png"
 desc: "Estudo sobre as recuperações judiciais do estado do Rio de Janeiro."
 ordem: "199"
 categories: ["Observatório"]
@@ -12,7 +12,7 @@ isbn: "978-65-80612-04-8"
 projeto: https://abjur.github.io/obsRJRJ
 ---
 
-![](/img/cases/obsrjrj.png)
+![](/img/pesquisas/obsrjrj.png)
 
 ## Objetivos
 

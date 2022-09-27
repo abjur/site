@@ -1,6 +1,6 @@
 ---
 title: "O processamento de homicídios no Brasil"
-img: "/img/cases/homicidios.png"
+img: "/img/pesquisas/homicidios.png"
 desc: "Analisa o processamento de homicídios no Brasil e a Estratégia Nacional de Justiça e Segurança Pública em três estados: Alagoas, Santa Catarina e São Paulo."
 ordem: "208"
 categories: ["estudo"]
@@ -12,7 +12,7 @@ isbn: ""
 projeto: "https://github.com/abjur/senaspExec"
 ---
 
-![](/img/cases/homicidios.png)
+![](/img/pesquisas/homicidios.png)
 
 ## Objetivos
 
