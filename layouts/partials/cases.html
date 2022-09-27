@@ -6,13 +6,13 @@
 
     <div class="section-header wow fadeInUp">
       <h3>Pesquisas</h3>
-      <p>Nossas pesquisas são utilizadas para políticas públicas. Saiba mais na nossa <a href="/cases">página de cases</a>.</p>
+      <p>Nossas pesquisas são utilizadas para políticas públicas. Saiba mais na nossa <a href="/pesquisas">página de pesquisas</a>.</p>
     </div>
 
 
 <div class="row about-cols">
 
-{{ range $i, $member := first 3 (sort (where $.Site.RegularPages "Section" "cases") "Params.ordem") }}
+{{ range $i, $member := first 3 (sort (where $.Site.RegularPages "Section" "pesquisas") "Params.ordem") }}
 
 
 

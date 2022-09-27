@@ -15,7 +15,7 @@
           <h3>{{.Title}}</h3>
         </header>
 
-        {{ $pag := .Paginate ( where .Pages.ByDate.Reverse "Section" "cases" ) 9 }}
+        {{ $pag := .Paginate ( where .Pages.ByDate.Reverse "Section" "pesquisas" ) 9 }}
         {{ range $i, $member :=  $pag.Pages}}
 
           {{ if modBool $i 3 }}
