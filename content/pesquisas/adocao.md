@@ -1,5 +1,6 @@
 ---
 title: "Tempo dos processos relacionados à adoção"
+aliases: [/cases/adocao/]
 img: "/img/pesquisas/adocao.png"
 desc: "Análise do tempo dos processos relacionados à adoção no Brasil, especialmente de processos relativos a desconstituição do poder familiar."
 ordem: "212"

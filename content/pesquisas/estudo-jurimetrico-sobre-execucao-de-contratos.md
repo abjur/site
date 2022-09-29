@@ -1,5 +1,6 @@
 ---
 title: "Estudo jurimétrico sobre execução de contratos"
+aliases: [/cases/estudo-jurimetrico-sobre-execucao-de-contratos/]
 img: "/img/pesquisas/doingbusiness.png"
 desc: "Mensura a posição do país no tema 'execução de contratos' do Doing Business."
 ordem: "200"

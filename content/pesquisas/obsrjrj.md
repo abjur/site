@@ -1,5 +1,6 @@
 ---
 title: "Observatório da insolvência: Rio de Janeiro"
+aliases: [/cases/obsrjrj/]
 img: "img/pesquisas/obsrjrj.png"
 desc: "Estudo sobre as recuperações judiciais do estado do Rio de Janeiro."
 ordem: "199"

@@ -1,5 +1,6 @@
 ---
 title: "CARF: Uma análise do sistema tributário"
+aliases: [/cases/carf/]
 img: "/img/pesquisas/carf.png"
 desc: "Análise estatística do funcionamento e do posicionamento do Conselho Administrativo de Recursos Fiscais."
 ordem: "211"

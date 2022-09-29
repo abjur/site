@@ -1,5 +1,6 @@
 ---
 title: "O processamento de homicídios no Brasil"
+aliases: [/cases/homicidios/]
 img: "/img/pesquisas/homicidios.png"
 desc: "Analisa o processamento de homicídios no Brasil e a Estratégia Nacional de Justiça e Segurança Pública em três estados: Alagoas, Santa Catarina e São Paulo."
 ordem: "208"

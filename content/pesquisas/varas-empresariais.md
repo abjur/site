@@ -1,5 +1,6 @@
 ---
 title: "Varas empresariais na comarca de São Paulo"
+aliases: [/cases/varas-empresariais/]
 img: "/img/pesquisas/varemp.png"
 desc: "Discute a necessidade e os potenciais impactos da criação de varas empresariais na comarca de São Paulo."
 ordem: "207"

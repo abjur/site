@@ -1,6 +1,7 @@
 ---
 title: "Observatório da insolvência: terceira fase"
 img: "img/pesquisas/obsfase3.png"
+aliases: [/cases/3a-fase-observatorio-da-insolvencia/]
 desc: "Estudo sobre as falências do estado de São Paulo."
 ordem: "198"
 categories: ["Observatório"]

@@ -1,5 +1,6 @@
 ---
 title: "Justiça criminal, impunidade e prescrição"
+aliases: [/cases/justica-criminal-impunidade-e-prescricao/]
 img: "/img/pesquisas/nupps.png"
 desc: "Panorama geral sobre a persecução penal à corrupção no Brasil, desenhando e medindo seus fluxos e colhendo as percepções dos atores."
 ordem: "202"

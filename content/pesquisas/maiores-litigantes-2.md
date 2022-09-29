@@ -1,5 +1,6 @@
 	---
 title: "Maiores litigantes na justiça consumerista"
+aliases: [/cases/maiores-litigantes-2/]
 img: "/img/pesquisas/cnjml.png"
 desc: "Mapeia os maiores litigantes em ações consumeristas na Justiça Estadual, estudando as características dos litígios."
 ordem: "206"

@@ -1,5 +1,6 @@
 ---
 title: "Observatório do Mercado de Capitais"
+aliases: [/cases/obsmc/]
 img: "/img/pesquisas/cvm.png"
 desc: "Analisa processos relativos à atividade disciplinar da CVM."
 ordem: "201"

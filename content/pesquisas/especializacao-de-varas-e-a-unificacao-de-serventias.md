@@ -1,5 +1,6 @@
 ---
 title: "Formas alternativas de gestão processual"
+aliases: [/cases/especializacao-de-varas-e-a-unificacao-de-serventias/]
 img: "/img/pesquisas/espunif.png"
 desc: "Estuda o impacto da especialização de varas e da unificação de serventias na celeridade do judiciário e qualidade das decisões."
 ordem: "204"

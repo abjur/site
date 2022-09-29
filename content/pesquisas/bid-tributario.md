@@ -1,6 +1,7 @@
 ---
 title: "Diagnóstico do Contencioso Tributário Administrativo"
 img: "img/pesquisas/bid.png"
+aliases: [/cases/bid-tributario/]
 desc: "Estudo sobre estrutura do contencioso, processos administrativos tributários e percepções dos agentes"
 ordem: "197"
 categories: ["Estudo"]

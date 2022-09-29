@@ -1,5 +1,6 @@
 ---
 title: "Reformas de decisão nas câmaras criminais"
+aliases: [/cases/camaras-2/]
 img: "/img/pesquisas/camaras.png"
 desc: "Mede a variabilidade das decisões nas Câmaras de Direito Criminal do Tribunal de Justiça do Estado de São Paulo."
 ordem: "210"

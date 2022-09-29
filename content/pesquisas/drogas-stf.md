@@ -1,5 +1,6 @@
 ---
 title: "Critérios objetivos para porte e tráfico de drogas"
+aliases: [/cases/drogas-stf/]
 img: "/img/pesquisas/drogas.png"
 desc: "Subsidia empiricamente o processo decisório para aplicação da Nova Lei de Drogas e possibilita uma tomada de decisão consciente para novas políticas públicas."
 ordem: "205"

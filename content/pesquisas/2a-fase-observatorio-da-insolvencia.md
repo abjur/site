@@ -1,6 +1,7 @@
 ---
 title: "Observatório da insolvência: Segunda fase"
 img: "img/pesquisas/obsfase2.png"
+aliases: [/cases/2a-fase-observatorio-da-insolvencia/]
 desc: "Estudo sobre as recuperações judiciais do estado de São Paulo."
 ordem: "203"
 categories: ["Observatório"]
