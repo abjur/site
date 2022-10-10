@@ -13,21 +13,13 @@ valor_assoc: 60000
 nome: intro-jurimetria-2
 ---
 
-## Primeira turma: em breve!
+### Matrículas abertas para pessoas inscritas na lista de espera!
 
-Estamos preparando tudo com muita dedicação para que sua experiência com o primeiro curso ministrado integralmente pela ABJ seja extremamente proveitosa!
+Se você se inscreveu na lista de espera para participar da 1ª turma deste curso, cheque seu e-mail! Enviamos um link exclusivo para que possa realizar sua inscrição.
 
-Caso tenha interesse em fazer parte da primeira turma do Curso de Introdução à Pesquisa Jurimétrica, preencha o formulário e faça parte da lista de espera.
+Ficou de fora da lista de espera e quer saber como se inscrever? Caso nem todas as vagas sejam preenchidas, liberaremos o link para matrícula aqui em nosso site para vagas remanecentes.
 
-Assim que forem confirmadas as datas e o período das aulas ao vivo, enviaremos um comunicado para que todas as pessoas inscritas na lista de espera possam realizar suas matrículas.
-
-Nosso interesse é que nossos cursos de Jurimetria sejam utilizados não só pela própria ABJ, mas por todas as instituições de ensino e profissionais que fornecem cursos de Jurimetria. Somente com seu feedback conseguiremos garantir o sucesso do curso.
-
-Preencha esse formulário para nos ajudar!
-
-<div align="center">
-<h3><a href="https://forms.gle/n3rbmBDN6kq8k9XZ6" target="_blank">Lista de espera / Feedback</a></h3>
-</div>
+Ao final desta página, insira seu e-mail e receba os avisos em primeira mão.
 
 ## Objetivos
 
@@ -80,3 +72,11 @@ Acesse a ementa completa <a href="https://docs.google.com/document/d/1pHF1qUjupk
 Quem fizer o curso sairá com uma noção aprofundada do que é a Jurimetria e como planejar um projeto de pesquisa jurimétrica no mundo real. Os conceitos trabalhados, no entanto, não são suficientes para realizar as pesquisas completas, especialmente na parte de estruturação de dados e análise, sendo necessário trabalhar em equipe para obter os resultados finais.
 
 
+
+::: {align="center"}
+
+**Quer receber um aviso sobre novas turmas ou novos cursos que lançaremos aqui na ABJ?**
+
+<a href="<https://app.glueup.com/organization/1442/widget/subscription-list/?unsubscribe=10756&subscribe=20052I"> Clique aqui e se inscreva</a>
+
+:::
