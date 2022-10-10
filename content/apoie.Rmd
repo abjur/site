@@ -1,7 +1,7 @@
 ---
 title: "Apoie"
 type: "apoie"
-output: md_document
+output: html_document
 toc: true
 ---
 
