@@ -13,40 +13,42 @@ valor_estudante: 126000
 valor_assoc: 84000
 ---
 
-## Primeira turma: em breve!
+## Venha fazer parte da Primeira turma do curso de Introdução à Pesquisa Jurimétrica da ABJ
 
-Estamos preparando tudo com muita dedicação para que sua experiência com o primeiro curso ministrado integralmente pela ABJ seja extremamente proveitosa!
+### Sobre este pacote
 
-Caso tenha interesse em fazer parte da primeira turma do Curso de Introdução à Pesquisa Jurimétrica, preencha o formulário e faça parte da lista de espera.
+Neste pacote você irá adquirir as partes 1 e 2 do curso de Introdução à Pesquisa Jurimétrica.
 
-Assim que houver as confirmações sobre período e data para as aulas ao vivo, enviaremos um comunicado para que todas pessoas inscritas na lista de espera possam realizar suas matrículas!
+### Sobre as vagas
 
-Nosso interesse é que nossos cursos de Jurimetria sejam utilizados não só pela própria ABJ, mas por todas as instituições de ensino e profissionais que fornecem cursos de Jurimetria. Somente com seu feedback conseguiremos garantir o sucesso do curso.
+Teremos apenas 30 vagas para a primeira turma do curso. Apesar de ser aberto para toda comunidade a liberação das matrículas estão seguindo um cronograma de disponibilização dando prioridade aos interessados(as) que fazem parte do quadro associativo e estão com sua associação regular.
 
-Preencha esse formulário para nos ajudar!
+Com isso, entre os dias 01 à 09 de outubro de 2022, a matrícula ficou disponível apenas para aqueles que são associados(as) e se inscreveram na lista de espera. Assim, a partir do dia 10 de outubro a matrícula fica disponível para toda a lista de espera, de forma que não conseguiremos garantir a reserva das vagas.
 
-<div align="center">
-<h3><a href="https://forms.gle/n3rbmBDN6kq8k9XZ6" target="_blank">Lista de espera / Feedback</a></h3>
-</div>
-
-## Sobre este pacote
-
-Este pacote envolve as partes 1 e 2 do curso de Introdução à Pesquisa Jurimétrica.
+Esta página ficará disponível até que todas as vagas sejam preenchidas, ou até o dia 07 de novembro de 2022 às 15h.
 
 
-## Metodologia e formato
+### Metodologia e formato
 
 A junção dos dois módulos do curso envolve aulas teóricas e práticas, que ao todo terão:
 
-- 6 horas de vídeos gravados para acompanhar no seu tempo.
-- 18 horas de aulas online e ao vivo (3h cada)
+-   6 horas de vídeos gravados para acompanhar no seu tempo.
+-   18 horas de aulas online e ao vivo (3h cada)
 
 As bases de dados utilizadas são todas públicas ou são amostras de bases de dados utilizadas em pesquisas da ABJ. O material inclui um repositório aberto com todas as bases de dados utilizadas para construção do livro e dos slides.
 
-Os materiais utilizados durante o curso (livro, slides e dados) são todos abertos. No entanto, os resultados dos exercícios e dinâmicas realizadas em aula serão somente para nossos alunos
+Os materiais utilizados durante o curso (livro, slides e dados) são todos abertos. No entanto, os resultados dos exercícios e dinâmicas realizadas em aula serão somente para nossos alunos.
 
-### Formato
+### Sobre as aulas
 
-Ao longo das aulas ao vivo, em uma sala do Zoom, teremos um professor dando aula e outro realizando monitoria. Dessa forma, conseguimos garantir um melhor aproveitamento para todos os alunos.
+As aulas online e ao vivo do **módulo 1** serão nos dias **08, 22 e 29 de novembro deste ano (2022)**, no horário das **19h às 22h**.
 
-As aulas além de envolverem bastante leitura e atividades extras, possuem uma parte expositiva e outra com diversos espaços para discussão dos textos e resolução de exercícios.
+Já as aulas do módulo 2 acontecerão no início de 2023 e serão divulgadas com antecedência para que possam se programar.
+
+Vale ressaltar que o conteúdo prático deste curso, que será dado em aulas síncronas - conforme cronograma mencionado acima - e contarão com 2 professores. Além disso, estamos preparados para que você possa tirar todas as suas dúvidas; os professores terão contato direto com os alunos em aula, no fórum da ABJ e pelo Google Classroom.
+
+As aulas além de envolverem bastante leitura e atividades extras, terão uma parte expositiva e outra com diversos espaços para discussão dos textos e resolução de exercícios.
+
+
+Em caso de dúvidas, estamos à disposição e você pode nos contatar pelo email: [cursos@abj.org.br](mailto:cursos@abj.org.br) ou pelo Whatsapp: 
+[11 9 3727-6209](https://api.whatsapp.com/message/PQPOTT4NYHFMK1?autoload=1&app_absent=0)
