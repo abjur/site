@@ -77,10 +77,8 @@ Acesse a ementa completa <a href="https://docs.google.com/document/d/1pHF1qUjupk
 Quem fizer o curso sairá com uma noção aprofundada do que é a Jurimetria e como planejar um projeto de pesquisa jurimétrica no mundo real. Os conceitos trabalhados, no entanto, não são suficientes para realizar as pesquisas completas, especialmente na parte de estruturação de dados e análise, sendo necessário trabalhar em equipe para obter os resultados finais.
 
 
-::: {align="center"}
 
 **Quer receber um aviso sobre novas turmas ou novos cursos que lançaremos aqui na ABJ?**
 
 <a href="<https://app.glueup.com/organization/1442/widget/subscription-list/?unsubscribe=10756&subscribe=20052I"> Clique aqui e se inscreva</a>
 
-:::
