@@ -3,7 +3,7 @@ title: "Observatório da Insolvência - Recuperações Judiciais: Rio Grande do 
 img: "img/pesquisas/obsfase2.png"
 aliases: [/cases/observatorio-da-insolvencia-rj-rio-grande-do-sul/]
 desc: "Estudo sobre as recuperações judiciais do estado do Rio Grande do Sul."
-ordem: "203"
+ordem: "196"
 categories: ["Observatório"]
 link: "https://abjur.github.io/obsRJRS/relatorio/index.html"
 finalizacao: "Agosto/2022"
