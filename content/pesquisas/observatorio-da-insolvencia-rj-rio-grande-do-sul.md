@@ -7,8 +7,8 @@ ordem: "196"
 categories: ["Observatório"]
 link: "https://abjur.github.io/obsRJRS/relatorio/index.html"
 finalizacao: "Agosto/2022"
-base: 
-equipe:
+base: "Processos de recuperação judicial distribuídos nas Comarcas do Estado do Rio Grande do Sul entre janeiro de 2010 e dezembro de 2020."
+equipe: "Marcelo Guedes Nunes (ABJ), André Estevez, Ivo Waisberg (PUC-SP), João Pedro Scalzilli, José Paulo Japur, Marcelo Barbosa Sacramone (PUC-SP), Ney Wiedemann Neto, Roberto Monlleo Martins, Julio Trecenti (ABJ)"
 isbn: 
 projeto: https://abjur.github.io/obsRJRS/
 ---
@@ -17,19 +17,20 @@ projeto: https://abjur.github.io/obsRJRS/
 
 ## Objetivos
 
-- Compreender empiricamente o processo da insolvência.
-- Auxiliar na formulação de políticas públicas, como a elaboração da nova lei de falências e recuperações.
+A 1ª Fase do Observatório da Insolvência - Rio Grande do Sul é dedicada à análise dos Processos de Recuperação Judicial (PRJ), endereçando os pontos principais abaixo.
+
+- Características das partes envolvidas.
+- Deferimento do processo.
+- Características da fase de negociação.
+- Tempo de duração dos processos.
+- Características dos planos aprovados.
+- Desfecho da recuperação judicial.
 
 ## Metodologia
 
-Foram analisados 521  processos de recuperação judicial no Rio Grande do Sul distribuídos entre janeiro de 2010 e dezembro de 2020. As informações foram coletadas através do preenchimento de questionários por pesquisadores.
+Foram analisados 521  processos de recuperação judicial no Rio Grande do Sul distribuídos entre janeiro de 2010 e dezembro de 2020. As informações foram coletadas através do preenchimento de questionários por pesquisadores. 
 
-Algumas perguntas que nos nortearam na execução deste projeto, foram:
-
-- Existem diferenças na tramitação em varas especializadas?
-- É possível identificar a causa de eventuais diferenças?
-- O que influencia as características dos planos?
-- Qual é o impacto do tamanho das requerentes em recuperação na tramitação do processo de RJ?
+O projeto passou por três etapas: listagem de processos, coleta de dados e análise estatística. A etapa da listagem envolve encontrar os números identificadores dos processos que fazem parte da pesquisa, considerando o escopo definido. Já a etapa de coleta envolve acessar os processos através de seus números identificadores, obtendo as informações que são relevantes para o estudo. A terceira etapa envolve a análise estatística dos dados coletados, realizando os cruzamentos necessários para atingir os objetivos da pesquisa.
 
 ## Resultados
 
