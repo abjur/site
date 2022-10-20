@@ -46,10 +46,8 @@ Ao longo das aulas ao vivo, em uma sala do Zoom, teremos um professor dando aula
 As aulas além de envolverem bastante leitura e atividades extras, possuem uma parte expositiva e outra com diversos espaços para discussão dos textos e resolução de exercícios.
 
 
-::: {align="center"}
 
 **Quer receber um aviso sobre novas turmas ou novos cursos que lançaremos aqui na ABJ?**
 
 <a href="<https://app.glueup.com/organization/1442/widget/subscription-list/?unsubscribe=10756&subscribe=20052I"> Clique aqui e se inscreva</a>
 
-:::
