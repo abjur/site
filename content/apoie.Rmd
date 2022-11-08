@@ -97,13 +97,14 @@ Estamos mudando nosso sistema de associação. Até a migração terminar, não 
 
 </div>
 
+
 <h3>Apoio institucional - Pessoa jurídica</h3>
 
 <div class="row associe-se">
 <div class="col-md-6">
 <a href="" target="_blank"><div>
 <i class="fas fa-home"></i>
-<h4>Legaltech / Lawtech</h4>]
+<h4>Legaltech / Lawtech</h4>
 <h4>R$ 2838 no plano anual</h4>
 <p>Destinado a startups que desejam empreender no ramo da jurimetria</p>
 </div></a>
