@@ -1,4 +1,4 @@
-<!doctype html5>
+<!DOCTYPE html>
 <html>
 
 <head>
@@ -7,32 +7,56 @@
   <meta property="og:description" content="{{.Params.desc | plainify}}">
   <meta property="og:image" content="{{ .Site.BaseURL }}{{.Params.img}}">
   <meta property="og:url" content="{{.Permalink}}">
+
   {{ partial "head.html" . }}
+
+  <script src="https://assets.pagar.me/checkout/1.1.0/checkout.js"></script>
+  <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+  <script src ="https://assets.pagar.me/checkout/1.1.0//easyXDM.js"></script>
+  <script src="https://unpkg.com/sweetalert/dist/sweetalert.min.js"></script>
+
+  {{ partial "scripts.html" .}}
+
 </head>
 
   <body data-spy="scroll" data-target="#toc">
+
     {{ partial "header.html" . }}
 
     <div class="container" id="article-container">
 
-      <header class="section-header" id="header-title">
-        <h3 data-toc-skip>{{ .Title }}</h3>
-      </header>
-
       <div class="row">
 
         <div class="col-md-3">
+          <br>
+          <div class="sticky-top">
+            <nav id="toc" data-toggle="toc"></nav>
+          </div>
         </div>
 
         <div class="col-md-6">
+        <br>
+        <header class="section-header" id="header-title">
+            <h3 data-toc-skip>{{ .Title }}</h3>
+        </header>
+
         <div id="article">
 
+
           {{.Content}}
+
+          <hr>
+
+          {{ partial "vendas.html" . }}
+
+          <hr>
 
         </div>
         </div>
 
         <div class="col-md-3">
+          <br>
+          <div class="sticky-top">
           <h4> Informações úteis </h4>
 
           <strong>Descrição</strong>: {{.Params.desc}}<hr>
@@ -42,23 +66,16 @@
           <strong>Lista de espera</strong>: <a href="{{.Params.espera}}" target="_blank"><button class="cta-submit">Link</button></a><hr>
           {{ end }}
 
-          <strong>Investimento:</strong><br>
-          {{ if isset .Params "valor1"}}
-          <strong>Profissionais</strong>: {{.Params.valor1}}<br>
-          {{ end }}
-          {{ if isset .Params "valor2"}}
-          <strong>Estudantes</strong>: {{.Params.valor2}}<br>
-          {{ end }}
-          {{ if isset .Params "valor3"}}
-          <strong>Pessoas associadas</strong>: {{.Params.valor3}}<hr>
-          {{ end }}
-
           <strong>Dúvidas: </strong><a href="mailto:cursos@abj.org.br">cursos@abj.org.br</a>
+
+
           <hr>
 
         </div>
-
+        </div>
       </div>
+
+
 
     </div>
 
@@ -66,7 +83,6 @@
 
   </body>
 
-  {{ partial "scripts.html" .}}
   {{ partial "toc.html" . }}
 
 </html>
