@@ -13,13 +13,9 @@ valor_assoc: 60000
 nome: intro-jurimetria-2
 ---
 
-### Matrículas abertas para pessoas inscritas na lista de espera!
+### Em breve novas turmas
 
-Se você se inscreveu na lista de espera para participar da 1ª turma deste curso, cheque seu e-mail! Enviamos um link exclusivo para que possa realizar sua inscrição.
-
-Ficou de fora da lista de espera e quer saber como se inscrever? Caso nem todas as vagas sejam preenchidas, liberaremos o link para matrícula aqui em nosso site para vagas remanecentes.
-
-Ao final desta página, insira seu e-mail e receba os avisos em primeira mão.
+Envie um e-mail para cursos@abj.org.br pedindo para fazer parte da lista de interessados nos cursos da ABJ e receba os avisos em primeira mão.
 
 ## Objetivos
 
@@ -70,11 +66,4 @@ Acesse a ementa completa <a href="https://docs.google.com/document/d/1pHF1qUjupk
 - Aprender a desenhar um projeto de pesquisa jurimetrica
 
 Quem fizer o curso sairá com uma noção aprofundada do que é a Jurimetria e como planejar um projeto de pesquisa jurimétrica no mundo real. Os conceitos trabalhados, no entanto, não são suficientes para realizar as pesquisas completas, especialmente na parte de estruturação de dados e análise, sendo necessário trabalhar em equipe para obter os resultados finais.
-
-
-
-
-**Quer receber um aviso sobre novas turmas ou novos cursos que lançaremos aqui na ABJ?**
-
-<a href="<https://app.glueup.com/organization/1442/widget/subscription-list/?unsubscribe=10756&subscribe=20052I"> Clique aqui e se inscreva</a>
 
