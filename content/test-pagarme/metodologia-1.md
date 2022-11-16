@@ -4,7 +4,7 @@ img: "img/cursos/curso-1.jpg"
 desc: "Curso introdutório para pessoas interessadas em desenvolver pesquisas jurimétricas, parte 1."
 ordem: "1"
 ativo: true
-material: "https://abjur.github.io/livro"
+material: "https://livro.abj.org.br"
 espera: https://forms.gle/n3rbmBDN6kq8k9XZ6
 # parametros de automacao
 valor_profissional: 300

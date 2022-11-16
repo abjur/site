@@ -4,7 +4,7 @@ img: "img/cursos/curso-1.jpg"
 desc: "Curso completo sobre metodologia de pesquisa jurimétrica (módulos 1 e 2)"
 ordem: "1"
 ativo: false
-material: "https://abjur.github.io/livro"
+material: "https://livro.abj.org.br"
 espera: https://forms.gle/n3rbmBDN6kq8k9XZ6
 trilha: true
 # parametros de automacao

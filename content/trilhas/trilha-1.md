@@ -3,8 +3,8 @@ title: "Introdução à pesquisa jurimétrica"
 img: "img/cursos/curso-1.jpg"
 desc: "Curso completo de Introdução à pesquisa jurimétrica (módulos 1 e 2)"
 ordem: "1"
-ativo: true
-material: "https://abjur.github.io/livro"
+ativo: false
+material: "https://livro.abj.org.br"
 espera: https://forms.gle/n3rbmBDN6kq8k9XZ6
 trilha: true
 # parametros de automacao

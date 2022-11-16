@@ -3,8 +3,8 @@ title: "Introdução à pesquisa jurimétrica (parte 2)"
 img: "img/cursos/curso-2.jpg"
 desc: "Curso introdutório para pessoas interessadas em desenvolver pesquisas jurimétricas, parte 2."
 ordem: "1"
-ativo: true
-material: "https://abjur.github.io/livro"
+ativo: false
+material: "https://livro.abj.org.br"
 espera: https://forms.gle/n3rbmBDN6kq8k9XZ6
 # parametros de automacao
 valor_profissional: 120000
