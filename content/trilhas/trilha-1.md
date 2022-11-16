@@ -14,13 +14,9 @@ valor_assoc: 84000
 nome: intro-jurimetria-pacote
 ---
 
-### Matrículas abertas para pessoas inscritas na lista de espera!
+### Em breve novas turmas
 
-Se você se inscreveu na lista de espera para participar da 1ª turma deste curso, cheque seu e-mail! Enviamos um link exclusivo para que possa realizar sua inscrição.
-
-Ficou de fora da lista de espera e quer saber como se inscrever? Caso nem todas as vagas sejam preenchidas, liberaremos o link para matrícula aqui em nosso site para vagas remanecentes.
-
-Ao final desta página, insira seu e-mail e receba os avisos em primeira mão.
+Envie um e-mail para cursos@abj.org.br pedindo para fazer parte da lista de interessados nos cursos da ABJ e receba os avisos em primeira mão.
 
 
 ## Sobre este pacote
@@ -46,8 +42,4 @@ Ao longo das aulas ao vivo, em uma sala do Zoom, teremos um professor dando aula
 As aulas além de envolverem bastante leitura e atividades extras, possuem uma parte expositiva e outra com diversos espaços para discussão dos textos e resolução de exercícios.
 
 
-
-**Quer receber um aviso sobre novas turmas ou novos cursos que lançaremos aqui na ABJ?**
-
-<a href="<https://app.glueup.com/organization/1442/widget/subscription-list/?unsubscribe=10756&subscribe=20052I"> Clique aqui e se inscreva</a>
 
