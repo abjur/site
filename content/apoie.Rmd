@@ -80,7 +80,7 @@ eja abaixo opções de modalidades de apoio e inscreva-se. Se tiver dúvidas <a 
 <div class="row associe-se">
 
 <div class="col-md-6">
-<a href="https://app.associatec.com.br/AreaAssociados/MinhaConta/CadastroAssociadoPF?idTipoAssociado=2380" target="_blank"><div>
+<a href="https://app.associatec.com.br/AreaAssociados/Abj?returnUrl=https://app.associatec.com.br/AreaAssociados/MinhaConta/CadastroAssociadoPF?idTipoAssociado=2380" target="_blank"><div>
 <i class="fas fa-graduation-cap"></i>
 <h4>Estudante</h3>
 <h4>R$ 444 no plano anual</h3>
@@ -88,7 +88,7 @@ eja abaixo opções de modalidades de apoio e inscreva-se. Se tiver dúvidas <a 
 </div></a></div>
 
 <div class="col-md-6">
-<a href="https://app.associatec.com.br/AreaAssociados/MinhaConta/CadastroAssociadoPF?idTipoAssociado=2379" target="_blank"><div>
+<a href="https://app.associatec.com.br/AreaAssociados/Abj?returnUrl=https://app.associatec.com.br/AreaAssociados/MinhaConta/CadastroAssociadoPF?idTipoAssociado=2379" target="_blank"><div>
 <i class="fas fa-user-tie"></i>
 <h4>Profissional</h4>
 <h4>R$ 889 no plano anual</h4>
@@ -102,7 +102,7 @@ eja abaixo opções de modalidades de apoio e inscreva-se. Se tiver dúvidas <a 
 
 <div class="row associe-se">
 <div class="col-md-6">
-<a href="https://app.associatec.com.br/AreaAssociados/MinhaConta/CadastroAssociadoPJ?idTipoAssociado=2382" target="_blank"><div>
+<a href="https://app.associatec.com.br/AreaAssociados/Abj?returnUrl=https://app.associatec.com.br/AreaAssociados/MinhaConta/CadastroAssociadoPJ?idTipoAssociado=2382" target="_blank"><div>
 <i class="fas fa-home"></i>
 <h4>Legaltech / Lawtech</h4>
 <h4>R$ 2838 no plano anual</h4>
@@ -125,7 +125,6 @@ eja abaixo opções de modalidades de apoio e inscreva-se. Se tiver dúvidas <a 
 </header>
 
 Abaixo você pode conferir as empresas, escritórios e lawtechs que apoiam a ABJ.
-
 
 <div class="row" style="align:center;">
 
