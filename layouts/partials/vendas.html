@@ -128,7 +128,7 @@
     axios.get(api_url + '/cupom?id=' + dados.items[0].id + '&cupom=' + cupom).then(function (response) {
 
       // manter essa linha p/ mudar o preço do pagarme
-      dados.amount = response.data.amount
+      dados.amount = parseInt(response.data.amount);
 
       $('#pagamento').text("Inscreva-se com desconto");
       /* botao de enviar cupom */
