@@ -71,7 +71,7 @@
       quantity: 1,
       tangible: true
     }],
-    postbackUrl: api_url + '/postback' + "?associado=" + document.querySelector('#associado').value,
+    postbackUrl: api_url + '/postback' + "?associado=" + document.querySelector('#associado').value + "&turma={{.Params.turma}}",
     capture: 'true',
     pixExpirationDate: new Date(new Date().getTime() + 30*60000).toISOString()
   }

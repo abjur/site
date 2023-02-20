@@ -10,7 +10,8 @@ espera: "https://docs.google.com/forms/d/e/1FAIpQLScuW-tLLo3Bf7Zx9JR-WZ9waGHSRl9
 valor_profissional: 168000
 valor_estudante: 126000
 valor_assoc: 84000
-nome: "202305-ipj"
+nome: "intro-jurimetria"
+turma: "202305-ipj"
 ---
 
 ### Em breve novas turmas
