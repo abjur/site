@@ -10,7 +10,7 @@ espera: "https://docs.google.com/forms/d/e/1FAIpQLScuW-tLLo3Bf7Zx9JR-WZ9waGHSRl9
 valor_profissional: 168000
 valor_estudante: 126000
 valor_assoc: 84000
-nome: intro-jurimetria-1
+nome: intro-jurimetria
 ---
 
 ### Em breve novas turmas
