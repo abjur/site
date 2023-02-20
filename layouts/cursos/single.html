@@ -51,6 +51,16 @@
 
           <hr>
 
+          <script>
+          api_url = "https://pagarme-dr36r5u7sq-ue.a.run.app";
+          axios.get(api_url + '/vagas?turma_id={{.Params.turma}}').then(function (response) {
+            if (response.data == 0) {
+              document.querySelector("#pagamento").style.visibility = 'hidden';
+              swal("Vagas esgotadas", "As vagas do curso estão esgotadas. Preencha seus dados na lista de espera ou entre em contato conosco para mais detalhes.", "warning");
+            }
+          });
+          </script>
+
         </div>
         </div>
 
