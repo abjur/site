@@ -126,6 +126,7 @@ eja abaixo opções de modalidades de apoio e inscreva-se. Se tiver dúvidas <a 
 
 Abaixo você pode conferir as empresas, escritórios e lawtechs que apoiam a ABJ.
 
+
 <div class="row" style="align:center;">
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, results="html", eval=TRUE}
