@@ -14,10 +14,6 @@ nome: "intro-jurimetria"
 turma: "202305-ipj"
 ---
 
-### Em breve novas turmas
-
-Envie um e-mail para cursos@abj.org.br pedindo para fazer parte da lista de interessados nos cursos da ABJ e receba os avisos em primeira mão.
-
 ## Confira abaixo mais informações sobre o curso de Introdução à Pesquisa Jurimétrica:
 
 ### Objetivos
