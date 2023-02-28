@@ -2,7 +2,7 @@
 <div style="background: #f5f5f5;padding:10px;border-radius:20px;">
   <h2> Inscreva-se </h2>
 
-    <p>Selecione o tipo de inscrição abaixo. Se fizer a inscrição como estudante, envie um comprovante para <a href="mailto:cursos@abj.org.br">cursos@abj.org.br</a>. Se você for uma pessoa associada, insira seu código de associação. Você pode encontrar seu código de associação fazendo login na plataforma <a href='https://app.glueup.com/account/login'>Glue Up</a>. Se tiver dúvidas ou dificuldades, <a href='http://localhost:4321/contato/'>entre em contato com a gente</a>. </p>
+    <p>Selecione o tipo de inscrição abaixo. Se fizer a inscrição como estudante, envie um comprovante para <a href="mailto:cursos@abj.org.br">cursos@abj.org.br</a>. Se você for uma pessoa associada, insira seu código de associação. Você pode encontrar seu código de associação fazendo login na plataforma <a href='https://app.associatec.com.br/AreaAssociados/Abj'>Associatec</a>. Se tiver dúvidas ou dificuldades, <a href='http://localhost:4321/contato/'>entre em contato com a gente</a>. </p>
   <strong>Escolha:</strong><br>
 
   <div class="row">
@@ -71,7 +71,7 @@
       quantity: 1,
       tangible: true
     }],
-    postbackUrl: api_url + '/postback' + "?associado=" + document.querySelector('#associado').value,
+    postbackUrl: api_url + '/postback' + "?associado=" + document.querySelector('#associado').value + "&turma={{.Params.turma}}",
     capture: 'true',
     pixExpirationDate: new Date(new Date().getTime() + 30*60000).toISOString()
   }
@@ -128,7 +128,7 @@
     axios.get(api_url + '/cupom?id=' + dados.items[0].id + '&cupom=' + cupom).then(function (response) {
 
       // manter essa linha p/ mudar o preço do pagarme
-      dados.amount = response.data.amount
+      dados.amount = parseInt(response.data.amount);
 
       $('#pagamento').text("Inscreva-se com desconto");
       /* botao de enviar cupom */
