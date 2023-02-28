@@ -83,7 +83,7 @@ Estamos mudando nosso sistema de associação. Até a migração terminar, não 
 <a href="" target="_blank"><div>
 <i class="fas fa-graduation-cap"></i>
 <h4>Estudante</h3>
-<h4>R$ 444 no plano anual</h3>
+<h4>R\$ 525,00 ou 6x R\$ 87,50 </h3>
 <p>Indicado para estudantes e professores</p>
 </div></a></div>
 
@@ -91,7 +91,7 @@ Estamos mudando nosso sistema de associação. Até a migração terminar, não 
 <a href="" target="_blank"><div>
 <i class="fas fa-user-tie"></i>
 <h4>Profissional</h4>
-<h4>R$ 889 no plano anual</h4>
+<h4>R\$ 1.050,00 ou 6x R\$ 175,00 </h4>
 <p>Profissionais interessados na jurimetria</p>
 </div></a></div>
 
@@ -105,7 +105,7 @@ Estamos mudando nosso sistema de associação. Até a migração terminar, não 
 <a href="" target="_blank"><div>
 <i class="fas fa-home"></i>
 <h4>Legaltech / Lawtech</h4>
-<h4>R$ 2838 no plano anual</h4>
+<h4>R\$ 3.360,00 ou 6x R\$ 560,0 </h4>
 <p>Destinado a startups que desejam empreender no ramo da jurimetria</p>
 </div></a>
 </div>
@@ -113,7 +113,7 @@ Estamos mudando nosso sistema de associação. Até a migração terminar, não 
 <a href="" target="_blank"><div>
 <i class="fas fa-building"></i>
 <h4>Empresa ou escritório</h4>
-<h4>R$ 5688,60 no plano anual</h4>
+<h4>R\$ 6.720,00 ou 6x R\$ 1.120,00</h4>
 <p>Destinado a empresas públicas ou privadas e escritórios de advocacia interessados em apoiar a ABJ</p>
 </div></a>
 </div>
