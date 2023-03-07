@@ -52,15 +52,14 @@
     <div class="row about-cols">
   {{ end }}
 
-
-  <a href='{{ if .Params.ativo }}{{ .Permalink }}{{ else }}{{ .Params.espera }}{{ end }}' target='{{ if not .Params.ativo }}{{ "_blank" }}{{ end }}'>
+  <a href='{{ .Permalink }}' target=''>
   <div class="col-md-6 wow fadeInUp">
     <div class="about-col">
       <div class="img">
-        <img src="{{ .Site.BaseURL }}{{.Params.img}}" alt="" class="img-fluid{{ if not .Params.ativo }}{{ " imagem-cinza" }}{{ end }}">
-        <div class="curso-centered">{{ if .Params.ativo }}{{ "" }}{{ else }}{{ "(em breve)" }}{{ end }}</div>
+        <img src="{{ .Site.BaseURL }}{{.Params.img}}" alt="" class="img-fluid">
+        <div class="curso-centered"></div>
       </div>
-      <h2 class="title"><a href='{{ if .Params.ativo }}{{ .Permalink }}{{ else }} {{ .Params.espera }} {{ end }}' target='{{ if not .Params.ativo }}{{ "_blank" }}{{ end }}'>{{.Title}}</a></h2>
+      <h2 class="title"><a href='{{ .Permalink }}' target=''>{{.Title}}</a></h2>
       <p>
         {{ if isset .Params "desc" }}{{ .Params.desc }}{{ else }}{{ .Summary }}{{ end }}
       </p>
