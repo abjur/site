@@ -7,9 +7,9 @@ ativo: false
 material: "https://livro.abj.org.br"
 espera: "https://docs.google.com/forms/d/e/1FAIpQLScuW-tLLo3Bf7Zx9JR-WZ9waGHSRl9U1Gx6b3LUlW5f54tORw/viewform?usp=pp_url&entry.1918905423=Introdu%C3%A7%C3%A3o+%C3%A0+Pesquisa+Jurim%C3%A9trica"
 # parametros de automacao
-valor_profissional: 169000
-valor_estudante: 126000
-valor_assoc: 84000
+valor_profissional: 240000
+valor_estudante: 168000
+valor_assoc: 120000
 nome: "intro-jurimetria"
 turma: "202305-ipj"
 ---
