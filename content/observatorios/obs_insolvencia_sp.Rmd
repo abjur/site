@@ -1,0 +1,91 @@
+---
+title: "Observatório da Insolvência - São Paulo"
+summary: "O foco deste projeto é levantar e analisar dados a respeito das empresas em crise que se dirigem ao Poder Judiciário para viabilizar meios de recuperação ou, em último caso, para serem liquidadas."
+type: "observatorios"
+img: "img/pesquisas/obsfase2.png"
+toc: true
+output: md_document
+always_allow_html: true
+draft: false
+---
+
+O foco deste projeto é levantar e analisar dados a respeito das empresas em crise que se dirigem ao Poder Judiciário para viabilizar meios de recuperação ou, em último caso, para serem liquidadas.
+
+![](/img/pesquisas/obsfase2.png)
+
+
+<h2>Recuperações Judiciais</h2>
+<p>
+<button class="accordion">Fase 1</button>
+</p>
+<div class="panel">
+</div>
+
+<p>
+<button class="accordion">Fase 2</button>
+</p>
+<div class="panel">
+<p>Neste projeto, estudamos e acompanhamos mais de 1.100 Recuperações judiciais no estado de São Paulo, analisando dados sobre deferimento e planos de recuperação homologados.</p>
+<p>Esta fase do projeto se dedicou a analisar as recuperações judiciais de São Paulo distribuídas entre janeiro de 2010 e julho de 2017.</p>
+
+<a href="https://abjur.github.io/obsFase2/relatorio/index.html">[Relatório]</a> 
+| <a href="https://abjur.shinyapps.io/obsFase2/">[Aplicativo]</a>
+
+<h4>Patrocinadores</h4>
+<p>O Observatório da Insolvência não seria possível sem nossos patrocinadores. Abaixo listamos os patrocinadores desta fase do projeto.</p>
+
+<div class="row" style="align:center;">
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, results="html", eval=TRUE}
+
+obsutils::autenticar_gsheets()
+id_pj <- googledrive::as_id("1jsUGgu9psHiSivErlIbuo0ECUmCUUKPz7jMVNQoQzIQ")
+da_pj <- googlesheets4::read_sheet(id_pj) |>
+  dplyr::filter(!is.na(logo))
+
+montar_div <- function(dados) {
+  if (dados$inverter == "s") {
+    if (dados$grayscale == "s") {
+      st <- "-webkit-filter:grayscale(1) invert(1);filter:grayscale(1) invert(1);max-width: 80%;display:inline-block;"
+    } else {
+      st <- "-webkit-filter:invert(1);filter:invert(1);max-width: 80%;display:inline-block;"
+    }
+  } else {
+    if (dados$grayscale == "s") {
+      st <- "max-width:80%;display:inline-block;-webkit-filter:grayscale(.5);filter:grayscale(.5);"
+    } else {
+      st <- "max-width:80%;display:inline-block;"
+    }
+  }
+  shiny::a(
+    href = dados$site, target="_blank",
+    shiny::div(
+      class = "col-md-4",
+      shiny::span(style = "vertical-align:middle;display:inline-block;height:100%;"),
+      shiny::a(
+        href = dados$site, target="_blank", 
+        shiny::img(src = dados$logo, style = st, alt = dados$patrocinador)
+      ),
+      style = "padding-bottom:0px;background-color:#f8f8ff;margin:10px 0px 0px 0px;min-height:200px;"
+    )
+  )
+}
+
+da_pj |>
+  dplyr::filter(obs == "insolvencia", fase == 2) |>
+  dplyr::group_split(patrocinador) |> 
+  purrr::map(montar_div) |> 
+  shiny::tagList()
+```
+</div>
+
+
+</div>
+
+<h3>Falências</h3>
+<p><button class="accordion">Fase 3</button></p>
+<div class="panel">
+<p>Fase 3</p>
+</div>
+
+

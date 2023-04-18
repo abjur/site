@@ -40,17 +40,10 @@
 
     <div class="section-header wow fadeInUp">
       <h3>Observatórios</h3>
-      <p>Observatórios realizados pela ABJ.</p>
+      <p>Os observatórios foram criados com o objetivo de investigar e acompanhar a evolução de temas específicos do Direito, envolvendo casos complexos. Analisamos alguns tipos de caso de forma minuciosa e aprofundada, em projetos faseados que contemplam etapas de levantamento de dados, discussões entre especialistas, formulação de questionários, capacitação da equipe de pesquisadores que coletam os dados, análise dos dados coletados, formulação de relatórios e apresentações dos resultados.
+      </p>
     </div>
 
-<div class="categories text-center">
-          {{ range $key, $value := .Site.Taxonomies.categories }}
-          <a href="/categories/{{ $key | urlize  }}">
-            <button class="cta-submit" type="submit">{{ $key | upper}} ({{ len $value }})</button>
-          </a>
-          {{ end }}
-        </div>
-        <br>
 
 {{ range $i, $member := sort (where $.Site.RegularPages "Section" "observatorios") "Params.ordem" }}
 
