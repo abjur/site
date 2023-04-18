@@ -1,0 +1,62 @@
+<!doctype html5>
+<html>
+
+<head>
+  <meta name="description" content="{{ .Params.desc | plainify }}">
+  <meta property="og:title" content="{{.Title}}">
+  <meta property="og:description" content="{{.Params.desc | plainify}}">
+  <meta property="og:image" content="{{ .Site.BaseURL }}{{.Params.img}}">
+  <meta property="og:url" content="{{.Permalink}}">
+  {{ partial "head.html" . }}
+</head>
+
+  <body data-spy="scroll" data-target="#toc">
+    {{ partial "header.html" . }}
+
+    <div class="container" id="article-container">
+
+      <header class="section-header" id="header-title">
+        <h3 data-toc-skip>{{ .Title }}</h3>
+      </header>
+
+      <div class="row">
+
+        <div class="col-md-3">
+        </div>
+
+        <div class="col-md-6">
+        <div id="article">
+
+          {{.Content}}
+
+        </div>
+        </div>
+
+        <div class="col-md-3">
+          <h4> Informações úteis </h4>
+
+          <strong>Finalização do projeto</strong>: {{.Params.finalizacao}}<hr>
+          <strong>Base de dados</strong>: {{.Params.base}}<hr>
+          <strong>Coordenador(es)</strong>: {{.Params.equipe}}<hr>
+          {{if .Params.isbn}}
+          <strong>ISBN</strong>: {{.Params.isbn}}<hr>
+          {{end}}
+          <strong>Relatório</strong>: <a href="{{.Params.link}}" target="_blank"><button class="cta-submit">Download</button></a><hr>
+          <strong>Página do projeto</strong>: <a href="{{.Params.projeto}}" target="_blank"><button class="cta-submit">Acessar</button></a><hr>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    {{ partial "contato-projetos.html" . }}
+
+    {{ partial "footer.html" . }}
+
+  </body>
+
+  {{ partial "scripts.html" .}}
+  {{ partial "toc.html" . }}
+
+</html>
