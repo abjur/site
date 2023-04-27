@@ -14,8 +14,6 @@ nome: "intro-jurimetria"
 turma: "202305-ipj"
 ---
 
-## Confira abaixo mais informações sobre o curso de Introdução à Pesquisa Jurimétrica:
-
 
 O objetivo deste curso é apresentar e discutir a aplicação de métodos quantitativos no Direito. A ideia é tratar dos limites de aplicação e elementos básicos de pesquisa quantitativa, com aplicações em temas do Direito.
 
