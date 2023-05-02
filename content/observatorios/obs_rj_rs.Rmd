@@ -1,0 +1,83 @@
+---
+title: "Observatório da Insolvência - Recuperações Judiciais no Rio Grande do Sul"
+summary: "O Observatório da Insolvência do Rio Grande do Sul analisa todos os processos de Recuperação Judicial distribuídos no Rio Grande do Sul a partir do ano de 2010."
+type: "observatorios"
+img: "img/pesquisas/obsrjrs.png"
+toc: true
+output: html_document
+always_allow_html: true
+draft: false
+---
+
+O Observatório da Insolvência do Rio Grande do Sul analisa todos os processos de Recuperação Judicial distribuídos no Rio Grande do Sul a partir do ano de 2010.
+
+![](/img/pesquisas/obsrjrs.png)
+
+## Objetivos
+A 1ª Fase do Observatório da Insolvência - Rio Grande do Sul é dedicada à análise dos Processos de Recuperação Judicial (PRJ), endereçando os pontos principais abaixo.
+
+- Características das partes envolvidas.
+- Deferimento do processo.
+- Características da fase de negociação.
+- Tempo de duração dos processos.
+- Características dos planos aprovados.
+- Desfecho da recuperação judicial.
+
+## Metodologia
+
+O projeto passou por três etapas: listagem de processos, coleta de dados e análise estatística. A etapa da listagem envolve encontrar os números identificadores dos processos que fazem parte da pesquisa, considerando o escopo definido. Já a etapa de coleta envolve acessar os processos através de seus números identificadores, obtendo as informações que são relevantes para o estudo. A terceira etapa envolve a análise estatística dos dados coletados, realizando os cruzamentos necessários para atingir os objetivos da pesquisa.
+
+<a href="https://abjur.github.io/obsRJRS/relatorio/index.html">[Relatório]</a> 
+| <a href="https://abjur.shinyapps.io/obsRJRS/">[Aplicativo]</a>
+
+## Patrocinadores
+<p>O Observatório da Insolvência não seria possível sem nossos patrocinadores. Abaixo listamos os patrocinadores desta fase do projeto.</p>
+
+<div class="row" style="align:center;">
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, results="html", eval=TRUE}
+
+obsutils::autenticar_gsheets()
+id_pj <- googledrive::as_id("1jsUGgu9psHiSivErlIbuo0ECUmCUUKPz7jMVNQoQzIQ")
+da_pj <- googlesheets4::read_sheet(id_pj) |>
+  dplyr::filter(obs == "rj", sub == "rs", !is.na(logo))
+
+montar_div <- function(dados) {
+  if (dados$inverter == "s") {
+    if (dados$grayscale == "s") {
+      st <- "-webkit-filter:grayscale(1) invert(1);filter:grayscale(1) invert(1);max-width: 80%;display:inline-block;"
+    } else {
+      st <- "-webkit-filter:invert(1);filter:invert(1);max-width: 80%;display:inline-block;"
+    }
+  } else {
+    if (dados$grayscale == "s") {
+      st <- "max-width:80%;display:inline-block;-webkit-filter:grayscale(.5);filter:grayscale(.5);"
+    } else {
+      st <- "max-width:80%;display:inline-block;"
+    }
+  }
+  shiny::a(
+    href = dados$site, target="_blank",
+    shiny::div(
+      class = "col-md-4",
+      shiny::span(style = "vertical-align:middle;display:inline-block;height:100%;"),
+      shiny::a(
+        href = dados$site, target="_blank", 
+        shiny::img(src = dados$logo, style = st, alt = dados$patrocinador)
+      ),
+      style = "padding-bottom:0px;background-color:#f8f8ff;margin:10px 0px 0px 0px;min-height:200px;"
+    )
+  )
+}
+
+da_pj |>
+  dplyr::group_split(patrocinador) |> 
+  purrr::map(montar_div) |> 
+  shiny::tagList()
+```
+</div>
+
+
+
+
+

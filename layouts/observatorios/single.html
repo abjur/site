@@ -1,0 +1,56 @@
+<!doctype html5>
+<html>
+
+<head>
+  <meta name="description" content="{{ .Params.desc | plainify }}">
+  <meta property="og:title" content="{{.Title}}">
+  <meta property="og:description" content="{{.Params.desc | plainify}}">
+  <meta property="og:image" content="{{ .Site.BaseURL }}{{.Params.img}}">
+  <meta property="og:url" content="{{.Permalink}}">
+  {{ partial "head.html" . }}
+</head>
+
+  <body data-spy="scroll" data-target="#toc">
+    {{ partial "header.html" . }}
+
+    <div class="container" id="article-container">
+
+      <header class="section-header" id="header-title">
+        <h3 data-toc-skip>{{ .Title }}</h3>
+      </header>
+
+      <div class="row">
+
+        <div class="col-md-3">
+        </div>
+
+        <div class="col-md-6">
+        <div id="article">
+
+          {{.Content}}
+
+        </div>
+        </div>
+
+        <div class="col-md-3">
+          <h4> Apoie este projeto </h4>
+
+          <strong>Entre em contato</strong>: <a href="mailto:observatorios@abj.org.br">observatorios@abj.org.br</a><hr>
+          <strong>Faça parte da ABJ</strong>: <a href="https://abj.org.br/apoie">Associe-se</a><hr>
+
+        </div>
+
+      </div>
+
+    </div>
+
+    {{ partial "contato-projetos.html" . }}
+
+    {{ partial "footer.html" . }}
+
+  </body>
+
+  {{ partial "scripts.html" .}}
+  {{ partial "toc.html" . }}
+
+</html>
