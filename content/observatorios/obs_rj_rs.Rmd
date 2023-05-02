@@ -11,7 +11,7 @@ draft: false
 
 O foco deste projeto é levantar e analisar dados a respeito das empresas em crise que se dirigem ao Poder Judiciário para viabilizar meios de recuperação ou, em último caso, para serem liquidadas.
 
-![](img/pesquisas/obsrjrs.png)
+![](/img/pesquisas/obsrjrs.png)
 
 
 
