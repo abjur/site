@@ -14,39 +14,26 @@ nome: "intro-jurimetria"
 turma: "202305-ipj"
 ---
 
-## Confira abaixo mais informações sobre o curso de Introdução à Pesquisa Jurimétrica:
 
-### Objetivos
-
-O objetivo do curso de Introdução à pesquisa Jurimétrica é apresentar e discutir a aplicação de métodos quantitativos no Direito. A ideia do curso é tratar dos limites de aplicação e elementos básicos de pesquisa quantitativa, com aplicações em temas do Direito.
+O objetivo deste curso é apresentar e discutir a aplicação de métodos quantitativos no Direito. A ideia é tratar dos limites de aplicação e elementos básicos de pesquisa quantitativa, com aplicações em temas do Direito.
 
 **Importante! Este curso não tem como objetivo ensinar programação, estatística avançada nem inteligência artificial.**
 
-### Público alvo e pré-requisitos
+### Formato
 
--   Estudantes de graduação e pós graduação com interesse em fazer pesquisa quantitativa no direito.
--   Profissionais com interesse em fazer pesquisa, mas que não têm bagagem quantitativa na formação.
+O curso envolve aulas teóricas e práticas, divididas em:
 
-Este curso não possui pré-requisitos. O curso é um primeiro passo no universo quantitativo do Direito.
+-   Mais de 20 aulas gravadas, para acompanhar no seu tempo
+-   6 aulas práticas online e ao vivo
 
-### Metodologia e formato
+Nesta próxima turma, as aulas acontecerão de **04/05 à 22/06, todas as quintas-feiras, das 19h às 22h**.
 
-O curso envolve aulas teóricas e práticas, divididas em
+Ao longo das aulas ao vivo, em uma sala do Zoom, teremos 2 professores, um dando a aula e outro realizando monitoria. Dessa forma, conseguimos garantir um melhor aproveitamento para todos os alunos.
 
--   Vários vídeos gravados para acompanhar no seu tempo (total: +10h)
--   5 aulas online e ao vivo (3h cada)
+As aulas envolvem leitura e atividades extras, também possui uma parte expositiva e outra com diversos espaços para discussão dos textos e resolução de exercícios.
 
-As bases de dados utilizadas são todas públicas ou são amostras de bases de dados utilizadas em pesquisas da ABJ. O material inclui um repositório aberto com todas as bases de dados utilizadas para construção do livro e dos slides.
 
-Os materiais utilizados durante o curso (livro, slides e dados) são todos abertos. No entanto, os resultados dos exercícios e dinâmicas realizadas em aula serão somente para nossos alunos
-
-#### Formato
-
-Ao longo das aulas ao vivo, em uma sala do Zoom, teremos uma pessoa dando aula e outra realizando monitoria. Dessa forma, conseguimos garantir um melhor aproveitamento para todos os alunos.
-
-As aulas além de envolverem bastante leitura e atividades extras, possuem uma parte expositiva e outra com diversos espaços para discussão dos textos e resolução de exercícios.
-
-#### Conteúdo
+#### O que você vai aprender?
 
 - Introdução à jurimetria
 - Metodologia de pesquisa
@@ -71,8 +58,21 @@ Acesse a ementa completa <a href="https://docs.google.com/document/d/1pHF1qUjupk
 ### O curso irá te capacitar para:
 
 - Aprender o que é e do que se trata a jurimetria
-- Aprender a desenhar um projeto de pesquisa jurimetrica
+- Aprender a desenhar um projeto de pesquisa jurimétrica
 
-Quem fizer o curso sairá com uma noção aprofundada do que é a Jurimetria e como planejar um projeto de pesquisa jurimétrica no mundo real. Os conceitos trabalhados, no entanto, não são suficientes para realizar as pesquisas completas, especialmente na parte de estruturação de dados e análise, sendo necessário trabalhar em equipe para obter os resultados finais.
+Quem fizer o curso sairá com uma noção aprofundada do que é a Jurimetria e como planejar um projeto de pesquisa jurimétrica no mundo real. 
 
+### Público alvo e pré-requisitos
 
+-   Estudantes de graduação e pós graduação com interesse em fazer pesquisa quantitativa no direito.
+-   Profissionais com interesse em fazer pesquisa, mas que não têm bagagem quantitativa na formação.
+
+Este curso não possui pré-requisitos. O curso é um primeiro passo no universo quantitativo do Direito.
+
+**Informações adicionais**
+
+* As bases de dados utilizadas são todas públicas ou são amostras de bases de dados utilizadas em pesquisas da ABJ. O material inclui um repositório aberto com todas as bases de dados utilizadas para construção do livro e dos slides.
+
+* Os materiais utilizados durante o curso (livro, slides e dados) são todos abertos. No entanto, os resultados dos exercícios e dinâmicas realizadas em aula serão somente para nossos alunos
+
+* Os conceitos trabalhados neste curso não são suficientes para realizar as pesquisas completas, especialmente na parte de estruturação de dados e análise, sendo necessário trabalhar em equipe para obter os resultados finais.
