@@ -1,5 +1,5 @@
 ---
-title: "Observatório da Insolvência - São Paulo"
+title: "Observatório da Insolvência - Recuperações Judiciais em São Paulo"
 summary: "O foco deste projeto é levantar e analisar dados a respeito das empresas em crise que se dirigem ao Poder Judiciário para viabilizar meios de recuperação ou, em último caso, para serem liquidadas."
 type: "observatorios"
 img: "img/pesquisas/obsfase2.png"
@@ -14,7 +14,6 @@ O foco deste projeto é levantar e analisar dados a respeito das empresas em cri
 ![](/img/pesquisas/obsfase2.png)
 
 
-<h2>Recuperações Judiciais</h2>
 <p>
 <button class="accordion">Fase 1</button>
 </p>
@@ -78,14 +77,8 @@ da_pj |>
   shiny::tagList()
 ```
 </div>
-
-
 </div>
 
-<h3>Falências</h3>
-<p><button class="accordion">Fase 3</button></p>
-<div class="panel">
-<p>Fase 3</p>
-</div>
+
 
 
