@@ -1,8 +1,8 @@
 ---
-title: "Observatório da Insolvência - Recuperações Judiciais em São Paulo"
+title: "Observatório da Insolvência - Recuperações Judiciais no Rio Grande do Sul"
 summary: "O foco deste projeto é levantar e analisar dados a respeito das empresas em crise que se dirigem ao Poder Judiciário para viabilizar meios de recuperação ou, em último caso, para serem liquidadas."
 type: "observatorios"
-img: "img/pesquisas/obsfase2.png"
+img: "img/pesquisas/obsrjrs.png"
 toc: true
 output: html_document
 always_allow_html: true
@@ -11,24 +11,15 @@ draft: false
 
 O foco deste projeto é levantar e analisar dados a respeito das empresas em crise que se dirigem ao Poder Judiciário para viabilizar meios de recuperação ou, em último caso, para serem liquidadas.
 
-![](img/pesquisas/obsfase2.png)
+![](img/pesquisas/obsrjrs.png)
 
 
-<p>
-<button class="accordion">Fase 1</button>
-</p>
-<div class="panel">
-</div>
 
-<p>
-<button class="accordion">Fase 2</button>
-</p>
-<div class="panel">
 <p>Neste projeto, estudamos e acompanhamos mais de 1.100 Recuperações judiciais no estado de São Paulo, analisando dados sobre deferimento e planos de recuperação homologados.</p>
 <p>Esta fase do projeto se dedicou a analisar as recuperações judiciais de São Paulo distribuídas entre janeiro de 2010 e julho de 2017.</p>
 
-<a href="https://abjur.github.io/obsFase2/relatorio/index.html">[Relatório]</a> 
-| <a href="https://abjur.shinyapps.io/obsFase2/">[Aplicativo]</a>
+<a href="https://abjur.github.io/obsRJRS/relatorio/index.html">[Relatório]</a> 
+| <a href="https://abjur.shinyapps.io/obsRJRS/">[Aplicativo]</a>
 
 <h4>Patrocinadores</h4>
 <p>O Observatório da Insolvência não seria possível sem nossos patrocinadores. Abaixo listamos os patrocinadores desta fase do projeto.</p>
@@ -40,7 +31,7 @@ O foco deste projeto é levantar e analisar dados a respeito das empresas em cri
 obsutils::autenticar_gsheets()
 id_pj <- googledrive::as_id("1jsUGgu9psHiSivErlIbuo0ECUmCUUKPz7jMVNQoQzIQ")
 da_pj <- googlesheets4::read_sheet(id_pj) |>
-  dplyr::filter(obs == "rj", sub == "sp", !is.na(logo))
+  dplyr::filter(obs == "rj", sub == "rs", !is.na(logo))
 
 montar_div <- function(dados) {
   if (dados$inverter == "s") {
@@ -76,7 +67,7 @@ da_pj |>
   shiny::tagList()
 ```
 </div>
-</div>
+
 
 
 
