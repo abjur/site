@@ -18,13 +18,35 @@ Todos esses questionamentos são naturalmente quantitativos. Os nossos estudos n
 <h1>Jurimetria e LGPD</h1>
 </header>
 
-<div class="col-md-12 wow fadeInUp">
-    <div class="about-col">
-      <div class="img">
-        <img src="/img/jurimetria/lgpd.png" alt="" class="img-fluid">
-      </div>
-      <p>
-        A ABJ reconhece a importância do tema e se coloca à disposição para participar de discussões e buscar soluções que garantam o equilíbrio entre transparência e proteção de dados pessoais.
-      </p>
+<div style="align-items: center;justify-content: center;">
+  <div class="col-md-6 wow fadeInUp" style="float:left">
+    <div class="img">
+      <img src="/img/jurimetria/lgpd.png" alt="" class="img-fluid">
     </div>
   </div>
+  <div class="col-md-6 wow fadeInUp" style="float:left">
+  <p>
+  Existe um conflito relacionado a este tema já que muitos processos judiciais contêm informações pessoais sensíveis, como CPF e endereço. Embora ainda haja um debate sobre se essas informações devem ser vistas de forma pública ou pessoal, a ABJ acredita que este é um ponto de discussão muito relevante na atualidade, e que a partir do momento que for decidido quais informações devem ser consideradas públicas, torna-se necessário, no entanto, estabelecer um plano de abertura de dados que considere a proteção da privacidade e dados pessoais dos indivíduos envolvidos nos processos.
+  A ABJ reconhece a importância do tema e se coloca à disposição para participar de discussões e buscar soluções que garantam o equilíbrio entre transparência e proteção de dados pessoais.
+  </p>
+  </div>
+</div>
+
+
+<header class="section-header">
+<h1>Jurimetria e Dados abertos</h1>
+</header>
+<div style="align-items: center;justify-content: center;">
+  <div class="col-md-8 wow fadeInUp" style="float:left">
+    <div class="img">
+      <img src="/img/jurimetria/open.png" alt="" class="img-fluid">
+    </div>
+  </div>
+  <div class="col-md-4 wow fadeInUp" style="float:left">
+  <p>
+  A dificuldade para acessar os dados do judiciário é a principal barreira para realização de pesquisas pela ABJ. Dos 17 projetos disponibilizados na página de pesquisas no site da ABJ, pelo menos 13 (76%) apresentaram dificuldades na obtenção dos dados via pedidos de acesso aos órgãos. 
+  </p>
+  </div>
+</div>
+
+
