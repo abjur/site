@@ -23,8 +23,10 @@
   </header><!-- #header -->
 
   <!--==========================
-      Jurimetria
+      O que é Jurimetria?
     ============================-->
+
+    {{ $content_parts := split .Content "||||||||||" }}
 
     <section id="jurimetria">
 
@@ -38,7 +40,7 @@
           <h1>O que é Jurimetria?</h1>
         </header>
 
-        {{.Content}}
+        {{ index $content_parts 0 | safe.HTML }}
 
       </div>
 
@@ -54,7 +56,20 @@
 
     </div>
 
-    </section><!-- #about -->
+    </section>
+
+    <!--==========================
+      Outros assuntos
+    ============================-->
+
+    {{ $content_parts := split .Content "||||||||||" }}
+
+    <section id="assuntos">
+
+        {{ index $content_parts 1 | safe.HTML }}
+
+    </section>
+
 
     {{partial "footer.html" .}}
 
