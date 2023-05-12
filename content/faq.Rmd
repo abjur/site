@@ -26,15 +26,15 @@ criar_tag <- function(.x, .y) {
 a <- with(da, purrr::map2(pergunta, resposta, criar_tag))
 ```
 
-<h2>Pessoas associadas</h2>
+<h2>Geral</h2>
 
+
+```{r, results='html', echo=FALSE}
+shiny::tagList(a[which(da$tema == "Geral")])
+```
+
+<h2>Pessoas associadas</h2>
 
 ```{r, results='html', echo=FALSE}
 shiny::tagList(a[which(da$tema == "Pessoas associadas")])
-```
-
-<h2>Pessoas não associadas</h2>
-
-```{r, results='html', echo=FALSE}
-shiny::tagList(a[which(da$tema == "Pessoas não associadas")])
 ```
