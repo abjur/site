@@ -1,8 +1,8 @@
 ---
 title: "Dúvidas Frequentes"
 type: "faq"
-output: md_document
 toc: true
+output: html_document
 always_allow_html: true
 ---
 
