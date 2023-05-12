@@ -31,8 +31,8 @@ Todos esses questionamentos são naturalmente quantitativos. Os nossos estudos n
       <p>Existe um conflito relacionado a este tema já que muitos processos judiciais contêm informações pessoais sensíveis, como CPF e endereço.</p>
       <p>Embora ainda haja um debate sobre se essas informações devem ser vistas de forma pública ou pessoal, a ABJ acredita que este é um ponto de discussão muito relevante na atualidade, e que a partir do momento que for decidido quais informações devem ser consideradas públicas, torna-se necessário, no entanto, estabelecer um plano de abertura de dados que considere a proteção da privacidade e dados pessoais dos indivíduos envolvidos nos processos.</p>
     </div>
-    <blockquote>A ABJ reconhece a importância do tema e se coloca à disposição para participar de discussões e buscar soluções que garantam o equilíbrio entre transparência e proteção de dados pessoais.</blockquote>
   </div>
+  <blockquote>A ABJ reconhece a importância do tema e se coloca à disposição para participar de discussões e buscar soluções que garantam o equilíbrio entre transparência e proteção de dados pessoais.</blockquote>
 </div></div>
 
 
