@@ -376,35 +376,6 @@ nav[data-toggle=toc] .nav-link.active, nav[data-toggle=toc] .nav-link.active:foc
 }
 
 
-/* .navbar-nav {
-  list-style-type:none;
-  margin:40 auto;
-  width:640px;
-  padding:0;
-  overflow:hidden;
-}
-.navbar-nav > li {
-  float:left;
-}
-.navbar-nav li ul {
-  display: none;
-  margin: 0;
-  padding: 0;
-  list-style: none;
-  position: relative;
-  width: 100%;
-}
-.navbar-nav li:hover ul {
-  display: block;
-}
-.navbar-nav li a {
-  display: block;
-}
-.navbar-nav li:first-child a { border-left:0; }
-.navbar-nav li:last-child a { border-right:0; } */
-
-
-
 /********  CSS do cupom preco e etc  ********/
 #intro .cupom-success {
   background-color: green;
@@ -435,8 +406,6 @@ nav[data-toggle=toc] .nav-link.active, nav[data-toggle=toc] .nav-link.active:foc
   animation-iteration-count: 1;
   animation-fill-mode: forwards;
 }
-
-
 
 #vocesaira {
   color: #7AD151

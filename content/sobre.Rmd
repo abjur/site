@@ -86,11 +86,10 @@ p.meucontainer {
 <div class="row" style="align:center;">
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, results="html"}
-library(magrittr)
 
 obsutils::autenticar_gsheets()
 id_sobre <- googledrive::as_id("1ZNguTaV9BBJBg64pmDb6YsYS4sJ5-QV6iCc5pFYpPMY")
-da_sobre <- googlesheets4::read_sheet(id_sobre) %>%
+da_sobre <- googlesheets4::read_sheet(id_sobre) |>
   dplyr::filter(excluir == "0")
 style_foto <- stringr::str_c(
   "height: 120px; width: 120px;  margin-left: auto; margin-right: auto; ",
@@ -141,17 +140,17 @@ montar_div <- function(dados) {
 }
 
 
-da_sobre %>%
+da_sobre |>
   dplyr::mutate(
     nome = ifelse(is.na(area), nome, stringr::str_c(nome, " (", area, ")")),
     email = stringr::str_c("mailto:", email),
     path_foto = stringr::str_c("img/sobre/", tolower(nome), ".jpg"),
     id = dplyr::row_number(),
     area = ifelse(is.na(area), "", area)
-  ) %>%
-  dplyr::filter(secao == "Conselho Científico") %>%
-  dplyr::group_split(id) %>%
-  purrr::map(montar_div) %>%
+  ) |>
+  dplyr::filter(secao == "Conselho Científico") |>
+  dplyr::group_split(id) |>
+  purrr::map(montar_div) |>
   shiny::tagList()
 ```
 
@@ -166,18 +165,18 @@ da_sobre %>%
 <div class="row" style="align:center;">
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, results="html"}
-library(magrittr)
 
-da_sobre %>%
+
+da_sobre |>
   dplyr::mutate(
     email = stringr::str_c("mailto:", email),
     path_foto = stringr::str_c("img/sobre/", tolower(nome), ".jpg"),
     id = dplyr::row_number(),
     area = ifelse(is.na(area), "", area)
-  ) %>%
-  dplyr::filter(secao == "Diretoria") %>%
-  dplyr::group_split(id) %>%
-  purrr::map(montar_div) %>%
+  ) |>
+  dplyr::filter(secao == "Diretoria") |>
+  dplyr::group_split(id) |>
+  purrr::map(montar_div) |>
   shiny::tagList()
 ```
 
@@ -190,18 +189,17 @@ da_sobre %>%
 <div class="row" style="align:center;">
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, results="html"}
-library(magrittr)
 
-da_sobre %>%
+da_sobre |>
   dplyr::mutate(
     email = stringr::str_c("mailto:", email),
     path_foto = stringr::str_c("img/sobre/", tolower(nome), ".jpg"),
     id = dplyr::row_number(),
     area = ifelse(is.na(area), "", area)
-  ) %>%
-  dplyr::filter(secao == "Coordenadores de comitê") %>%
-  dplyr::group_split(id) %>%
-  purrr::map(montar_div) %>%
+  ) |>
+  dplyr::filter(secao == "Coordenadores de comitê") |>
+  dplyr::group_split(id) |>
+  purrr::map(montar_div) |>
   shiny::tagList()
 ```
 
@@ -213,18 +211,17 @@ da_sobre %>%
 <div class="row" style="align:center;">
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, results="html"}
-library(magrittr)
 
-da_sobre %>%
+da_sobre |>
   dplyr::mutate(
     email = stringr::str_c("mailto:", email),
     path_foto = stringr::str_c("img/sobre/", tolower(nome), ".jpg"),
     id = dplyr::row_number(),
     area = ifelse(is.na(area), "", area)
-  ) %>%
-  dplyr::filter(secao == "Equipe") %>%
-  dplyr::group_split(id) %>%
-  purrr::map(montar_div) %>%
+  ) |>
+  dplyr::filter(secao == "Equipe") |>
+  dplyr::group_split(id) |>
+  purrr::map(montar_div) |>
   shiny::tagList()
 ```
 
