@@ -19,7 +19,7 @@ criar_tag <- function(.x, .y) {
     shiny::p(shiny::tags$button(class = "accordion", .x)),
     shiny::div(
       class = "panel", 
-      markdown::markdownToHTML(.y, fragment.only = TRUE)
+      shiny::p(.y)
     )
   )
 }
