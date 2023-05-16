@@ -15,45 +15,63 @@ Todos esses questionamentos são naturalmente quantitativos. Os nossos estudos n
 
 ||||||||||
 
+<div class="container" id="article-container">
+  <header class="section-header">
+    <h1>Relação da Jurimetria com outros assuntos</h1>
+  </header>
+
 <!-- Jurimetria e LGPD -->
 
-<div class="container" id="article-container">
-  <header class="section-header"><h1>Jurimetria e LGPD</h1></header>
-  <div class="row"><div class="col-md-1"></div>
-  <div class="col-md-11"><div class="col-md-12">
-    <div style="align-items: center;justify-content: center;">
-      <div class="col-md-4 wow fadeInUp" style="float:left">
-        <div class="img">
-          <img src="/img/jurimetria/lgpd.png" alt="lgpd" class="img-fluid" style="max-width:80%">
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-11"><div class="col-md-12">
+      <div style="align-items: center;justify-content: center;">
+        <h2 style="padding-left:15px">Jurimetria e LGPD</h2>
+        <div class="col-md-4 wow fadeInUp" style="float:left">
+          <div class="img">
+            <img src="/img/jurimetria/lgpd.png" alt="lgpd" class="img-fluid" style="max-width:80%">
+          </div>
+        </div>
+        <div class="col-md-6 wow fadeInUp" style="float:left">
+          <p>Existe um conflito relacionado a este tema já que muitos processos judiciais contêm informações pessoais sensíveis, como CPF e endereço.</p>
+          <p>Embora ainda haja um debate sobre se essas informações devem ser vistas de forma pública ou pessoal, a ABJ acredita que este é um ponto de discussão muito relevante na atualidade, e que a partir do momento que for decidido quais informações devem ser consideradas públicas, torna-se necessário, no entanto, estabelecer um plano de abertura de dados que considere a proteção da privacidade e dados pessoais dos indivíduos envolvidos nos processos.</p>
+          <blockquote>A ABJ reconhece a importância do tema e se coloca à disposição para participar de discussões e buscar soluções que garantam o equilíbrio entre transparência e proteção de dados pessoais.</blockquote>
         </div>
       </div>
-    <div class="col-md-6 wow fadeInUp" style="float:left">
-      <p>Existe um conflito relacionado a este tema já que muitos processos judiciais contêm informações pessoais sensíveis, como CPF e endereço.</p>
-      <p>Embora ainda haja um debate sobre se essas informações devem ser vistas de forma pública ou pessoal, a ABJ acredita que este é um ponto de discussão muito relevante na atualidade, e que a partir do momento que for decidido quais informações devem ser consideradas públicas, torna-se necessário, no entanto, estabelecer um plano de abertura de dados que considere a proteção da privacidade e dados pessoais dos indivíduos envolvidos nos processos.</p>
-    </div>
+    </div></div>
   </div>
-  <blockquote>A ABJ reconhece a importância do tema e se coloca à disposição para participar de discussões e buscar soluções que garantam o equilíbrio entre transparência e proteção de dados pessoais.</blockquote>
-</div></div>
 
-
-<!-- Jurimetria e Dados abertos -->
-
-<div class="container" id="article-container">
-  <header class="section-header"><h1>Jurimetria e Dados abertos</h1></header>
-  <div class="row"><div class="col-md-1"></div>
-  <div class="col-md-11"><div class="col-md-12">
-    <div style="align-items: center;justify-content: center;">
-      <div class="col-md-4 wow fadeInUp" style="float:left">
-        <div class="img">
-          <img src="/img/jurimetria/open.png" alt="lgpd" class="img-fluid" style="max-width:80%">
+<!-- Jurimetria e Dados Abertos -->
+<span class="separador"></span>
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-11"><div class="col-md-12">
+      <div style="align-items: center;justify-content: center;">
+        <h2 style="padding-left:15px">Jurimetria e Dados Abertos</h2>
+        <div class="col-md-4 wow fadeInUp" style="float:left">
+          <div class="img">
+            <img src="/img/jurimetria/open.png" alt="jurimetria e dados abertos" class="img-fluid" style="max-width:80%">
+          </div>
+        </div>
+        <div class="col-md-6 wow fadeInUp" style="float:left">
+          <p>As vantagens ao disponibilizar dados públicos de forma aberta para a sociedade é um tema pacífico na comunidade científica. No Brasil, existem plataformas dedicadas à abertura de dados governamentais, como o <a href="https://dados.gov.br" target="_blank">dados.gov.br</a>.</p>
+          <p>A dificuldade para acessar os dados do judiciário é a principal barreira para realização de pesquisas pela ABJ. Dos 17 projetos disponibilizados na página de pesquisas no site da ABJ, pelo menos 13 (76%) apresentaram dificuldades na obtenção dos dados via pedidos de acesso aos órgãos.</p>
+          <blockquote>Com a abertura dos dados, contaríamos com menor custo e maior agilidade na produção de pesquisas. Isso nos proporcionaria um aumento no número de pesquisas realizadas, e consequentemente mais sugestões de políticas públicas.</blockquote>
         </div>
       </div>
-    <div class="col-md-6 wow fadeInUp" style="float:left">
-      <p>As vantagens ao disponibilizar dados públicos de forma aberta para a sociedade é um tema pacífico na comunidade científica. No Brasil, existem plataformas dedicadas à abertura de dados governamentais, como o <a href="https://dados.gov.br" target="_blank">dados.gov.br</a>.</p>
-      <p>A dificuldade para acessar os dados do judiciário é a principal barreira para realização de pesquisas pela ABJ. Dos 17 projetos disponibilizados na página de pesquisas no site da ABJ, pelo menos 13 (76%) apresentaram dificuldades na obtenção dos dados via pedidos de acesso aos órgãos.</p>
-      <p>Com a abertura dos dados, contaríamos com menor custo e maior agilidade na produção de pesquisas. Isso nos proporcionaria um aumento no número de pesquisas realizadas, e consequentemente mais sugestões de políticas públicas.</p>
-    </div>
+    </div></div>
   </div>
+
+||||||||||
+
+<div class="container" id="article-container">
+  <header class="section-header">
+    <h1>Interdisciplinaridade da Jurimetria</h1>
+  </header>
+  <p>A Jurimetria é uma área que combina habilidades em direito, estatística e computação para analisar grandes volumes de dados e gerar insights para tomada de decisão, seja dentro de um escritório ou departamento jurídico, seja para pensar em políticas públicas ou aprimorar a administração do judiciário.</p>
+  <p>Acreditamos que ter uma equipe interdisciplinar torna-se crucial, pois permite a colaboração entre especialistas com diferentes habilidades e conhecimentos. Ao unir esses profissionais de áreas distintas, a equipe será capaz de abordar problemas complexos, oferecer soluções inovadoras, enxergar novas perspectivas e desenvolver estratégias mais eficientes.</p>
 </div>
+
+    
 
 
