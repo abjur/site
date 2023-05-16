@@ -129,46 +129,45 @@ Abaixo você pode conferir as empresas, escritórios e lawtechs que apoiam a ABJ
 <div class="row" style="align:center;">
 
 ```{r, echo=FALSE, message=FALSE, warning=FALSE, results="html", eval=TRUE}
-library(magrittr)
 
 obsutils::autenticar_gsheets()
 id_pj <- googledrive::as_id("1QpgnN1QaJlZH6zgqviLb0zNCdedW7lBS57EZS11uspg")
-da_pj <- googlesheets4::read_sheet(id_pj) %>%
+da_pj <- googlesheets4::read_sheet(id_pj) |>
   dplyr::filter(publicar == "s")
 
 montar_div <- function(dados) {
   if (dados$inverter == "s") {
     if (dados$grayscale == "s") {
-      st <- "-webkit-filter:grayscale(1) invert(1);filter:grayscale(1) invert(1);max-width: 80%;display:inline-block;"
+      st <- "-webkit-filter:grayscale(1) invert(1);filter:grayscale(1) invert(1);max-width: 80%;display:block;"
     } else {
-      st <- "-webkit-filter:invert(1);filter:invert(1);max-width: 80%;display:inline-block;"
+      st <- "-webkit-filter:invert(1);filter:invert(1);max-width: 80%;display:block;margin-left: auto;margin-right: auto;"
     }
   } else {
     if (dados$grayscale == "s") {
-      st <- "max-width:80%;display:inline-block;-webkit-filter:grayscale(.5);filter:grayscale(.5);"
+      st <- "max-width:80%;display:block;-webkit-filter:grayscale(.5);filter:grayscale(.5);position:absolute;"
     } else {
-      st <- "max-width:80%;display:inline-block;"
+      st <- "max-width:80%;display:block;margin-left: auto;margin-right:auto;position:absoute;"
     }
   }
-  shiny::a(
-    href = dados$site, target="_blank",
-    shiny::div(
-      class = "col-md-4",
-      shiny::span(style = "vertical-align:middle;display:inline-block;height:100%;"),
-      shiny::a(
-        href = dados$site, target="_blank", 
-        shiny::img(src = dados$logo, style = st, alt = dados$empresa)
+
+  shiny::div(
+    class = "col-md-4",
+    shiny::a(
+      shiny::div(
+        shiny::img(src = dados$logo, style = st), 
+        style = "display:flex;height:100%;width:100%;justify-content:center;align-items: center;"
       ),
-      style = "padding-bottom:0px;background-color:#f8f8ff;margin:10px 0px 0px 0px;min-height:200px;"
-    )
+      href = dados$site, target="_blank",
+    ), 
+    style = "padding-bottom:0px;background-color:#f8f8ff;margin:10px 0px 0px 0px;min-height:200px;"
   )
 }
 
 
-da_pj %>% 
-  dplyr::select(-modalidade) %>% 
-  dplyr::group_split(empresa) %>% 
-  purrr::map(montar_div) %>% 
+da_pj |> 
+  dplyr::select(-modalidade) |> 
+  dplyr::group_split(empresa) |> 
+  purrr::map(montar_div) |> 
   shiny::tagList()
 ```
 
