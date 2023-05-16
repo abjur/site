@@ -64,6 +64,8 @@ Todos esses questionamentos são naturalmente quantitativos. Os nossos estudos n
 
 ||||||||||
 
+<!-- Interdisciplinaridade da Jurimetria -->
+
 <div class="container" id="article-container">
   <header class="section-header">
     <h1>Interdisciplinaridade da Jurimetria</h1>
@@ -72,6 +74,14 @@ Todos esses questionamentos são naturalmente quantitativos. Os nossos estudos n
   <p>Acreditamos que ter uma equipe interdisciplinar torna-se crucial, pois permite a colaboração entre especialistas com diferentes habilidades e conhecimentos. Ao unir esses profissionais de áreas distintas, a equipe será capaz de abordar problemas complexos, oferecer soluções inovadoras, enxergar novas perspectivas e desenvolver estratégias mais eficientes.</p>
 </div>
 
-    
+||||||||||
 
+<!-- Como ser um profissional de Jurimetria -->
 
+<div class="container" id="article-container">
+  <header class="section-header">
+    <h1>Como ser um profissional de Jurimetria</h1>
+  </header>
+  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus sapien scelerisque diam hendrerit pellentesque id nec dolor. Sed bibendum varius eros ut congue. Pellentesque mattis in lacus non dapibus. Quisque ullamcorper metus a dui egestas, nec hendrerit odio luctus. Sed rhoncus arcu eget orci sagittis, a sagittis nisi consequat. Nam vel porta quam. Sed ex dolor, auctor vel placerat quis, fringilla aliquet augue. Mauris sodales urna at odio lacinia varius. Donec ante ante, lacinia eget odio et, lobortis hendrerit mauris. Maecenas sit amet leo eu est aliquam euismod nec sed neque. Sed vel massa eleifend augue volutpat finibus elementum ac dolor. Etiam at sem a quam mattis pulvinar id a quam. Phasellus euismod, orci et tincidunt cursus, neque justo semper justo, ut porta eros ipsum vel nibh. Mauris sed mollis dolor, vitae sagittis nisl. Cras quis mattis nulla, in lobortis arcu.</p>
+  <p>Nullam sit amet nisl elit. Ut pretium dapibus ante sit amet eleifend. Nam a metus mattis, accumsan ante euismod, dignissim lectus. In iaculis lorem vel lectus accumsan, vel faucibus urna rutrum. Fusce ut dolor non mi suscipit varius quis quis eros. Quisque varius dapibus nibh sed accumsan. In ut rhoncus turpis, eget consequat dolor. Fusce quis nisl a elit dapibus semper vel quis dolor.</p>
+</div>
