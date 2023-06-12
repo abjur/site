@@ -13,6 +13,8 @@ O Observatório Digital de Litígios Judiciais do Brasil é realizado pela Assoc
 
 ![](/img/observatorios/obs_ciee.png)
 
+<a href="https://abjur.github.io/obsCIEE/">[Relatório]</a> 
+| <a href="https://abjur.shinyapps.io/obsCIEE/">[Aplicativo]</a>
 
 <p>
 <button class="accordion">Fase 1</button>
@@ -20,9 +22,6 @@ O Observatório Digital de Litígios Judiciais do Brasil é realizado pela Assoc
 <div class="panel">
 <p>O projeto tem como objetivo libertar dados sobre produtividade judiciária, litigiosidade e acesso à justiça no país e descrever o quadro geral da produtividade e da litigiosidade no Brasil a partir de três indicadores, elaborados a partir dos dados dos Módulos de Produtividade Mensal do CNJ: o Índice de Litigiosidade Geral (ILG), o Índice de de Atendimento a Demanda (IAD) e a Taxa de Congestionamento (TC).
 </p>
-
-<a href="https://abjur.github.io/obsCIEE/">[Relatório]</a> 
-| <a href="https://abjur.shinyapps.io/obsCIEE/">[Aplicativo]</a>
 
 <h2>Patrocinadores</h2>
 <p>O Observatório da Insolvência não seria possível sem nossos patrocinadores. Abaixo listamos os patrocinadores desta fase do projeto.</p>
