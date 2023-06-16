@@ -3,7 +3,7 @@ title: "Judicialização da Saúde na Justiça Federal do Ceará"
 img: "img/pesquisas/saudejfce.png"
 aliases: [/cases/judicializacao-da-saude-jfce/]
 desc: "Estudo sobre Judicialização da Saúde nos processos da Justiça Federal do Ceará."
-ordem: "196"
+ordem: "198"
 categories: ["Pesquisa"]
 link: "https://abjur.github.io/saudeJFCE/"
 finalizacao: "Abril/2023"
