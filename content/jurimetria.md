@@ -62,6 +62,27 @@ Todos esses questionamentos são naturalmente quantitativos. Os nossos estudos n
     </div></div>
   </div>
 
+  <span class="separador"></span>
+  <div class="row">
+    <div class="col-md-1"></div>
+    <div class="col-md-11"><div class="col-md-12">
+      <div style="align-items: center;justify-content: center;">
+        <h2 style="padding-left:15px">Jurimetria para órgãos públicos</h2>
+        <div class="col-md-4 wow fadeInUp" style="float:left">
+          <div class="img">
+            <img src="/img/jurimetria/open.png" alt="jurimetria para órgãos públicos" class="img-fluid" style="max-width:80%">
+          </div>
+        </div>
+        <div class="col-md-6 wow fadeInUp" style="float:left">
+          <p>No geral, o uso da jurimetria permite uma tomada de decisão mais embasada e precisa. Ao analisar grandes conjuntos de dados jurídicos, os órgãos públicos, por exemplo, podem identificar padrões, tendências e lacunas no sistema jurídico. Isso auxilia na formulação de políticas públicas mais eficazes, ao direcionar recursos e esforços para áreas que realmente necessitam de intervenção.</p>
+          <p>Além de promover a transparência e a igualdade, através da análise dos dados conseguimos ter informações que podem ser usadas para revisar e aprimorar os processos legais, garantindo uma aplicação justa e equitativa da lei.</p>
+          <p>A jurimetria também possibilita a previsão e prevenção de problemas jurídicos, uma vez que a análise de dados pode ajudar a identificar padrões de comportamento e fatores de risco, permitindo a implementação de medidas preventivas.</p>
+          <blockquote>Isso contribui para a redução de litígios, a resolução mais ágil de disputas e a promoção da segurança jurídica.</blockquote>
+        </div>
+      </div>
+    </div></div>
+  </div>
+
 ||||||||||
 
 <!-- Interdisciplinaridade da Jurimetria -->
@@ -82,6 +103,16 @@ Todos esses questionamentos são naturalmente quantitativos. Os nossos estudos n
   <header class="section-header">
     <h1>Como ser um profissional de Jurimetria</h1>
   </header>
-  <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Donec rhoncus sapien scelerisque diam hendrerit pellentesque id nec dolor. Sed bibendum varius eros ut congue. Pellentesque mattis in lacus non dapibus. Quisque ullamcorper metus a dui egestas, nec hendrerit odio luctus. Sed rhoncus arcu eget orci sagittis, a sagittis nisi consequat. Nam vel porta quam. Sed ex dolor, auctor vel placerat quis, fringilla aliquet augue. Mauris sodales urna at odio lacinia varius. Donec ante ante, lacinia eget odio et, lobortis hendrerit mauris. Maecenas sit amet leo eu est aliquam euismod nec sed neque. Sed vel massa eleifend augue volutpat finibus elementum ac dolor. Etiam at sem a quam mattis pulvinar id a quam. Phasellus euismod, orci et tincidunt cursus, neque justo semper justo, ut porta eros ipsum vel nibh. Mauris sed mollis dolor, vitae sagittis nisl. Cras quis mattis nulla, in lobortis arcu.</p>
-  <p>Nullam sit amet nisl elit. Ut pretium dapibus ante sit amet eleifend. Nam a metus mattis, accumsan ante euismod, dignissim lectus. In iaculis lorem vel lectus accumsan, vel faucibus urna rutrum. Fusce ut dolor non mi suscipit varius quis quis eros. Quisque varius dapibus nibh sed accumsan. In ut rhoncus turpis, eget consequat dolor. Fusce quis nisl a elit dapibus semper vel quis dolor.</p>
+  <p>Para trabalhar com jurimetria, é importante ter uma combinação de conhecimentos nas áreas de Direito e Estatística, além de habilidades em análise de dados. Um profissional da área precisa ter em mente a importância dessa interdisciplinaridade.</p>
+  <p>Se você entende a relevância da jurimetria para a sociedade e para o mercado e deseja se especializar, veja algumas dicas que separamos:</p>
+  <h5>Obtenha uma formação sólida.</h5>
+  <p>Uma formação em Direito, por exemplo, lhe fornecerá uma base legal essencial para entender conceitos jurídicos e terminologias específicas, que são indispensáveis em uma pesquisa jurimétrica.</p>
+  <h5>Aprofunde seus conhecimentos.</h5>
+  <p>Apesar de interessante, uma dupla formação não é indispensável. Mas é muito importante que você se aprofunde nos conceitos e práticas das ciências que permeiam a jurimetria. Ou seja, se você se formou em Direito, por exemplo,  aprofunde-se em Estatística. Compreendenda os princípios estatísticos e métodos de análise de dados. Explore conceitos como inferência estatística, regressão e análise de séries temporais para entender como aplicá-los ao campo jurídico.</p>
+  <h5>Desenvolva habilidades em Análise de Dados.</h5>
+  <p>Aprimore suas habilidades em análise de dados, desde a coleta até em como eles devem ser comunicados. Familiarize-se com ferramentas estatísticas e de análise de dados, como R ou o Python, além de dominar técnicas de manipulação de dados e criação de visualizações significativas. Aprenda a trabalhar com bancos de dados jurídicos, utilize linguagens de consulta como o SQL e explore técnicas de programação para lidar com grandes conjuntos de dados.</p>
+  <h5>Vá além.</h5>
+  <p>Desenvolva habilidades de pensamento crítico para formular perguntas pertinentes, identificar padrões nos dados e interpretar resultados com precisão. Seja capaz de avaliar riscos e tomar decisões embasadas em evidências.</p>
+  
+  
 </div>
