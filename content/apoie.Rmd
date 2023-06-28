@@ -41,8 +41,8 @@ Veja os principais benefícios para quem faz parte da ABJ. Todos os benefícios 
 
 <div class="col-md-4"><div>
 <i class="fas fa-chart-area"></i>   
-<h3>Dashboard</h3>
-<p>Acesso ao dashboard interativo da ABJ, baseado nos dados da consulta de Jurisprudência do TJSP.</p>
+<h3>Portal da ABJ</h3>
+<p>Acesso ao Portal da ABJ, dashboard interativo baseado nos dados da consulta de Jurisprudência do TJSP.</p>
 </div></div>
 
 </div>
