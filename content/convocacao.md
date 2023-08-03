@@ -16,7 +16,7 @@ Ficam convocados os associados a se reunirem em Assembleia Geral Ordinária da A
 
 1.  Apresentação e deliberação sobre as demonstrações financeiras da ABJ referentes ao exercício social findo em 31.12.2022, arquivadas na sede da ABJ.
 2.  Eleição e posse dos membros do conselho científico da ABJ.
-3.  Eleição e posse da diretoria da ABJ.
+3.  Eleição e posse da diretoria da ABJ. 
 4.  Apresentação e deliberação sobre as alterações do estatuto social.
 5.  Outros assuntos de interesse dos associados.
 
