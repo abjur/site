@@ -1,7 +1,7 @@
 ---
 title: "Introdução à pesquisa jurimétrica"
 img: "img/cursos/curso-1.jpg"
-desc: " INSCRIÇÕES ABERTAS! Curso introdutório para pessoas interessadas em desenvolver pesquisas jurimétricas"
+desc: " **INSCRIÇÕES ABERTAS!** Curso introdutório para pessoas interessadas em desenvolver pesquisas jurimétricas"
 ordem: "1"
 ativo: true
 material: "https://livro.abj.org.br"
