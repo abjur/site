@@ -2,7 +2,7 @@
 title: "Protecao De Dados"
 type: "dados"
 img: "img/conteudo/lgpd.jpg"
-draft: true
+draft: false
 ---
 <a href="/sobre_files/protecao-de-dados.docx" target="_blank">
   <img src="/img/conteudo/lgpd.jpg" style="max-width:100%">
