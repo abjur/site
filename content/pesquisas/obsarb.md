@@ -5,7 +5,7 @@ img: "/img/pesquisas/arb.png"
 desc: "Visa compreender de forma empírica os processos arbitrais."
 ordem: "195"
 categories: ["Observatório"]
-link: "https://abj.quarto.pub/obsarbitragem/"
+link: "(/pdf/relatorio-arbitragem-reduzido.pdf)"
 finalizacao: "Outubro 2023"
 base: ""
 equipe: ""
@@ -20,7 +20,7 @@ projeto: https://abj.quarto.pub/obsarbitragem/
 
 O Observatório da Arbitragem é um projeto que visa a compreender o fenômeno jurídico da arbitragem nos tribunais estaduais. Em sua primeira fase, o projeto busca compreender o fluxo dos processos de i) anulação de decisão arbitral, ii) cumprimento de sentença / execução, iii) medida cautelar antecedente à constituição do tribunal arbitral, iv) existência, validade e eficácia da convenção de arbitragem e v) ação para instituição da arbitragem com base no art, 7º da Lei de Arbitragem.
 
-<a (/pdf/relatorio-arbitragem-reduzido.pdf)">[Relatório Reduzido]</a>
+[Acesse o Relatório Reduzido](/pdf/relatorio-arbitragem-reduzido.pdf)
 
 ## Objetivos
 
