@@ -5,12 +5,12 @@ img: "/img/pesquisas/arb.png"
 desc: "Visa compreender de forma empírica os processos arbitrais."
 ordem: "195"
 categories: ["Observatório"]
-link: "(/pdf/relatorio-arbitragem-reduzido.pdf)"
+link: "https://abj.quarto.pub/obsarbitragem/"
 finalizacao: "Outubro 2023"
-base: ""
-equipe: ""
+base: 
+equipe: "Marcelo Guedes Nunes (ABJ), André Abbud (CBAr)"
 isbn:
-projeto: https://abj.quarto.pub/obsarbitragem/
+projeto:
 ---
 
 ![](/img/pesquisas/arb.png)
