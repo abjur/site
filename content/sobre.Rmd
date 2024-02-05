@@ -204,28 +204,6 @@ da_sobre |>
 ```
 
 </div>
-<header class="section-header">
-<h2 style="text-align: center; padding-bottom:15px">Equipe</h2>
-</header>
-
-<div class="row" style="align:center;">
-
-```{r, echo=FALSE, message=FALSE, warning=FALSE, results="html"}
-
-da_sobre |>
-  dplyr::mutate(
-    email = stringr::str_c("mailto:", email),
-    path_foto = stringr::str_c("img/sobre/", tolower(nome), ".jpg"),
-    id = dplyr::row_number(),
-    area = ifelse(is.na(area), "", area)
-  ) |>
-  dplyr::filter(secao == "Equipe") |>
-  dplyr::group_split(id) |>
-  purrr::map(montar_div) |>
-  shiny::tagList()
-```
-
-</div>
 
 <header class="section-header">
 <h1>Código de Conduta</h1>
