@@ -1,7 +1,7 @@
 ---
 title: "Introdução à pesquisa jurimétrica"
 img: "img/cursos/curso-1.jpg"
-desc: "Curso introdutório para pessoas interessadas em desenvolver pesquisas jurimétricas"
+desc: " Curso introdutório para pessoas interessadas em desenvolver pesquisas jurimétricas"
 ordem: "1"
 ativo: false
 material: "https://livro.abj.org.br"
@@ -25,7 +25,7 @@ O curso envolve aulas teóricas e práticas, divididas em:
 -   Mais de 20 aulas gravadas, para acompanhar no seu tempo
 -   6 aulas práticas online e ao vivo
 
-Nesta próxima turma, as aulas acontecerão de **04/05 à 22/06, todas as quintas-feiras, das 19h às 22h**.
+Nesta próxima turma, as aulas acontecerão de **24/10 à 28/11, todas as terças-feiras, das 19h às 22h**.
 
 Ao longo das aulas ao vivo, em uma sala do Zoom, teremos 2 professores, um dando a aula e outro realizando monitoria. Dessa forma, conseguimos garantir um melhor aproveitamento para todos os alunos.
 

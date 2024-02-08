@@ -1,0 +1,107 @@
+---
+title: "Observatório de Arbitragem"
+summary: "O Observatório de Arbitragem é uma iniciativa da Associação Brasileira de Jurimetria (ABJ) em parceria com o Comitê Brasileiro de Arbitragem (CBAr) que visa compreender de forma empírica os processos arbitrais."
+type: "observatorios"
+img: "img/pesquisas/arb.png"
+toc: true
+output: html_document
+always_allow_html: true
+draft: false
+---
+
+O Observatório de Arbitragem é uma iniciativa da Associação Brasileira de Jurimetria (ABJ) em parceria com o Comitê Brasileiro de Arbitragem (CBAr) que visa compreender de forma empírica os processos arbitrais.
+
+![](/img/pesquisas/arb.png)
+
+<p>
+
+<button class="accordion">
+
+Fase 1
+
+</button>
+
+</p>
+
+::: panel
+O Observatório da Arbitragem é um projeto que visa a compreender o fenômeno jurídico da arbitragem nos tribunais estaduais. Em sua primeira fase, o projeto busca compreender o fluxo dos processos de i) anulação de decisão arbitral, ii) cumprimento de sentença / execução, iii) medida cautelar antecedente à constituição do tribunal arbitral, iv) existência, validade e eficácia da convenção de arbitragem e v) ação para instituição da arbitragem com base no art, 7º da Lei de Arbitragem.
+
+<a href="abj.quarto.pub/obsarbitragem/">[Relatório]</a>
+
+<h2>
+
+Objetivos
+
+</h2>
+
+<p>
+
+O objetivo do levantamento é realizar uma análise preliminar a partir do banco de sentenças do Tribunal de Justiça de São Paulo (TJSP). O levantamento tem como resultado algumas estatísticas básicas como volume de sentenças ao longo do tempo, proporção de decisões favoráveis ao autor e tempo mediano dos processos. O estudo pode ser utilizado como insumo para decidir sobre a viabilidade de uma pesquisa mais aprofundada – envolvendo análise de autos processuais – a partir dos dados disponibilizados no banco de sentenças.
+
+</p>
+
+<ul>
+
+</ul>
+
+<h2>
+
+Metodologia
+
+</h2>
+
+Esta seção foi organizada em três subseções: análise geral, análise sobre contratos em geral e uma análise específica sobre contratos de colaboração. Para os fins desta pesquisa, adota-se o conceito de contratos de colaboração para aqueles contratos não societários que têm por objetivo balizar a relação entre as partes em termos mais amplos ao longo do tempo, com áleas distintas, mas interdependentes, sem configurar uma sociedade propriamente dita, conforme ensina a Profa. Paula Forgioni4. Os contratos de colaboração identificados nesta pesquisa são aqueles: (i) do sistema arbitral Unimed (58 casos), (ii) envolvendo franquias (13 casos) e (iii) envolvendo associação entre concessionárias e montadoras de veículos automotores (1 caso). Os casos de contratos em geral são todos os demais. Essa segregação foi possível porque os relatórios das decisões judiciais contêm uma descrição da natureza dos contratos sub judice e sua qualificação, o que permite a separação. A razão para a separação entre contratos em geral e contratos de colaboração é a maior propensão destes últimos, pelas suas características, à judicialização da arbitragem em razão de certas peculiaridades envolvendo o consentimento e a autonomia das partes, marcados pela subordinação de uma parte à outra e, assim, por assimetria em dose mais relevante5 (o que, não raro, se instrumentaliza pela celebração de contratos por adesão, p. ex., ou por contratos com dependência econômica, que constituem categoria intermédia entre os paritários e os por adesão6). Isso torna útil que, ao lado da análise geral, sejam apresentados também os dados segregados para esses dois grupos de contratos, a fim de permitir inferências específicas e aderentes à realidade própria de cada um desses grupos.
+
+<h2>
+
+Patrocinadores
+
+</h2>
+
+<p>
+
+O Observatório da Arbitragem não seria possível sem nossos patrocinadores. Abaixo listamos os patrocinadores desta fase do projeto.
+
+</p>
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, results="html", eval=TRUE}
+
+obsutils::autenticar_gsheets()
+id_pj <- googledrive::as_id("1jsUGgu9psHiSivErlIbuo0ECUmCUUKPz7jMVNQoQzIQ")
+da_pj <- googlesheets4::read_sheet(id_pj) |>
+  dplyr::filter(obs == "mc", !is.na(logo))
+
+montar_div <- function(dados) {
+  if (dados$inverter == "s") {
+    if (dados$grayscale == "s") {
+      st <- "-webkit-filter:grayscale(1) invert(1);filter:grayscale(1) invert(1);max-width: 80%;display:inline-block;"
+    } else {
+      st <- "-webkit-filter:invert(1);filter:invert(1);max-width: 80%;display:inline-block;"
+    }
+  } else {
+    if (dados$grayscale == "s") {
+      st <- "max-width:80%;display:inline-block;-webkit-filter:grayscale(.5);filter:grayscale(.5);"
+    } else {
+      st <- "max-width:80%;display:inline-block;"
+    }
+  }
+  shiny::a(
+    href = dados$site, target="_blank",
+    shiny::div(
+      class = "col-md-4",
+      shiny::span(style = "vertical-align:middle;display:inline-block;height:100%;"),
+      shiny::a(
+        href = dados$site, target="_blank", 
+        shiny::img(src = dados$logo, style = st, alt = dados$patrocinador)
+      ),
+      style = "padding-bottom:0px;background-color:#f8f8ff;margin:10px 0px 0px 0px;min-height:200px;"
+    )
+  )
+}
+
+da_pj |>
+  dplyr::filter(fase == 1) |>
+  dplyr::group_split(patrocinador) |> 
+  purrr::map(montar_div) |> 
+  shiny::tagList()
+```

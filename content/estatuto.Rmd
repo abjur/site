@@ -1,0 +1,13 @@
+---
+title: "Estatuto"
+type: "sobre"
+toc: false
+---
+
+
+```{r results='asis', echo=FALSE}
+"https://raw.githubusercontent.com/abjur/estatutoABJ/master/README.md" |>
+  readLines() |>
+  purrr::modify_if(~.x == "", replace, values = "\n\n") |>
+  purrr::walk(cat)
+```

@@ -21,7 +21,7 @@ Este estudo busca investigar a necessidade da implementação de critérios obje
 
 ## Metodologia
 
-Com o intuito de subsidiar empiricamente o processo decisório de aplicação da Nova Lei de Drogas e possibilitar uma tomada de decisão consciente para novas políticas públicas, neste estudo analisamos uma base com 656.408 ocorrências entre 2003 e 2017, que deram origem a 556.613 apreensões distintas e 2.626.802 pessoas envolvidas (entre testemunhas, suspeitos ou terceiros). Os dados obtidos foram extraídos, principalmente, do Registro Digital de Ocorrências (RDO) da Secretaria de Segurança Pública do Estado de São Paulo (SSP-SP) e nos permitiram ampliar as discussões acerca da descriminalização das drogas, que inclusive, é pauta no Supremo Tribunal Federal (STF).
+Com o intuito de subsidiar empiricamente o processo decisório de aplicação da Nova Lei de Drogas e possibilitar uma tomada de decisão consciente para novas políticas públicas, neste estudo analisamos uma base com 656.408 ocorrências entre 2002 e 2017, que deram origem a 556.613 apreensões distintas e 2.626.802 pessoas envolvidas (entre testemunhas, suspeitos ou terceiros). Os dados obtidos foram extraídos, principalmente, do Registro Digital de Ocorrências (RDO) da Secretaria de Segurança Pública do Estado de São Paulo (SSP-SP) e nos permitiram ampliar as discussões acerca da descriminalização das drogas, que inclusive, é pauta no Supremo Tribunal Federal (STF).
 
 ## Resultados
 
