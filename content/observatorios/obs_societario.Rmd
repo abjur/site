@@ -1,0 +1,73 @@
+---
+title: "Observatório Societário"
+summary: "O Observatório Societário é um projeto de pesquisa desenvolvido pela Associação Brasileira de Jurimetria, em parceria com a Pontifícia Universidade Católica de São Paulo. O projeto mapeia mais de mil decisões de primeiro grau envolvendo dissolução societária na comarca de São Paulo."
+type: "observatorios"
+img: "img/observatorios/obs_societario.png"
+toc: true
+output: html_document
+always_allow_html: true
+draft: false
+---
+
+O principal objetivo do projeto é analisar semelhanças e diferenças nas características das decisões antes e depois do novo Código de Processo Civil (CPC/2015). O estudo também busca mapear tendências nas decisões, com o intuito de proporcionar insumos quantitativos para avaliar a efetividade das leis e formular melhores políticas públicas.
+
+<h2>Metodologia</h2>
+<p>O projeto passou por três etapas: listagem de processos, coleta de dados e análise estatística. A etapa da listagem envolve encontrar os números identificadores dos processos que fazem parte da pesquisa, considerando como passo inicial a busca de jurisprudência do TJSP. Já a etapa de coleta envolve acessar os processos através de seus números identificadores, obtendo as informações que são relevantes para o estudo. A terceira etapa envolve a análise estatística dos dados coletados, realizando os cruzamentos necessários para atingir os objetivos da pesquisa.</p>
+
+![](/img/observatorios/obs_societario.png)
+
+
+<a href="https://abjur.shinyapps.io/obsoc/">[Aplicativo]</a>
+
+<p>
+<button class="accordion">Fase 1</button>
+</p>
+<div class="panel">
+<h2>Patrocinadores</h2>
+<p>O Observatório não seria possível sem nossos patrocinadores. Abaixo listamos os patrocinadores desta fase do projeto.</p>
+
+<div class="row" style="align:center;">
+
+```{r, echo=FALSE, message=FALSE, warning=FALSE, results="html", eval=TRUE}
+
+obsutils::autenticar_gsheets()
+id_pj <- googledrive::as_id("1jsUGgu9psHiSivErlIbuo0ECUmCUUKPz7jMVNQoQzIQ")
+da_pj <- googlesheets4::read_sheet(id_pj) |>
+  dplyr::filter(obs == "societario", !is.na(logo))
+
+montar_div <- function(dados) {
+  if (dados$inverter == "s") {
+    if (dados$grayscale == "s") {
+      st <- "-webkit-filter:grayscale(1) invert(1);filter:grayscale(1) invert(1);display:inline-block;"
+    } else {
+      st <- "-webkit-filter:invert(1);filter:invert(1);display:inline-block;"
+    }
+  } else {
+    if (dados$grayscale == "s") {
+      st <- "display:inline-block;-webkit-filter:grayscale(.5);filter:grayscale(.5);"
+    } else {
+      st <- "display:inline-block;"
+    }
+  }
+  shiny::div(
+    class = "col-md-4",
+      shiny::a(
+        href = dados$site, target="_blank", 
+        shiny::img(src = dados$logo, style = st, alt = dados$patrocinador)
+      ),
+    style = "padding-bottom:0px;background-color:#f8f8ff;margin:10px 0px 0px 0px;min-height:200px;display:flex;justify-content:center;align-items:center;"
+  )
+  
+}
+
+da_pj |>
+  dplyr::group_split(patrocinador) |> 
+  purrr::map(montar_div) |> 
+  shiny::tagList()
+```
+</div>
+</div>
+
+
+
+

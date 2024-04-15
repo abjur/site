@@ -13,26 +13,12 @@ O Observatório de Arbitragem é uma iniciativa da Associação Brasileira de Ju
 
 ![](/img/pesquisas/arb.png)
 
-<p>
 
-<button class="accordion">
-
-Fase 1
-
-</button>
-
-</p>
-
-::: panel
 O Observatório da Arbitragem é um projeto que visa a compreender o fenômeno jurídico da arbitragem nos tribunais estaduais. Em sua primeira fase, o projeto busca compreender o fluxo dos processos de i) anulação de decisão arbitral, ii) cumprimento de sentença / execução, iii) medida cautelar antecedente à constituição do tribunal arbitral, iv) existência, validade e eficácia da convenção de arbitragem e v) ação para instituição da arbitragem com base no art, 7º da Lei de Arbitragem.
 
 <a href="abj.quarto.pub/obsarbitragem/">[Relatório]</a>
 
-<h2>
-
-Objetivos
-
-</h2>
+<h2>Objetivos</h2>
 
 <p>
 

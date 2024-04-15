@@ -41,29 +41,26 @@ da_pj <- googlesheets4::read_sheet(id_pj) |>
 montar_div <- function(dados) {
   if (dados$inverter == "s") {
     if (dados$grayscale == "s") {
-      st <- "-webkit-filter:grayscale(1) invert(1);filter:grayscale(1) invert(1);max-width: 80%;display:inline-block;"
+      st <- "-webkit-filter:grayscale(1) invert(1);filter:grayscale(1) invert(1);display:inline-block;"
     } else {
-      st <- "-webkit-filter:invert(1);filter:invert(1);max-width: 80%;display:inline-block;"
+      st <- "-webkit-filter:invert(1);filter:invert(1);display:inline-block;"
     }
   } else {
     if (dados$grayscale == "s") {
-      st <- "max-width:80%;display:inline-block;-webkit-filter:grayscale(.5);filter:grayscale(.5);"
+      st <- "display:inline-block;-webkit-filter:grayscale(.5);filter:grayscale(.5);"
     } else {
-      st <- "max-width:80%;display:inline-block;"
+      st <- "display:inline-block;"
     }
   }
-  shiny::a(
-    href = dados$site, target="_blank",
-    shiny::div(
-      class = "col-md-4",
-      shiny::span(style = "vertical-align:middle;display:inline-block;height:100%;"),
+  shiny::div(
+    class = "col-md-4",
       shiny::a(
         href = dados$site, target="_blank", 
         shiny::img(src = dados$logo, style = st, alt = dados$patrocinador)
       ),
-      style = "padding-bottom:0px;background-color:#f8f8ff;margin:10px 0px 0px 0px;min-height:200px;"
-    )
+    style = "padding-bottom:0px;background-color:#f8f8ff;margin:10px 0px 0px 0px;min-height:200px;display:flex;justify-content:center;align-items:center;"
   )
+  
 }
 
 da_pj |>

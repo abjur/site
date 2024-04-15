@@ -5,10 +5,23 @@ output: html_document
 toc: true
 ---
 
-**Público-alvo**: Estudantes, profissionais e empresas com interesse em desenvolver pesquisas que utilizam jurimetria. Diferente de uma consultoria, a ABJ oferece orientação, bases de dados e troca de informações e experiências.
+<div style=text-align:center>Atualmente é possível apoiar o trabalho que desenvolvemos na ABJ de 3 formas.</div>
 
-Abaixo, listamos os principais benefícios para quem apoia a ABJ. Todos os benefícios podem ser acessados a qualquer momento na nossa [**área exclusiva**](https://abjur.shinyapps.io/associados).
+<header class="section-header">
+## Associação
+</header>
 
+Ao se associar, você se torna parte de uma comunidade comprometida em promover a jurimetria e impulsionar avanços significativos no campo do Direito. Como membro, você terá acesso exclusivo ao Portal da ABJ com recursos e informações atualizadas, terá descontos em cursos e eventos e poderá se conectar a profissionais e especialistas de renome em uma rede de colaboração sem igual. Além disso, você estará contribuindo diretamente para o fortalecimento da jurimetria e ajudando-nos a impulsioná-la para uma sociedade mais justa e equitativa. Junte-se a nós hoje e faça a diferença!
+
+**Público-alvo**: Estudantes, profissionais com interesse em desenvolver pesquisas que utilizam jurimetria.
+
+Diferente de uma consultoria, a ABJ oferece orientação, bases de dados e troca de informações e experiências.
+Veja os principais benefícios para quem faz parte da ABJ. Todos os benefícios podem ser acessados a qualquer momento na nossa área exclusiva.
+
+Veja os principais benefícios para quem faz parte da ABJ. Todos os benefícios podem ser acessados a qualquer momento na nossa [**área exclusiva**](https://abjur.shinyapps.io/associados).
+
+
+<div>
 <div id="contact">
 
 <!--linha 1-->
@@ -28,8 +41,8 @@ Abaixo, listamos os principais benefícios para quem apoia a ABJ. Todos os benef
 
 <div class="col-md-4"><div>
 <i class="fas fa-chart-area"></i>   
-<h3>Dashboard</h3>
-<p>Acesso ao dashboard interativo da ABJ, baseado nos dados da consulta de Jurisprudência do TJSP.</p>
+<h3>Portal da ABJ</h3>
+<p>Acesso ao Portal da ABJ, dashboard interativo baseado nos dados da consulta de Jurisprudência do TJSP.</p>
 </div></div>
 
 </div>
@@ -61,7 +74,6 @@ Abaixo, listamos os principais benefícios para quem apoia a ABJ. Todos os benef
 <br/>
 <!--linha 3-->
 
-
 </div>
 
 <!--fim da linha-->
@@ -69,16 +81,7 @@ Abaixo, listamos os principais benefícios para quem apoia a ABJ. Todos os benef
 
 <!--botoes de associados --->
 
-<header class="section-header">
-<h1>Como apoiar nosso trabalho?</h1>
-</header>
-
-eja abaixo opções de modalidades de apoio e inscreva-se. Se tiver dúvidas <a href="/contato">entre em contato</a> com nossa equipe.
-
-<h3>Associação - Pessoa física</h3>
-
 <div class="row associe-se">
-
 <div class="col-md-6">
 <a href="https://app.associatec.com.br/AreaAssociados/Abj?returnUrl=https://app.associatec.com.br/AreaAssociados/MinhaConta/CadastroAssociadoPF?idTipoAssociado=2380" target="_blank"><div>
 <i class="fas fa-graduation-cap"></i>
@@ -95,10 +98,16 @@ eja abaixo opções de modalidades de apoio e inscreva-se. Se tiver dúvidas <a 
 <p>Profissionais interessados na jurimetria</p>
 </div></a></div> 
 
+</div></div>
+
+<div><header class="section-header">
+## Apoio institucional
+</header>
+
+Seja um parceiro estratégico e fortaleça sua marca enquanto impulsiona a jurimetria com a ABJ.
+
+Ao oferecer apoio institucional, sua empresa, escritório de advocacia ou lawtech demonstrará liderança e comprometimento com o progresso do Direito. Como parceiros, podemos colaborar para desenvolver iniciativas personalizadas e, além disso, oferecer acesso aos benefícios de associação, como os descontos em cursos de capacitação e eventos, networking com os principais profissionais do setor e oportunidades de visibilidade em nossos eventos. Junte-se a nós e faça parte da vanguarda da transformação jurídica, destacando-se como um líder inovador e impulsionando o futuro da justiça!
 </div>
-
-
-<h3>Apoio institucional - Pessoa jurídica</h3>
 
 <div class="row associe-se">
 <div class="col-md-6">
@@ -116,15 +125,23 @@ eja abaixo opções de modalidades de apoio e inscreva-se. Se tiver dúvidas <a 
 <h4>R\$ 6.720,00 ou 6x R\$ 1.120,00</h4>
 <p>Destinado a empresas públicas ou privadas e escritórios de advocacia interessados em apoiar a ABJ</p>
 </div></a>
-</div>
-</div>
+</div></div>
 
-
-<header class="section-header">
-<h1 id="faq">Empresas</h1>
+<div><header class="section-header">
+## Patrocínios
 </header>
 
-Abaixo você pode conferir as empresas, escritórios e lawtechs que apoiam a ABJ.
+O patrocínio de estudos jurimétricos é uma forma poderosa de demonstrar o compromisso da sua empresa ou escritório em transformar a sociedade através do Direito baseado em dados, e sua dedicação em impulsionar a pesquisa e o desenvolvimento de soluções. 
+
+Ao patrocinar estudos em jurimetria, você estará direcionando recursos valiosos para impulsionar a investigação acadêmica, a análise de dados e a aplicação de técnicas avançadas para aprimorar o conhecimento jurídico. Seja uma força motriz por trás da mudança ao apoiar nossos estudos, fortalecendo a base de evidências e capacitando profissionais do Direito a tomar decisões embasadas. 
+
+Junte-se a nós nessa jornada transformadora! Envie um e-mail para [contato@abj.org.br](mailto:contato@abj.org.br).
+
+<div><header class="section-header">
+# Empresas que nos apoiam
+</header>
+
+Impulsionam e contribuem para o avanço da Jurimetria no Brasil
 
 <div class="row" style="align:center;">
 
@@ -171,6 +188,5 @@ da_pj |>
   shiny::tagList()
 ```
 
-
-</div>
+</div></div>
 
