@@ -20,8 +20,7 @@ O presente edital será encaminhado aos associados por e-mail, bem como será di
 
 **Observações:**
 
--    Representantes legais poderão ser utilizados por meio de procuração, desde que outorgada pelo participante e enviada por e-mail, juntamente com o voto.
-
+-   Representantes legais poderão ser utilizados por meio de procuração, desde que outorgada pelo participante e enviada por e-mail, juntamente com o voto.
 
 São Paulo, 05 de Agosto de 2024.
 
