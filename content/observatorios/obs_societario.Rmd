@@ -52,17 +52,17 @@ montar_div <- function(dados) {
   shiny::div(
     class = "col-md-4",
       shiny::a(
-        href = dados$site, target="_blank", 
+        href = dados$site, target="_blank",
         shiny::img(src = dados$logo, style = st, alt = dados$patrocinador)
       ),
-    style = "padding-bottom:0px;background-color:#f8f8ff;margin:10px 0px 0px 0px;min-height:200px;display:flex;justify-content:center;align-items:center;"
+    style = "padding-bottom:0px;background-color:#ffffff;margin:10px 0px 0px 0px;min-height:200px;display:flex;justify-content:center;align-items:center;"
   )
-  
+
 }
 
 da_pj |>
-  dplyr::group_split(patrocinador) |> 
-  purrr::map(montar_div) |> 
+  dplyr::group_split(patrocinador) |>
+  purrr::map(montar_div) |>
   shiny::tagList()
 ```
 </div>

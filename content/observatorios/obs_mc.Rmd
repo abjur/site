@@ -20,7 +20,7 @@ O Observatório do Mercado de Capitais é uma iniciativa da Associação Brasile
 <div class="panel">
 A 1ª Fase do Observatório do Mercado de Capitais refere-se aos Processos Administrativos Sancionadores (PAS) julgados pela CVM e aos Termos de Compromisso (TC) que podem ser celebrados pelas partes envolvidas.
 
-<a href="https://abjur.github.io/obsCRSFN/relatorio/index.html">[Relatório]</a> 
+<a href="https://abjur.github.io/obsCRSFN/relatorio/index.html">[Relatório]</a>
 | <a href="https://abjur.shinyapps.io/obsCRSFN/">[Aplicativo]</a>
 
 <h2>Objetivos</h2>
@@ -64,18 +64,18 @@ montar_div <- function(dados) {
   shiny::div(
     class = "col-md-4",
       shiny::a(
-        href = dados$site, target="_blank", 
+        href = dados$site, target="_blank",
         shiny::img(src = dados$logo, style = st, alt = dados$patrocinador)
       ),
-    style = "padding-bottom:0px;background-color:#f8f8ff;margin:10px 0px 0px 0px;min-height:200px;display:flex;justify-content:center;align-items:center;"
+    style = "padding-bottom:0px;background-color:#ffffff;margin:10px 0px 0px 0px;min-height:200px;display:flex;justify-content:center;align-items:center;"
   )
-  
+
 }
 
 da_pj |>
   dplyr::filter(fase == 1) |>
-  dplyr::group_split(patrocinador) |> 
-  purrr::map(montar_div) |> 
+  dplyr::group_split(patrocinador) |>
+  purrr::map(montar_div) |>
   shiny::tagList()
 ```
 </div>
@@ -86,7 +86,7 @@ da_pj |>
 <div class="panel">
 
 <p>A 2ª Fase do Observatório do Mercado de Capitais envolve, dentre outras atividades, a análise do Conselho de Recursos do Sistema Financeiro Nacional (CRSFN). A pesquisa envolve a análise de recursos oriundos da CVM para o CRSFN.</p>
-<a href="https://abjur.github.io/obsCRSFN/relatorio/index.html">[Relatório]</a> 
+<a href="https://abjur.github.io/obsCRSFN/relatorio/index.html">[Relatório]</a>
 | <a href="https://abjur.shinyapps.io/obsCRSFN/">[Aplicativo]</a>
 
 <h2>Objetivos</h2>
@@ -110,8 +110,8 @@ da_pj |>
 
 da_pj |>
   dplyr::filter(fase == 2) |>
-  dplyr::group_split(patrocinador) |> 
-  purrr::map(montar_div) |> 
+  dplyr::group_split(patrocinador) |>
+  purrr::map(montar_div) |>
   shiny::tagList()
 ```
 </div>

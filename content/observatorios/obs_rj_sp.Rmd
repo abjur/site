@@ -36,7 +36,7 @@ O trabalho foi pioneiro no que tange a análise exaustiva sobre processos de rec
 <p>Neste projeto, estudamos e acompanhamos mais de 1.100 Recuperações judiciais no estado de São Paulo, analisando dados sobre deferimento e planos de recuperação homologados.</p>
 <p>Esta fase do projeto se dedicou a analisar as recuperações judiciais de São Paulo distribuídas entre janeiro de 2010 e julho de 2017.</p>
 
-<a href="https://abjur.github.io/obsFase2/relatorio/index.html">[Relatório]</a> 
+<a href="https://abjur.github.io/obsFase2/relatorio/index.html">[Relatório]</a>
 | <a href="https://abjur.shinyapps.io/obsFase2/">[Aplicativo]</a>
 
 <h2>Patrocinadores</h2>
@@ -68,17 +68,17 @@ montar_div <- function(dados) {
   shiny::div(
     class = "col-md-4",
       shiny::a(
-        href = dados$site, target="_blank", 
+        href = dados$site, target="_blank",
         shiny::img(src = dados$logo, style = st, alt = dados$patrocinador)
       ),
-    style = "padding-bottom:0px;background-color:#f8f8ff;margin:10px 0px 0px 0px;min-height:200px;display:flex;justify-content:center;align-items:center;"
+    style = "padding-bottom:0px;background-color:#ffffff;margin:10px 0px 0px 0px;min-height:200px;display:flex;justify-content:center;align-items:center;"
   )
-  
+
 }
 
 da_pj |>
-  dplyr::group_split(patrocinador) |> 
-  purrr::map(montar_div) |> 
+  dplyr::group_split(patrocinador) |>
+  purrr::map(montar_div) |>
   shiny::tagList()
 ```
 </div>

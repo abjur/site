@@ -77,17 +77,17 @@ montar_div <- function(dados) {
       class = "col-md-4",
       shiny::span(style = "vertical-align:middle;display:inline-block;height:100%;"),
       shiny::a(
-        href = dados$site, target="_blank", 
+        href = dados$site, target="_blank",
         shiny::img(src = dados$logo, style = st, alt = dados$patrocinador)
       ),
-      style = "padding-bottom:0px;background-color:#f8f8ff;margin:10px 0px 0px 0px;min-height:200px;"
+      style = "padding-bottom:0px;background-color:#ffffff;margin:10px 0px 0px 0px;min-height:200px;"
     )
   )
 }
 
 da_pj |>
   dplyr::filter(fase == 1) |>
-  dplyr::group_split(patrocinador) |> 
-  purrr::map(montar_div) |> 
+  dplyr::group_split(patrocinador) |>
+  purrr::map(montar_div) |>
   shiny::tagList()
 ```
