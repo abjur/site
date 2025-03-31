@@ -12,7 +12,7 @@ toc: false
 
 **ASSEMBLEIA GERAL ORDINÁRIA**
 
-Ficam convocados os associados a se reunirem em Assembleia Geral Ordinária e Extraordinária da Associação Brasileira de Jurimetria -- ABJ (doravante denominada somente "ABJ"), que se realizará no dia 29 de Abril de 2025, às 18:00hs, em primeira convocação com presença de, no mínimo, de mais da metade de associados plenos quites, ou às 18:15hs, em segunda convocação, com presença de qualquer número de associados plenos quites, será realizada na forma híbrida no endereço da Rua Bela Cintra, nº 768, conjunto 102, 10º andar, Edifício Panamérica, CEP 01415-002, Consolação, na cidade de São Paulo, Estado de São Paulo e por videoconferência com acesso via link: <https://us05web.zoom.us/j/81389561365> para examinar, discutir e votar a seguinte ordem do dia:
+Ficam convocados os associados a se reunirem em Assembleia Geral Ordinária e da Associação Brasileira de Jurimetria -- ABJ (doravante denominada somente "ABJ"), que se realizará no dia 29 de Abril de 2025, às 18:00hs, em primeira convocação com presença de, no mínimo, de mais da metade de associados plenos quites, ou às 18:15hs, em segunda convocação, com presença de qualquer número de associados plenos quites, será realizada na forma híbrida no endereço da Rua Bela Cintra, nº 768, conjunto 102, 10º andar, Edifício Panamérica, CEP 01415-002, Consolação, na cidade de São Paulo, Estado de São Paulo e por videoconferência com acesso via link: <https://us05web.zoom.us/j/81389561365> para examinar, discutir e votar a seguinte ordem do dia:
 
 1.  Apresentação e deliberação sobre as demonstrações financeiras da ABJ referentes ao exercício social findo em 31.12.2024, arquivadas na sede da ABJ.
 
