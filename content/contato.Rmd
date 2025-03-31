@@ -20,8 +20,8 @@ criar_tag <- function(.x, .y) {
   button <- .x |>
     shiny::tags$button(class = "accordion") |>
     shiny::p()
-  text <- .y |> 
-    markdown::markdownToHTML(fragment.only = TRUE) |>
+  text <- .y |>
+    markdown::markdownToHTML(text = _, fragment.only = TRUE) |>
     stringr::str_remove("^<p>") |>
     stringr::str_remove("</p>$") |>
     shiny::HTML() |>
