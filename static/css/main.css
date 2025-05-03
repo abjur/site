@@ -106,6 +106,17 @@ blockquote {
   color: grey;
 }
 
+.home-hover {
+  background-color: #eee;
+  opacity: 0.7;
+}
+.home-hover:hover {
+  text-decoration: underline #7AD151;
+  background-color: #eee;
+  opacity: 1;
+  transition: 0.3s;
+}
+
 /*** CSS DO MATERIAL ***/
 
 .col-sm-2-material {
