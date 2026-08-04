@@ -10,7 +10,7 @@ toc: false
 
 **EDITAL DE CONVOCAÇÃO**
 
-**ASSEMBLEIA GERAL ORDINÁRIA**
+**ASSEMBLEIA GERAL ORDINÁRIA E EXTRAORDINÁRIA**
 
 Ficam convocados os associados a se reunirem em Assembleia Geral Ordinária e Extraordinária da Associação Brasileira de Jurimetria – ABJ (doravante denominada somente “ABJ”), a ser realizada no dia 5 de agosto de 2026, às 16h, em primeira convocação, com a presença de, no mínimo, mais da metade dos associados plenos quites, ou às 16h15, em segunda convocação, com a presença de qualquer número de associados plenos quites.
 
