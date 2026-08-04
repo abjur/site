@@ -12,17 +12,23 @@ toc: false
 
 **ASSEMBLEIA GERAL ORDINÁRIA**
 
-Ficam convocados os associados a se reunirem em Assembleia Geral Ordinária e da Associação Brasileira de Jurimetria -- ABJ (doravante denominada somente "ABJ"), que se realizará no dia 29 de Abril de 2025, às 18:00hs, em primeira convocação com presença de, no mínimo, de mais da metade de associados plenos quites, ou às 18:15hs, em segunda convocação, com presença de qualquer número de associados plenos quites, será realizada na forma híbrida no endereço da Rua Bela Cintra, nº 768, conjunto 102, 10º andar, Edifício Panamérica, CEP 01415-002, Consolação, na cidade de São Paulo, Estado de São Paulo e por videoconferência com acesso via link: <https://us05web.zoom.us/j/81389561365> para examinar, discutir e votar a seguinte ordem do dia:
+Ficam convocados os associados a se reunirem em Assembleia Geral Ordinária e Extraordinária da Associação Brasileira de Jurimetria – ABJ (doravante denominada somente “ABJ”), a ser realizada no dia 5 de agosto de 2026, às 16h, em primeira convocação, com a presença de, no mínimo, mais da metade dos associados plenos quites, ou às 16h15, em segunda convocação, com a presença de qualquer número de associados plenos quites.
 
-1.  Apresentação e deliberação sobre as demonstrações financeiras da ABJ referentes ao exercício social findo em 31.12.2024, arquivadas na sede da ABJ.
+A Assembleia será realizada de forma híbrida, presencialmente, no endereço da Av. Paulista, n.º 1079, conjunto 22, 2.º andar, Edifício Torre João Salem, CEP 01311-200, Bela Vista, na cidade de São Paulo, Estado de São Paulo, e por videoconferência, mediante acesso pelo link: https://teams.microsoft.com/meet/217905652666407?p=Vb730rrZXeQIDP49qq, para examinar, discutir e votar a seguinte ordem do dia:
 
-O presente edital será encaminhado aos associados por e-mail, bem como será disponibilizado no site da ABJ ([www.abj.org.br](www.abj.org.br)), nos termos do Estatuto Social.
+1. Apresentação e deliberação sobre as demonstrações financeiras da ABJ referentes ao exercício social findo em 31.12.2025, arquivadas na sede da ABJ.
+2. Eleição e posse dos membros do Conselho Científico da ABJ.
+3. Eleição e posse da Diretoria da ABJ.
+4. Apresentação e deliberação sobre as alterações ao Estatuto Social.
+5. Outros assuntos de interesse dos associados.
+
+O presente edital será encaminhado aos associados por e-mail, bem como disponibilizado no site da ABJ (www.abj.org.br/convocacao/), nos termos do Estatuto Social.
 
 **Observações:**
 
 -   Representantes legais poderão ser utilizados por meio de procuração, desde que outorgada pelo participante e enviada por e-mail, juntamente com o voto.
 
-São Paulo, 31 de Março de 2025.
+São Paulo, 14 de julho de 2026.
 
 **MARCELO GUEDES NUNES**
 
