@@ -69,10 +69,10 @@ div.intro-header:after {
 
 blockquote {
   margin: 0 0 20px;
-  padding: 0 20px;
-  border-left: 2px solid rgb(227, 119, 61);
+  padding: 10px 10px 10px 10px;
+  border-left: 10px;
   color: rgb(153, 143, 143);
-  padding-left: 16px;
+  background-color:#7AD15133;
 }
 
 /** CSS DA LISTA DE POSTS **/
@@ -434,4 +434,15 @@ nav[data-toggle=toc] .nav-link.active, nav[data-toggle=toc] .nav-link.active:foc
   display: none;
   background-color: white;
   overflow: hidden;
+}
+
+/*** CSS DA PÁGINA JURIMETRIA ***/
+
+.separador {
+  border-top: 1px solid #ddd;
+  width: 10%;
+  align: center;
+  height: 1px;
+  display: block;
+  margin: 10px auto;
 }

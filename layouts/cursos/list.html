@@ -50,7 +50,7 @@
 
   {{ if modBool $i 2 }}
     <div class="row about-cols">
-  {{ end }}
+  {{ end }}///////////////////////////////////////////////////////
 
 
   <a href='{{ if .Params.ativo }}{{ .Permalink }}{{ else }}{{ .Params.espera }}{{ end }}' target='{{ if not .Params.ativo }}{{ "_blank" }}{{ end }}'>
